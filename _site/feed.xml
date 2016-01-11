@@ -5,8 +5,8 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 11 Jan 2016 22:33:04 +0100</pubDate>
-    <lastBuildDate>Mon, 11 Jan 2016 22:33:04 +0100</lastBuildDate>
+    <pubDate>Mon, 11 Jan 2016 23:12:54 +0100</pubDate>
+    <lastBuildDate>Mon, 11 Jan 2016 23:12:54 +0100</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -33,6 +33,32 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Benjamin Habegger</title>
+        <description>&lt;p&gt;Benjamin bla bla bla&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/team/2016/01/01/benjamin-habegger/</link>
+        <guid isPermaLink="true">http://yourdomain.com/team/2016/01/01/benjamin-habegger/</guid>
+        
+        
+        <category>team</category>
+        
+      </item>
+    
+      <item>
+        <title>Arnaud Renard</title>
+        <description>
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/team/2016/01/01/arnaud-renard/</link>
+        <guid isPermaLink="true">http://yourdomain.com/team/2016/01/01/arnaud-renard/</guid>
+        
+        
+        <category>team</category>
         
       </item>
     
