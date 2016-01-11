@@ -10,3 +10,9 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+
+collections:
+  - service
+  - team
+  - portfolio
