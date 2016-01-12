@@ -10,7 +10,7 @@
             </div>
             <div class="row">
                 {% for member in site.posts %}
-                {%if member.layout == 'team' %}
+                {% if member.layout == 'team' %}
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/{{ member.photo }} " class="img-responsive img-circle" alt="">

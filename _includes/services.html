@@ -8,8 +8,9 @@
                 </div>
             </div>
             <div class="row text-center">
-            
-                {% for serv in site.service %}
+                {% for serv in site.posts %}
+                {% if serv.layout == 'service' %}
+
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -20,6 +21,7 @@
                     {{ serv.description }}
                     </p>
                 </div>
+                {% endif %}
                 {% endfor %}
 
             </div>
