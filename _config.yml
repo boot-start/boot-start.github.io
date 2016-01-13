@@ -4,7 +4,7 @@ email: contact@boot-start.com
 description: "Boot-Start provides a team of talented developers to help you bootstrap your startup project."
 baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: boot-start
+twitter_username: boot_start
 github_username:  boot-start
 
 # Build settings
