@@ -1,6 +1,0 @@
----
-name: Arnaud Renard
-role: CTO
-photo: arnaud.png
-layout: team
----

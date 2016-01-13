@@ -11,7 +11,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="page-scroll" href="#page-top"><img
-                style="height: 50px" src="img/logos/bootstart-noborder.png" /></a>                
+                style="height: 50px" src="/img/logos/bootstart-noborder.png" /></a>                
             </div> 
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -21,16 +21,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="{% if page.url != '/' %}/{% endif %}#services">Services</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="{% if page.url != '/' %}/{% endif %}#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="{% if page.url != '/' %}/{% endif %}#team">Team</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="{% if page.url != '/' %}/{% endif %}#contact">Contact</a>
                     </li>
                 </ul>
             </div>
