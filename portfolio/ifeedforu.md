@@ -1,7 +1,7 @@
 ---
-slug: 365talents
-title: 365talents
-website: http://www.365talents.com/
+slug: ifeedforu
+title: IFeedForYou
+website: 
 topic: Search
 category: portfolio
 layout: page

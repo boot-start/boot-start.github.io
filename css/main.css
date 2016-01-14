@@ -15,7 +15,7 @@ nav.navbar.navbar-shrink .page-scroll img {
 }
 
 .intro-short {
-  height: 20vh;
+  height: 30vh;
   position: relative;
 }
 
@@ -23,7 +23,7 @@ nav.navbar.navbar-shrink .page-scroll img {
   position: absolute;
   width: 100%;
   bottom: 0;
-  background: rgba(0,0,0,0.3);
+  background: rgba(255,255,255,0.7);
   padding: 10px;
 }
 
@@ -42,9 +42,18 @@ nav.navbar.navbar-shrink .page-scroll img {
   background: rgba(255,255,255,0.6);
 }
 
+.intro-back .intro-lead-in {
+  background: none;
+}
+
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 150px !important;
     padding-bottom: 150px !important;
   }
+}
+
+
+.text-muted {
+   min-height: 7em;
 }
