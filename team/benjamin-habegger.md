@@ -6,6 +6,9 @@ role: CEO
 photo: benjamin.jpg
 layout: page
 category: team
+facebook: benj.habegger
+linkedin: benjaminhabegger
+twitter: b_habegger
 ---
 Benjamin is an entrepreneur with a scientific and technical. He obtained a PhD in computer science and is a expert in data processing
 (data integration, analytics, search engines, machine learning). After initially working in academia, followed by a couple years working
