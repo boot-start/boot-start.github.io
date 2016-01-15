@@ -6,4 +6,6 @@ role: Tech
 photo: benjamin_bertin.jpg
 layout: page
 category: team
+facebook: benjamin.bertin
+twitter: benjamin_bertin
 ---

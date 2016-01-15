@@ -1,3 +1,56 @@
-.*
-_site/
+######
+# OS #
+######
+
+# Linux.gitignore
 *~
+
+# OSX.gitignore
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows.gitignore
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+
+##########
+# EDITOR #
+##########
+
+# Eclipse.gitignore
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+*.launch
+.buildpath
+
+# JetBrains.gitignore
+*.iml
+.idea/
+*.ipr
+*.iws
+out/
+
+
+#########
+# OTHER #
+#########
+
+_site/
