@@ -1,7 +1,7 @@
 # Site settings
 title: Boot-Start || Bootstrap your Startup
 email: contact@boot-start.com
-description: "Boot-Start provides a team of talented developers to help you bootstrap your startup project."
+description: Boot-Start provides a team of talented developers to help you bootstrap your startup project.
 baseurl: ""
 url: "http://www.boot-start.com/"
 twitter_username: boot_start
