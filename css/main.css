@@ -42,13 +42,22 @@ nav.navbar.navbar-shrink .page-scroll img {
   background: rgba(255,255,255,0.6);
 }
 
+.intro-back .intro-heading {
+  font-size: 50px !important;
+  line-height: 50px !important;
+  margin-bottom: 0px !important;
+}
+
 .intro-back .intro-lead-in {
   background: none;
-}
+  font-size: 22px !important;
+  line-height: 22px !important;
+  margin-bottom: 0px !important;}
+
 
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 150px !important;
+    padding-top: 200px !important;
     padding-bottom: 150px !important;
   }
 }
@@ -56,4 +65,12 @@ nav.navbar.navbar-shrink .page-scroll img {
 
 .text-muted {
    min-height: 7em;
+}
+
+
+.navbar-default .nav li a {
+   color: #272F35 !important;
+}
+.navbar-shrink.navbar-default .nav li a {
+   color: white !important;
 }
