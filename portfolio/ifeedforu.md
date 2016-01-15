@@ -6,4 +6,4 @@ topic: Search
 category: portfolio
 layout: page
 ---
-Bla bla bla bla
+We developped a media content personalized recommendation plateform for IFeedForU.

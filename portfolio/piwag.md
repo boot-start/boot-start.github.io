@@ -6,4 +6,4 @@ topic: Frontend, Backend, Search, Recommandation
 category: portfolio
 layout: page
 ---
-Bla bla bla bla
+We are developping the whole stack of [Piwag](http://www.piwag.com/)'s game recommandation plateform.

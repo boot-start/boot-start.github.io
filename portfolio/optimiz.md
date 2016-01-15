@@ -6,4 +6,4 @@ topic: Crawling, Recommendation
 category: portfolio
 layout: page
 ---
-Bla bla bla bla
+We developed a keyword suggestion solution for [Optimiz.me]({{  page.website }}) to provide it's user.

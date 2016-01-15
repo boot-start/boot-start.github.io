@@ -6,4 +6,4 @@ topic: Frontend, Backend, Gmail
 category: portfolio
 layout: page
 ---
-Bla bla bla bla
+We developped [FreeYourInbox](http://www.freeyourinbox)'s mass newsletter unsubscrition service. 
