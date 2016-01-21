@@ -19,13 +19,14 @@ $(function() {
             }
             $.ajax({
                 url: "//formspree.io/contact@boot-start.com",
-                type: "POST",
+                method: "POST",
                 data: {
                     name: name,
                     phone: phone,
                     email: email,
                     message: message
                 },
+                dataType: "json",
                 cache: false,
                 success: function() {
                     // Success message
