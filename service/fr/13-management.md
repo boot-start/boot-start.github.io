@@ -1,6 +1,5 @@
 ---
 title: Project Management  
-description: We can help you make your project go forward using lean and agile management approaches. Also, we're bi-lingual, we talk both "product" and "tech".
+description: Nous vous aidons votre projet à aller de l'avant en utilisant des approches lean et agiles.  Et nous sommes bilingues, nous parlons à la fois "tech" et "produit".
 icon: users
-category: service
 ---

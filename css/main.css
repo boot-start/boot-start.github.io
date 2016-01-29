@@ -116,3 +116,7 @@ header .intro-text .intro-heading {
     display: flex;
     align-content: center;
 }
+
+.phone {
+   margin-bottom: 20px;
+}

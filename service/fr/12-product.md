@@ -1,6 +1,5 @@
 ---
-title: Product Design  
-description: We can help you think the design of your product or service. We'll help you think your product through user scenarii and real-world testing.
+title: Design Produit  
+description: Nous pouvons vous aider à penser le design de votre produit ou service. Nous vous y aiderons au travers de scénarios et tests utilisateurs.
 icon: lightbulb-o
-category: service
 ---

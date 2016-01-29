@@ -11,8 +11,8 @@ facebook_username: bootstart
 markdown: kramdown
 permalink: pretty
 
-gems:
-  - jekyll-sitemap
+#gems:
+  #- jekyll-sitemap
   #- jekyll-less
 
 defaults:
@@ -34,19 +34,33 @@ defaults:
     values:
       language: en
       category: swiper
+      sitemap: false
  -
     scope:
       path: "swiper/fr"
     values:
       language: fr
       category: swiper
+      sitemap: false
 
 t:
   en:
+    menu:
+      service: Services
+      expertise: Expertise
+      team: Team
+      portfolio: Portfolio
+      contact: Contact
     service:
       heading: "Services"
       description: "We have a wide scope of tasks we can help you get done."
   fr:
+    menu:
+      service: Services
+      expertise: Expertise
+      team: Equipe
+      portfolio: Portfolio
+      contact: Contact
     service:
       heading: "Services"
       description: "Nous avons un large panel de tâche que nous pouvons vous aider à accomplir"
