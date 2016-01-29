@@ -1,0 +1,26 @@
+<div id="cookielaw" class="alert alert-warning alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    Sorry to bother, but we do use cookies, to better know you, to better serve you, nothing more. By continuing to navigate through this site you accept us using them.
+    <button type="button" class="btn btn-default" data-dismiss="alert">OK</button>
+</div>
+<script>
+        if (document.cookie.indexOf("cookielaw") >= 0) {
+            $('#cookielaw').hide();
+        } else {
+            $('#cookielaw').on('closed.bs.alert', function() {
+                expiry = new Date();
+                expiry.setTime(new Date().getTime()+(365*24*60*60*1000)); // 365 days
+                document.cookie = "cookielaw=yes; expires=" + expiry.toGMTString();
+            });
+        }
+</script>
+<style>
+    #cookielaw {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    }
+</style>

@@ -12,3 +12,39 @@ markdown: kramdown
 permalink: pretty
 
 # gems: ['jekyll-less']
+
+defaults:
+ -
+   scope:
+     path: "service/fr"
+   values:
+     language: fr
+     category: service
+ -
+   scope:
+     path: "service/en"
+   values:
+     language: en
+     category: service
+ -
+    scope:
+      path: "swiper/en"
+    values:
+      language: en
+      category: swiper
+ -
+    scope:
+      path: "swiper/fr"
+    values:
+      language: fr
+      category: swiper
+
+t:
+  en:
+    service:
+      heading: "Services"
+      description: "We have a wide scope of tasks we can help you get done."
+  fr:
+    service:
+      heading: "Services"
+      description: "Nous avons un large panel de tâche que nous pouvons vous aider à accomplir"

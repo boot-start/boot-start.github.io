@@ -1,0 +1,34 @@
+<!-- Header -->
+<header>
+    <div class="intro-text">
+        <div class="container">
+            <div class="intro-logo"><img class="img-responsive" height="" src="/img/logos/bootstart-noborder-transparent.png" alt="Boot-Start"
+            /></div>
+            <div class="intro-heading">
+                <b>BOOT</b>strap your project as a <i class="fa fa-rocket"><b>START</b>-up</i>
+            </div>
+        </div>
+        <div class="intro-lead-in">
+            <div class="container">
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        {% for serv in site.pages %}
+                        {% if serv.category == 'swiper' and serv.language == page.language %}
+                        <div class="swiper-slide">
+                           {{ serv.content }}
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <a href="#contact" class="page-scroll btn btn-xl">Let's get started !</a>
+        </div>
+    </div>
+</header>
