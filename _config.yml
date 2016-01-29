@@ -11,7 +11,9 @@ facebook_username: bootstart
 markdown: kramdown
 permalink: pretty
 
-# gems: ['jekyll-less']
+gems:
+  - jekyll-sitemap
+  #- jekyll-less
 
 defaults:
  -
