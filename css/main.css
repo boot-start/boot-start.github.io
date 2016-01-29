@@ -10,10 +10,6 @@ nav.navbar.navbar-shrink .page-scroll img {
     color: #272F35;
 }
 
-.intro-lead-in {
-    color: #C11759;
-}
-
 .intro-short {
   height: 30vh;
   position: relative;
@@ -27,6 +23,16 @@ nav.navbar.navbar-shrink .page-scroll img {
   padding: 10px;
 }
 
+header .intro-text .intro-heading {
+    font-weight: normal !important;
+    font-size: 50px !important;
+}
+
+@media (max-width: 768px) {
+    header .intro-text .intro-heading {
+        font-size: 40px !important;
+    }
+}
 .post-content p {
    font-size: 18pt;
    text-align: justify;
@@ -34,12 +40,25 @@ nav.navbar.navbar-shrink .page-scroll img {
 
 .intro-logo {
   margin: 0;
-  padding-bottom: 350px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.intro-logo img {
+    max-height: 112px;
 }
 
 .intro-lead-in {
   padding: 15px;
   background: rgba(255,255,255,0.6);
+  color: #C11759;
+  font-size: 30px !important;
+}
+
+@media (max-width: 768px) {
+    .intro-lead-in {
+      font-size: 20px !important;
+    }
 }
 
 .intro-back .intro-heading {
@@ -57,7 +76,7 @@ nav.navbar.navbar-shrink .page-scroll img {
 
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 200px !important;
+    padding-top: 50px !important;
     padding-bottom: 150px !important;
   }
 }
@@ -73,4 +92,27 @@ nav.navbar.navbar-shrink .page-scroll img {
 }
 .navbar-shrink.navbar-default .nav li a {
    color: white !important;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 150px;
+}
+
+.swiper-pagination-bullet-active {
+    background: #272F35 !important;
+}
+
+
+.swiper-slide {
+    padding-bottom: 25px;
+}
+
+.swiper-slide .media-object {
+    padding: 10px;
+}
+
+.media {
+    display: flex;
+    align-content: center;
 }
