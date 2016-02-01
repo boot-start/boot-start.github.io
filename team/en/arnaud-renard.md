@@ -7,4 +7,6 @@ layout: page
 category: team
 facebook: arnaud.renard.85
 twitter: renarnaud
+permalink: /en/team/arnaud-renard/
 ---
+Arnaud Renard

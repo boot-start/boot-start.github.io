@@ -11,7 +11,8 @@ facebook_username: bootstart
 markdown: kramdown
 permalink: pretty
 
-#gems:
+gems:
+  - jekyll-redirect-from
   #- jekyll-sitemap
   #- jekyll-less
 
@@ -22,12 +23,28 @@ defaults:
    values:
      language: fr
      category: service
+     layout: page
  -
    scope:
      path: "service/en"
    values:
      language: en
      category: service
+     layout: page
+ -
+    scope:
+      path: "team/en"
+    values:
+      language: en
+      category: team
+      layout: page
+ -
+    scope:
+      path: "team/fr"
+    values:
+      language: fr
+      category: team
+      layout: page
  -
     scope:
       path: "swiper/en"
@@ -45,6 +62,9 @@ defaults:
 
 t:
   en:
+    lang:
+      en: English
+      fr: French
     menu:
       service: Services
       expertise: Expertise
@@ -55,6 +75,9 @@ t:
       heading: "Services"
       description: "We have a wide scope of tasks we can help you get done."
   fr:
+    lang:
+      en: Anglais
+      fr: Français
     menu:
       service: Services
       expertise: Expertise

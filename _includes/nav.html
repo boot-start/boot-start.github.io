@@ -15,25 +15,37 @@
             </div> 
 
             <!-- Collect the nav links, forms, and other content for toggling -->
+
+            {% assign url_prefix = (page.language | prepend: '/' | append: '/') %}
+            {% if page.url == url_prefix %}
+            {% assign url_prefix = '' %}
+            {% endif %}
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{% if page.url != '/' and page.url != '/fr/' %}/{% endif %}#services">{{ site.t[page.language].menu.service }}</a>
+                        <a class="page-scroll" href="{{ url_prefix }}#services">{{ site.t[page.language].menu.service }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{% if page.url != '/' and page.url != '/fr/' %}/{% endif %}#expertise">{{ site.t[page.language].menu.expertise }}</a>
+                        <a class="page-scroll" href="{{ url_prefix }}#expertise">{{ site.t[page.language].menu.expertise }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{% if page.url != '/' and page.url != '/fr/' %}/{% endif %}#team">{{ site.t[page.language].menu.team }}</a>
+                        <a class="page-scroll" href="{{ url_prefix }}#team">{{ site.t[page.language].menu.team }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{% if page.url != '/' and page.url != '/fr/' %}/{% endif %}#portfolio">{{ site.t[page.language].menu.portfolio }}</a>
+                        <a class="page-scroll" href="{{ url_prefix }}#portfolio">{{ site.t[page.language].menu.portfolio }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{% if page.url != '/' and page.url != '/fr/' %}/{% endif %}#contact">{{ site.t[page.language].menu.contact }}</a>
+                        <a class="page-scroll" href="{{ url_prefix }}#contact">{{ site.t[page.language].menu.contact }}</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ site.t[page.language].lang[page.language] }} <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/en/{{ page.url | slice: 4, 1000 }}">{{ site.t[page.language].lang.en }}</a></li>
+                            <li><a href="/fr/{{ page.url | slice: 4, 1000 }}">{{ site.t[page.language].lang.fr }}</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>

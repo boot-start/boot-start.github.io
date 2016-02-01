@@ -8,4 +8,5 @@ layout: page
 category: team
 facebook: benjamin.bertin
 twitter: benjamin_bertin
+permalink: /fr/team/benjamin-bertin/
 ---
