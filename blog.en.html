@@ -1,0 +1,17 @@
+---
+layout: page
+title: Boot-Start - Bootstrap your startup
+author: Benjamin Habegger
+description: Boot-Start provides you with a talented team to work on your startup project.
+permalink: /en/blog/
+language: en
+---
+
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        {{ post.excerpt }}
+    </li>
+    {% endfor %}
+</ul>

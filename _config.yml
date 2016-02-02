@@ -31,6 +31,20 @@ defaults:
      category: service
      layout: page
  -
+   scope:
+     path: "expertise/fr"
+   values:
+     language: fr
+     category: expertise
+     layout: page
+ -
+   scope:
+     path: "expertise/en"
+   values:
+     language: en
+     category: expertise
+     layout: page
+ -
     scope:
       path: "team/en"
     values:

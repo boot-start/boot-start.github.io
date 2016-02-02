@@ -1,5 +1,5 @@
 ---
 title: Backend Development
-description: We can develop the REST API for you backend. We use a backend stack based on Apache Camel and Elasticsearch.
+description: Nous pouvons développer l'API REST de votre backend. Nous utilisons une stack backend s'appuyant sur Apache Camel et Elasticsearch.
 icon: server
 ---
