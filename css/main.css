@@ -87,12 +87,13 @@ header .intro-text .intro-heading {
 }
 
 
-.navbar-default .nav li a {
+.navbar-default .nav li a, .navbar-shrink.navbar-default .nav li.dropdown.open a {
    color: #272F35 !important;
 }
 .navbar-shrink.navbar-default .nav li a {
    color: white !important;
 }
+
 
 .swiper-container {
     width: 100%;

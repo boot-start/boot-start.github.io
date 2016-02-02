@@ -41,10 +41,10 @@
                         <a class="page-scroll" href="{{ url_prefix }}#contact">{{ site.t[page.language].menu.contact }}</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ site.t[page.language].lang[page.language] }} <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe"></i><!-- {{ page.language }} - {{ site.t[page.language].lang[page.language] }} --><span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="/en/{{ page.url | slice: 4, 1000 }}">{{ site.t[page.language].lang.en }}</a></li>
-                            <li><a href="/fr/{{ page.url | slice: 4, 1000 }}">{{ site.t[page.language].lang.fr }}</a></li>
+                            <li><a href="/en/{{ page.url | slice: 4, 1000 }}">en - {{ site.t[page.language].lang.en }}</a></li>
+                            <li><a href="/fr/{{ page.url | slice: 4, 1000 }}">fr - {{ site.t[page.language].lang.fr }}</a></li>
                         </ul>
                     </li>
                 </ul>

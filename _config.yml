@@ -11,8 +11,7 @@ facebook_username: bootstart
 markdown: kramdown
 permalink: pretty
 
-gems:
-  - jekyll-redirect-from
+# gems:
   #- jekyll-sitemap
   #- jekyll-less
 
@@ -47,6 +46,20 @@ defaults:
       layout: page
  -
     scope:
+      path: "portfolio/en"
+    values:
+      language: en
+      category: portfolio
+      layout: page
+ -
+    scope:
+      path: "portfolio/fr"
+    values:
+      language: fr
+      category: portfolio
+      layout: page
+ -
+    scope:
       path: "swiper/en"
     values:
       language: en
@@ -73,7 +86,33 @@ t:
       contact: Contact
     service:
       heading: "Services"
-      description: "We have a wide scope of tasks we can help you get done."
+      subheading: "We have a wide scope of tasks we can help you get done."
+    expertise:
+      heading: "Expertise"
+      subheading: "Here are some of the advanced topics we can work on for you."
+    portfolio:
+      heading: "Portfolio"
+      subheading: They trust us and we helped them get things done.
+    team:
+      heading: "Our Amazing Team"
+      subheading: "Dedicated to make the best out of few."
+      description: "We chose to build a team of members who, even when specialized, have a clear
+                    understanding and sensitivity to the other aspects of the greater picture.
+                    Thus all of are members will have a global vision of the projects they work on, should it be
+                    technical, design, business, user experience"
+    contact:
+       heading: "Contact Us"
+       callus: "Drop us a line, we'll be happy to answer."
+       callusat: "Call Us At"
+       emailus: "or send us a message:"
+       name: "Your Name"
+       email: "Your Email"
+       phone: "Your Phone"
+       message: "Your Message"
+       send: "Send"
+    footer:
+       terms: Terms Of Use
+
   fr:
     lang:
       en: Anglais
@@ -86,4 +125,25 @@ t:
       contact: Contact
     service:
       heading: "Services"
-      description: "Nous avons un large panel de tâche que nous pouvons vous aider à accomplir"
+      subheading: "Nous avons un large panel de tâche que nous pouvons vous aider à accomplir"
+    expertise:
+      heading: Expertise
+      subheading: "Voici quelques sujets avancés sur lesquels nous pouvons vous accompagner."
+    portfolio:
+      heading: Portfolio
+      subheading: "Ils nous font confiance et nous les avons aider à concrétiser leurs idées."
+    team:
+      heading: "Notre Equipe Incroyable"
+      subheading: "Dévouée à faire le maximum avec peu."
+    contact:
+       heading: "Contactez Nous"
+       callus: "Passez nous un coup de fil, on sera ravis de répondre:"
+       callusat: "Appelez-nous au"
+       emailus: "ou envoyez nous un email:"
+       name: "Votre nom"
+       email: "Votre email"
+       phone: "Votre numéro de téléphone"
+       message: "Votre message"
+       send: Envoyer
+    footer:
+       terms: "Mentions Légales"
