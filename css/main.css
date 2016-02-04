@@ -59,6 +59,9 @@ header .intro-text .intro-heading {
     .intro-lead-in {
       font-size: 20px !important;
     }
+    .navbar-default .nav li a {
+        color: white !important;
+    }
 }
 
 .intro-back .intro-heading {
