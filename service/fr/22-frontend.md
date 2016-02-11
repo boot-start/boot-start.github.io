@@ -1,5 +1,5 @@
 ---
 title: Frontend Development
-description: Nous pouvons développer la partie front de votre service. NOtre stack frontend s'appuie sur Bootstrap, AngularJS, JQuery.
+description: Nous pouvons développer la partie front de votre service. Notre stack frontend s'appuie sur Bootstrap, AngularJS, JQuery.
 icon: laptop
 ---
