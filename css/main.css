@@ -89,9 +89,12 @@ header .intro-text .intro-heading {
 
 
 .text-muted {
-   min-height: 7em;
+   min-height: 5em;
 }
 
+#contact .text-muted {
+  color: white;
+}
 
 .navbar-default .nav li a, .navbar-shrink.navbar-default .nav li.dropdown.open a {
    color: #272F35 !important;

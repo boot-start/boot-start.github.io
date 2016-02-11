@@ -113,7 +113,7 @@ t:
       description: "We chose to build a team of members who, even when specialized, have a clear
                     understanding and sensitivity to the other aspects of the greater picture.
                     Thus all of are members will have a global vision of the projects they work on, should it be
-                    technical, design, business, user experience"
+                    technical, design, business, user experience, etc."
     contact:
        heading: "Contact Us"
        callus: "Drop us a line, we'll be happy to answer."
@@ -149,6 +149,8 @@ t:
     team:
       heading: "Notre Equipe Incroyable"
       subheading: "Dévouée à faire le maximum avec peu."
+      description: "Nous construisons une équipe de personnes, bien que spécialisées, ont une compréhension et une sensibilité aux autres aspects de la vue d'ensemble.
+                    Ainsi toutes les personnes de notre équipe travaillant sur un projet en ont une vision global, que ce soit sur les aspects techniques, design, business, expérience utilisateur, etc."
     contact:
        heading: "Contactez Nous"
        callus: "Passez nous un coup de fil, on sera ravis de répondre:"
