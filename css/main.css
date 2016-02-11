@@ -70,11 +70,13 @@ header .intro-text .intro-heading {
   margin-bottom: 0px !important;
 }
 
-.intro-back .intro-lead-in {
+header .intro-back .intro-lead-in {
   background: none;
   font-size: 22px !important;
   line-height: 22px !important;
-  margin-bottom: 0px !important;}
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
 
 
 @media (min-width: 768px) {
