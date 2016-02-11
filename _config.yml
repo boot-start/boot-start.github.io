@@ -139,13 +139,13 @@ t:
       contact: Contact
     service:
       heading: "Services"
-      subheading: "Nous avons un large panel de tâche que nous pouvons vous aider à accomplir"
+      subheading: "Nous avons un large panel de tâches que nous pouvons vous aider à accomplir."
     expertise:
       heading: Expertise
       subheading: "Voici quelques sujets avancés sur lesquels nous pouvons vous accompagner."
     portfolio:
       heading: Portfolio
-      subheading: "Ils nous font confiance et nous les avons aider à concrétiser leurs idées."
+      subheading: "Ils nous font confiance et nous les avons aidés à concrétiser leurs idées."
     team:
       heading: "Notre Equipe Incroyable"
       subheading: "Dévouée à faire le maximum avec peu."
