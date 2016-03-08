@@ -6,4 +6,4 @@ topic: Search
 category: portfolio
 layout: page
 ---
-We help [3565talents](http://www.365talents.com/) in setting up search over their profile database.
+We help [3565talents]({{page.website}}) in setting up search over their profile database.

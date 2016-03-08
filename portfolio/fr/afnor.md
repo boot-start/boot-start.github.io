@@ -6,5 +6,5 @@ topic: Search, Architecture
 category: portfolio
 layout: page
 ---
-Nous fournissons notre expertise en moteur de recherche et classification à l'[AFNOR](http://www.afnor.org/) pour les
-aider à améliorer la recherche dans leur différents sites web.
+Nous fournissons notre expertise en moteur de recherche et classification à l'[AFNOR]({{page.website}}) pour les
+aider à améliorer la recherche dans leurs différents sites web.
