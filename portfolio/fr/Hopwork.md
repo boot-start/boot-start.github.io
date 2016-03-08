@@ -2,7 +2,7 @@
 slug: hopwork
 title: Hopwork
 website: http://www.hopwork.fr/
-topic: Search, Recommendation, Classification
+topic: Search, Recommandation, Classification
 category: portfolio
 layout: page
 ---

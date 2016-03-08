@@ -6,4 +6,4 @@ topic: Frontend, Backend, Search, Recommandation
 category: portfolio
 layout: page
 ---
-Nous développons la stack complète de la plateforme [Piwag]({{page.website}}) de recommandation de jeux videos.
+Nous développons la stack complète de la plateforme [Piwag]({{page.website}}) de recommandation de jeux vidéos.
