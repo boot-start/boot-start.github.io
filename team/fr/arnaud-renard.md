@@ -5,6 +5,7 @@ role: CTO
 photo: arnaud.png
 category: team
 facebook: arnaud.renard.85
+linkedin: renarnaud
 twitter: renarnaud
 permalink: /fr/team/arnaud-renard/
 ---
