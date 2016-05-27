@@ -11,8 +11,8 @@ facebook_username: bootstart
 markdown: kramdown
 permalink: pretty
 
-# gems:
-  #- jekyll-sitemap
+gems:
+  - jekyll-sitemap
   #- jekyll-less
 
 defaults:
@@ -149,13 +149,13 @@ t:
     team:
       heading: "Notre Equipe Incroyable"
       subheading: "Dévouée à faire le maximum avec peu."
-      description: "Nous construisons une équipe de personnes, bien que spécialisées, ont une compréhension et une sensibilité aux autres aspects de la vue d'ensemble.
-                    Ainsi toutes les personnes de notre équipe travaillant sur un projet en ont une vision global, que ce soit sur les aspects techniques, design, business, expérience utilisateur, etc."
+      description: "Nous construisons une équipe de personnes, qui bien que spécialisées, ont une compréhension et une sensibilité aux autres aspects de la vue d'ensemble.
+                    Ainsi toutes les personnes de notre équipe travaillant sur un projet en ont une vision globale, que ce soit sur les aspects techniques, design, business, expérience utilisateur, ou autres."
     contact:
        heading: "Contactez Nous"
-       callus: "Passez nous un coup de fil, on sera ravis de répondre:"
+       callus: "Passez nous un coup de fil, nous serons ravis de répondre :"
        callusat: "Appelez-nous au"
-       emailus: "ou envoyez nous un email:"
+       emailus: "ou envoyez nous un email :"
        name: "Votre nom"
        email: "Votre email"
        phone: "Votre numéro de téléphone"

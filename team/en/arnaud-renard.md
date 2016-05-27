@@ -6,6 +6,7 @@ photo: arnaud.png
 layout: page
 category: team
 facebook: arnaud.renard.85
+linkedin: renarnaud
 twitter: renarnaud
 permalink: /en/team/arnaud-renard/
 ---
