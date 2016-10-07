@@ -2,7 +2,7 @@
 slug: homeridersystems
 title: Homerider Systems
 website: http://www.homeridersystems.com/
-topic: Frontend, Backend, Benching, Mobile
+topic: Frontend, Backend, Benching, Mobile (Android & iOS)
 category: portfolio
 layout: page
 ---
