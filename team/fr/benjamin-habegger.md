@@ -11,7 +11,7 @@ linkedin: benjaminhabegger
 twitter: b_habegger
 permalink: /fr/team/benjamin-habegger/
 ---
-Benjamin Habegger est une entrepreneur avec un parcours à la fois scientifique, technique et
+Benjamin Habegger est un entrepreneur avec un parcours à la fois scientifique, technique et
 entrepreneurial. Il possède une thèse en informatique et est un expert dans le traitement des données
 (intégration de données, analyse, moteurs de recherche et apprentissage automatique). Il à travaillé 6 ans
 dans l'académie, suivi de plusieurs années dans l'édition logiciel avant d'avoir monté une première
