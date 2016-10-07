@@ -2,7 +2,7 @@
 slug: 365talents
 title: 365talents
 website: http://www.365talents.com/
-topic: Search
+topic: Backend, Search
 category: portfolio
 layout: page
 ---
