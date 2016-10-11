@@ -136,3 +136,7 @@ header .intro-back .intro-lead-in {
 .phone {
    margin-bottom: 20px;
 }
+
+.col-md-3 .portfolio-caption {
+   height: 11em;
+}

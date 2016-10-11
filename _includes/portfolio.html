@@ -12,7 +12,7 @@
 		    {% assign sorted_pages = (site.pages | sort: 'title') %}
             {% for project in sorted_pages %}
             {% if project.category == 'portfolio' and project.language == page.language %}
-		    <div class="col-md-4 col-sm-6 portfolio-item">
+		    <div class="col-md-3 col-sm-6 portfolio-item">
                 <a href="#portfolioModal{{ project.slug }}" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
