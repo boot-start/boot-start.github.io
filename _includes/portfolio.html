@@ -1,4 +1,4 @@
-    <!-- Portfolio Grid Section -->
+ <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -13,13 +13,13 @@
             {% for project in sorted_pages %}
             {% if project.category == 'portfolio' and project.language == page.language %}
 		    <div class="col-md-3 col-sm-6 portfolio-item">
-                <a href="#portfolioModal{{ project.slug }}" class="portfolio-link" data-toggle="modal">
+                <a href="{{ project.url }}" class="portfolio-link">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="/img/portfolio/{{ project.slug }}.png" class="img-responsive" alt="">
+                    <img src="{{ project.photo }}" class="img-responsive" alt="">
                 </a>
                 <div class="portfolio-caption">
                     <h4><a href="{{ project.website }}">{{ project.title }}</a></h4>

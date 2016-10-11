@@ -10,6 +10,12 @@ nav.navbar.navbar-shrink .page-scroll img {
     color: #272F35;
 }
 
+.media .intro-lead-in, .media .intro-heading {
+    text-align: left !important;
+}
+
+
+
 .intro-short {
   height: 30vh;
   position: relative;
@@ -23,6 +29,10 @@ nav.navbar.navbar-shrink .page-scroll img {
   padding: 10px;
 }
 
+.intro-text .media img {
+    width: 92px;
+}
+
 header .intro-text .intro-heading {
     font-weight: normal !important;
     font-size: 40px !important;
@@ -34,7 +44,6 @@ header .intro-text .intro-heading {
     }
 }
 .post-content p {
-   font-size: 18pt;
    text-align: justify;
 }
 
@@ -49,7 +58,7 @@ header .intro-text .intro-heading {
 }
 
 .intro-lead-in {
-  padding: 15px;
+  padding: 15px 0px;
   background: rgba(255,255,255,0.6);
   color: #C11759;
   font-size: 30px !important;
@@ -139,4 +148,8 @@ header .intro-back .intro-lead-in {
 
 .col-md-3 .portfolio-caption {
    height: 11em;
+}
+
+.post-content {
+    margin-top: 20px;
 }

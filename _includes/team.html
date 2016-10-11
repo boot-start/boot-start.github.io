@@ -13,7 +13,7 @@
                 {% if member.category == 'team'  and member.language == page.language %}
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <a href="{{ member.url }}"><img src="/img/team/{{ member.photo }} " class="img-responsive img-circle" alt=""></a>
+                        <a href="{{ member.url }}"><img src="{{ member.photo }} " class="img-responsive img-circle" alt=""></a>
                         <h4>    {{ member.title }}</h4>
                         <p class="text-muted">{{ member.role }}</p>
                         <ul class="list-inline social-buttons">

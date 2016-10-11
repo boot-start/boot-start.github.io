@@ -3,13 +3,23 @@ layout: bootstrap
 ---
 
 <header>
-        <div class="intro-text intro-short">
-            <div class="intro-back">
-        <div class="intro-heading">{{ page.title }}</div>
-        <div class="intro-lead-in">{{ page.subtitle }}</div>
+    <div class="intro-text intro-short">
+        <div class="intro-back">
+            <div class="container">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="#">
+                            <img src="{{ page.photo }} " class="media-object" alt="">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <div class="intro-heading">{{ page.title }}</div>
+                        <div class="intro-lead-in">{{ page.subtitle }}</div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        </div>
+    </div>
 </header>
 
 <div class="container">

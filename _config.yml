@@ -18,70 +18,70 @@ gems:
 defaults:
  -
    scope:
-     path: "service/fr"
+     path: "fr/service"
    values:
      language: fr
      category: service
      layout: page
  -
    scope:
-     path: "service/en"
+     path: "en/service"
    values:
      language: en
      category: service
      layout: page
  -
    scope:
-     path: "expertise/fr"
+     path: "fr/expertise"
    values:
      language: fr
      category: expertise
      layout: page
  -
    scope:
-     path: "expertise/en"
+     path: "en/expertise"
    values:
      language: en
      category: expertise
      layout: page
  -
     scope:
-      path: "team/en"
+      path: "en/team"
     values:
       language: en
       category: team
       layout: page
  -
     scope:
-      path: "team/fr"
+      path: "fr/team"
     values:
       language: fr
       category: team
       layout: page
  -
     scope:
-      path: "portfolio/en"
+      path: "en/portfolio"
     values:
       language: en
       category: portfolio
       layout: page
  -
     scope:
-      path: "portfolio/fr"
+      path: "fr/portfolio"
     values:
       language: fr
       category: portfolio
       layout: page
  -
     scope:
-      path: "swiper/en"
+      path: "en/swiper"
     values:
       language: en
       category: swiper
       sitemap: false
  -
     scope:
-      path: "swiper/fr"
+      path: "fr/swiper"
     values:
       language: fr
       category: swiper
