@@ -16,4 +16,5 @@ for a software editor, he co-founded with two associates his first startup, [109
 Active in the tech startup eco-system, Benjamin has taken part or co-organised different entrepreneurship and/or innovation related events 
 ([WWW’2012](http://www2012.org/), [Blend Web Mix](http://www.blendwebmix.com/), [IoT hands-on workshop](http://www.atelier-objets-connectes.org/),
 [Digital Open Labs Startup Weekend](http://lyon.startupweekend.org/events/sw-lyon-digital-openlabs/), [fHACKtory](http://www.fhacktory.com/), [MuseoMix](http://www.museomix.org/en/)).
+Understanding both business needs and technological possibilities he has an excellent understanding of how innovative projects can be lead to success.
 He is co-founder of Boot-Start where he plays the role of CEO.
