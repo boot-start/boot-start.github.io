@@ -1,0 +1,28 @@
+    <!-- Products Section -->
+    <section id="products">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ site.t[page.language].product.heading }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.t[page.language].product.subheading }}</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                {% for prod in site.pages %}
+                {% if prod.category == 'product' and prod.language == page.language %}
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <a href="{{ prod.url }}"><i class="fa fa-{{ prod.icon }} fa-stack-1x fa-inverse"></i></a>
+                    </span>
+                    <h4 class="service-heading">{{ prod.title }}</h4>
+                    <p class="text-muted">
+                    {{ prod.description }}
+                    </p>
+                    <p style="text-algin: center"><a href="{{ prod.url }}">{{ site.t[page.language].more }} ...</a></p>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>

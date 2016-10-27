@@ -32,6 +32,20 @@ defaults:
      layout: page
  -
    scope:
+     path: "fr/products"
+   values:
+     language: fr
+     category: product
+     layout: page
+ -
+   scope:
+     path: "en/products"
+   values:
+     language: en
+     category: product
+     layout: page
+ -
+   scope:
      path: "fr/expertise"
    values:
      language: fr
@@ -92,12 +106,17 @@ t:
     lang:
       en: English
       fr: French
+    more: more
     menu:
       service: Services
+      products: Products
       expertise: Expertise
       team: Team
       portfolio: Portfolio
       contact: Contact
+    product:
+      heading: "Products"
+      subheading: "We mutualize the software we develop, some made available as products."
     service:
       heading: "Services"
       subheading: "We have a wide scope of tasks we can help you get done."
@@ -131,8 +150,10 @@ t:
     lang:
       en: Anglais
       fr: Français
+    more: plus
     menu:
       service: Services
+      products: Produits
       expertise: Expertise
       team: Equipe
       portfolio: Portfolio
@@ -140,6 +161,9 @@ t:
     service:
       heading: "Services"
       subheading: "Nous avons un large panel de tâches que nous pouvons vous aider à accomplir."
+    product:
+      heading: "Produits"
+      subheading: "Nous mutualisons nos développements, certains devenant des produits."
     expertise:
       heading: Expertise
       subheading: "Voici quelques sujets avancés sur lesquels nous pouvons vous accompagner."
