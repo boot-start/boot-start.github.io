@@ -1,5 +1,6 @@
 ---
 slug: piwag
+end: 2017-
 title: Piwag
 website: http://www.piwag.com/
 topic: Frontend, Backend, Search, Recommendation 

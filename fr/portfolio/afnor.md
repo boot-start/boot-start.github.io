@@ -1,5 +1,6 @@
 ---
 slug: afnor
+end: 2017-
 title: AFNOR
 website: http://www.afnor.org/
 topic: Search, Architecture

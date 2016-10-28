@@ -1,5 +1,6 @@
 ---
 slug: optimiz
+end: 2016-01
 title: Optimiz.me
 website: http://www.opitmiz.me/
 topic: Crawling, Recommandation

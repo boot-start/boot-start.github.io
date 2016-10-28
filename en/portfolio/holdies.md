@@ -1,5 +1,6 @@
 ---
 slug: holdies
+end: 2017-
 title: Holdies
 website: https://holdies.com/
 topic: Data analytics, Recommendation, Classification

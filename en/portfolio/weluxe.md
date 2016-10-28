@@ -1,5 +1,6 @@
 ---
 slug: weluxe
+end: 2017-
 title: WeLuxe
 website: http://goweluxe.com
 topic: Backend, Frontend, Mobile (iOS & Android) 

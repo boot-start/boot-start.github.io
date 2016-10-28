@@ -1,5 +1,6 @@
 ---
 slug: ifeedforu
+end: 2014-11
 title: IFeedForYou
 website: 
 topic: Search

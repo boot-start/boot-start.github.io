@@ -1,5 +1,6 @@
 ---
 slug: camino
+end: 2015-05
 title: Camino 
 website: http://caminoapp.com.br/
 topic: Backend, Media Composition

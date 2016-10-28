@@ -1,5 +1,6 @@
 ---
 slug: 365talents
+end: 2016-02
 title: 365talents
 website: http://www.365talents.com/
 topic: Backend, Search

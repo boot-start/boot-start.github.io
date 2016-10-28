@@ -1,5 +1,6 @@
 ---
 slug: lesaffre
+end: 2017-
 title: Lesaffre
 website: http://www.lesaffre.com/
 topic: Backend, Frontend, Search

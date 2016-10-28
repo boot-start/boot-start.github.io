@@ -1,5 +1,6 @@
 ---
 slug: hopwork
+end: 2015-11
 title: Hopwork
 website: http://www.hopwork.fr/
 topic: Search, Recommandation, Classification

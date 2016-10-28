@@ -1,5 +1,6 @@
 ---
 slug: freeyourinbox
+end: 2016-01
 title: Free Your Inbox
 website: http://www.freeyourinbox.com/
 topic: Frontend, Backend, Gmail

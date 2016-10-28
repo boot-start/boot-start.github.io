@@ -9,9 +9,8 @@
             </div>
             <div class="row">
 
-		    {% assign sorted_pages = (site.pages | sort: 'title') %}
-            {% for project in sorted_pages %}
-            {% if project.category == 'portfolio' and project.language == page.language %}
+		    {% assign sorted_pages = (site.pages | where: "category", "portfolio" | where: "language", page.language | sort: "end") %}
+            {% for project in sorted_pages reversed %}
 		    <div class="col-md-3 col-sm-6 portfolio-item">
                 <a href="{{ project.url }}" class="portfolio-link">
                     <div class="portfolio-hover">
@@ -26,7 +25,6 @@
                     <p class="text-muted">{{ project.topic }}</p>
                 </div>
             </div>
-            {% endif %}
             {% endfor %}
 
             </div>

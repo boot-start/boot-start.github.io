@@ -1,5 +1,5 @@
     <!-- Products Section -->
-    <section id="products">
+    <section id="products" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -8,9 +8,9 @@
                 </div>
             </div>
             <div class="row text-center">
-                {% for prod in site.pages %}
-                {% if prod.category == 'product' and prod.language == page.language %}
-                <div class="col-md-4">
+                {% assign filtered_pages = (site.pages | where: "category", "product" | where: "language", page.language) %}
+                {% for prod in filtered_pages %}
+                <div class="col-md-4 {%if forloop.last and ((filtered_pages | size) % 3 = 1) %}col-md-offset-4{% endif %}">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <a href="{{ prod.url }}"><i class="fa fa-{{ prod.icon }} fa-stack-1x fa-inverse"></i></a>
@@ -21,7 +21,6 @@
                     </p>
                     <p style="text-algin: center"><a href="{{ prod.url }}">{{ site.t[page.language].more }} ...</a></p>
                 </div>
-                {% endif %}
                 {% endfor %}
             </div>
         </div>
