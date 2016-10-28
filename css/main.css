@@ -126,6 +126,7 @@ header .intro-back .intro-lead-in {
 
 .swiper-slide {
     padding-bottom: 25px;
+    cursor: pointer !important;
 }
 
 .swiper-slide .media-object {
