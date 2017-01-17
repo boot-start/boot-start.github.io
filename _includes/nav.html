@@ -17,9 +17,6 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
 
             {% assign url_prefix = (page.language | prepend: '/' | append: '/') %}
-            {% if page.url == url_prefix %}
-            {% assign url_prefix = '' %}
-            {% endif %}
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
@@ -42,6 +39,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="{{ url_prefix }}#contact">{{ site.t[page.language].menu.contact }}</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{{ url_prefix }}jobs">{{ site.t[page.language].menu.jobs }}</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe"></i><!-- {{ page.language }} - {{ site.t[page.language].lang[page.language] }} --><span class="caret"></span></a>

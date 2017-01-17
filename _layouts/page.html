@@ -9,7 +9,12 @@ layout: bootstrap
                 <div class="media">
                     <div class="media-left">
                         <a href="#">
+                            {% if page.photo %}
                             <img src="{{ page.photo }} " class="media-object" alt="">
+                            {% endif %}
+                            {% if page.icon %}
+                            <i class="fa fa-{{page.icon}} fa-5x"></i>
+                            {% endif %}
                         </a>
                     </div>
                     <div class="media-body">

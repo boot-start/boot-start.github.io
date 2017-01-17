@@ -154,3 +154,8 @@ header .intro-back .intro-lead-in {
 .post-content {
     margin-top: 20px;
 }
+
+.tech img.thumbnail {
+    width: 100%;
+    border: none;
+}

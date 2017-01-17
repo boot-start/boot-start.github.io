@@ -88,6 +88,20 @@ defaults:
       layout: page
  -
     scope:
+      path: "en/jobs"
+    values:
+      language: en
+      category: jobs
+      layout: page
+ -
+    scope:
+      path: "fr/jobs"
+    values:
+      language: fr
+      category: jobs
+      layout: page
+ -
+    scope:
       path: "en/swiper"
     values:
       language: en
@@ -114,6 +128,7 @@ t:
       team: Team
       portfolio: Portfolio
       contact: Contact
+      jobs: Jobs
     product:
       heading: "Products"
       subheading: "We mutualize the software we develop, some made available as products."
@@ -158,6 +173,7 @@ t:
       team: Equipe
       portfolio: Portfolio
       contact: Contact
+      jobs: Emploi
     service:
       heading: "Services"
       subheading: "Nous avons un large panel de tâches que nous pouvons vous aider à accomplir."
