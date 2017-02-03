@@ -7,7 +7,7 @@ permalink: /fr/jobs/developpeur/
 ---
 Nous cherchons à recruter des développeurs motivés pour bosser sur des **projets innovants** dans un **contexte startup**. 
 
-Boot-Start développe et intègre pour ses clients des solutions ayant des fonctionnalités avancées de recherche, de classification et de recommandation d’entités. Par exemple, nous avons développé une plateforme qui a servi à recommander des articles de média ou des jeux à des utilisateurs en fonction de leurs lectures passées ou leur profil de joueur. Elle a également servi à offrir une recherche avancée sur les 30000 documents produits par les salariés d’un de nos clients industriels.
+Boot-Start développe et intègre pour ses clients des solutions ayant des fonctionnalités avancées de recherche, de classification et de recommandation d’entités. Par exemple, nous avons développé une plateforme qui a servi à recommander des articles de média ou des jeux à des utilisateurs en fonction de leurs lectures passées ou leurs profils de joueurs. Elle a également servi à offrir une recherche avancée sur les 30000 documents produits par les salariés d’un de nos clients industriels.
 
 Différentes opportunités sont ouvertes :
 
