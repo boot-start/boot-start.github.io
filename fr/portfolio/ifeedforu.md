@@ -3,7 +3,7 @@ slug: ifeedforu
 end: 2014-11
 title: IFeedForYou
 website: 
-topic: Search
+topic: Recommendation
 category: portfolio
 photo: /img/portfolio/ifeedforu.png
 layout: page
