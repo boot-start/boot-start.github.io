@@ -1334,6 +1334,9 @@ mark,
 .text-capitalize {
   text-transform: capitalize;
 }
+.text-light-pink {
+  color: #dd4481;
+}
 .text-muted {
   color: #777;
 }

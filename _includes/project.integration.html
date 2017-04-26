@@ -1,0 +1,23 @@
+    <!-- Services Section -->
+    <section id="project-integration" class="bg-integration-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                    <h2 class="section-heading text-black">{{ site.t[page.language].project.integration.heading }}</h2>
+                    <h3 class="section-subheading text-black">{{ site.t[page.language].project.integration.subheading }}</h3>
+                </div>
+            </div>
+            <div class="row text-left text-black">
+                {% for serv in site.pages %}
+                {% if serv.category == 'project' and serv.subcategory == 'integration' and serv.language == page.language %}
+                <div class="col-md-6">
+                    <h4 class="service-heading text-black">{{ serv.title }}</h4>
+                    <p class="text-black">
+                    {{ serv.description }}
+                    </p>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>

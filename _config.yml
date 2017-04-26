@@ -1,7 +1,7 @@
 # Site settings
-title: Boot-Start || Bootstrap your Startup
+title: Boot-Start || Data Intelligence & IT experts
 email: contact@boot-start.com
-description: Boot-Start provides a team of talented developers to help you bootstrap your startup project.
+description: Boot-Start provides a team of talented developers and data scientists to help your project.
 baseurl: ""
 url: "http://www.boot-start.com"
 twitter_username: boot_start
@@ -32,6 +32,20 @@ defaults:
      layout: page
  -
    scope:
+     path: "fr/offer"
+   values:
+     language: fr
+     category: offer
+     layout: page
+ -
+   scope:
+     path: "en/offer"
+   values:
+     language: en
+     category: offer
+     layout: page
+ -
+   scope:
      path: "fr/products"
    values:
      language: fr
@@ -50,6 +64,13 @@ defaults:
    values:
      language: fr
      category: expertise
+     layout: page
+ -
+   scope:
+     path: "fr/project"
+   values:
+     language: fr
+     category: project
      layout: page
  -
    scope:
@@ -122,13 +143,34 @@ t:
       fr: French
     more: more
     menu:
-      service: Services
+      home: Home
       products: Products
       expertise: Expertise
+      project: Whole Project
       team: Team
       portfolio: Portfolio
       contact: Contact
       jobs: Jobs
+    project:
+      heading: "We help and develop your inovative project"
+      subheading: "Notre métier est de vous construire la solution la plus adaptée et fonctionnelle"
+      br:
+        subheading: "we work with a 'sprint' method"
+      advice:
+        heading: "Advices and strategy"
+        subheading: "We bring you a vision about all the possibilities and suggestions according to your strategy"
+      poc:
+        heading: " Proof Of Concept"
+        subheading: "You can test fastly your project with a fonctional prototype"
+      integration:
+        heading: " Developement et Integration"
+        subheading: "We create with you the product the as efficient as possible"
+      expertise:
+        heading: " Our super powers"
+        subheading: "Above all, Boot-Start is a team with complementaries and advanced skills"
+      products:
+        heading: " Nos super products"
+        subheading: "Here are products we developed and we can integrate in your project"
     product:
       heading: "Products"
       subheading: "We mutualize the software we develop, some made available as products."
@@ -140,7 +182,7 @@ t:
       subheading: "Here are some of the advanced topics we can work on for you."
     portfolio:
       heading: "Portfolio"
-      subheading: They trust us and we helped them get things done.
+      subheading: "They trust us and we helped them get things done."
     team:
       heading: "Our Amazing Team"
       subheading: "Dedicated to make the best out of few."
@@ -160,6 +202,7 @@ t:
        send: "Send"
     footer:
        terms: Terms Of Use
+       copyright: Copyright &copy; Boot-Start 2017
 
   fr:
     lang:
@@ -167,28 +210,61 @@ t:
       fr: Français
     more: plus
     menu:
+      home: Accueil
       service: Services
+      project: Accompagnement
       products: Produits
       expertise: Expertise
       team: Equipe
       portfolio: Portfolio
       contact: Contact
       jobs: Emploi
+    offer:
+      heading: "Nos Services"
+      subheading: "2 types d'approches avec nos clients partenaires, l'accompagnement sur un projet global et l'expertise sur un sujet technique précis."
     service:
       heading: "Services"
       subheading: "Nous avons un large panel de tâches que nous pouvons vous aider à accomplir."
-    product:
+    project:
+      heading: "Nous accompagnons et développons pour vous votre projet innovant "
+      subheading: "Notre métier est de vous construire la solution la plus adaptée et fonctionnelle"
+      advice:
+        heading: "Conseil et stratégie"
+        subheading: "Nous vous apportons une vision globale des solutions et des suggestions selon votre stratégie"
+      poc:
+        heading: " Proof Of Concept"
+        subheading: "Nous vous proposons de tester rapidement votre concept avec un protoype fonctionnel"
+      integration:
+        heading: " Développement et Intégration"
+        subheading: "Notre métier est de vous construire le produit le plus adapté et efficace"
+      expertise:
+        heading: " Nos super pouvoirs"
+        subheading: "Boot-Start c'est avant tout des compétences pointues et complémentaires"
+      products:
+        heading: " Nos super produits"
+        subheading: "Voici des produits déjà développés par Boot-Start et que nous pouvons intégrer chez vous"
+    products:
       heading: "Produits"
       subheading: "Nous mutualisons nos développements, certains devenant des produits."
     expertise:
       heading: Expertise
       subheading: "Voici quelques sujets avancés sur lesquels nous pouvons vous accompagner."
+      data:
+        heading: Expertise Traitement de données
+        subheading: "Voici quelques sujets avancés sur lesquels nous pouvons vous accompagner."
+      ml:
+        heading: Expertise Data Intelligence
+        subheading: "Voici quelques technologies de pointe que nous avons l'habitude d'adapter aux innovations d'entreprise"
+
+      dev:
+                heading: Expertise projet agile
+                subheading: " Nous avons l'habitude de travailler sur des projets complets "
     portfolio:
       heading: Portfolio
       subheading: "Ils nous font confiance et nous les avons aidés à concrétiser leurs idées."
     team:
       heading: "Notre Equipe Incroyable"
-      subheading: "Dévouée à faire le maximum avec peu."
+      subheading: "Une synergie de talents dévoués à votre projet."
       description: "Nous construisons une équipe de personnes, qui bien que spécialisées, ont une compréhension et une sensibilité aux autres aspects de la vue d'ensemble.
                     Ainsi toutes les personnes de notre équipe travaillant sur un projet en ont une vision globale, que ce soit sur les aspects techniques, design, business, expérience utilisateur, ou autres."
     contact:
@@ -203,3 +279,4 @@ t:
        send: Envoyer
     footer:
        terms: "Mentions Légales"
+       copyright: Copyright &copy; Boot-Start 2017

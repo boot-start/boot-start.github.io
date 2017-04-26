@@ -8,6 +8,12 @@ body {
 .text-primary {
   color: #c11759;
 }
+.text-light-pink {
+  color: #e16395;
+}
+.text-white {
+  color:white;
+}
 p {
   font-size: 14px;
   line-height: 1.75;
@@ -46,6 +52,41 @@ h6 {
 }
 .bg-light-gray {
   background-color: #f7f7f7;
+}
+.bg-advice-black {
+//  background-color: #c1185b;
+background: url(/img/advice-black.jpg);
+background-size: cover;
+background-position-y: center;
+}
+.bg-advice-white {
+//  background-color: #c1185b;
+background: url(/img/advice-white.jpg);
+background-size: cover;
+background-position-y: center;
+}
+.bg-poc-pink {
+//  background-color: #c1185b;
+background: url(/img/poc-pink.jpg);
+background-size: cover;
+}
+.bg-poc-white {
+//  background-color: #c1185b;
+background: url(/img/poc-white.jpg);
+background-size: cover;
+}
+.bg-integration-white {
+//  background-color: #c1185b;
+background: url(/img/integration-white.jpg);
+background-size: cover;
+background-position-y: center;
+background-position-x: center;
+}
+.bg-poc-black {
+//  background-color: #c1185b;
+background: url(/img/poc-black.jpg);
+background-size: cover;
+background-position-y: center;
 }
 .bg-darkest-gray {
   background-color: #272f35;
@@ -217,6 +258,9 @@ fieldset[disabled] .btn-xl.active {
     font-size: 1.5em;
   }
 }
+project1 {
+  background-image: url('../img/workplace-white.jpg');
+}
 header {
   background-image: url('../img/header-bg.jpg');
   background-repeat: none;
@@ -274,11 +318,18 @@ section h2.section-heading {
   margin-bottom: 15px;
 }
 section h3.section-subheading {
-  font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: none;
-  font-style: italic;
-  font-weight: 400;
+   font-size: 16px;
+   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   text-transform: none;
+   font-style: italic;
+   font-weight: 400;
+}
+ section h3.section-subheading-project {
+   font-size: 16px;
+   font-family: "Droid Serif";
+   text-transform: none;
+   font-style: italic;
+   font-weight: 700;
 }
 @media (min-width: 768px) {
   section {

@@ -19,18 +19,18 @@
             {% assign url_prefix = (page.language | prepend: '/' | append: '/') %}
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+                    <li class="">
+                        <a href="{{ url_prefix }}#page-top">{{ site.t[page.language].menu.home }}</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="{{ url_prefix }}#expertise">{{ site.t[page.language].menu.expertise }}</a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ site.t[page.language].menu.service }}</i><!-- {{ page.language }} - {{ site.t[page.language].lang[page.language] }} --><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{ url_prefix }}expertise">{{ site.t[page.language].menu.expertise }}</a></li>
+                            <li><a href="{{ url_prefix }}project">{{ site.t[page.language].menu.project }}</a></li>
+                            <li><a class="page-scroll" href="{{ url_prefix }}#products">{{ site.t[page.language].menu.products }}</a></li>
+                        </ul>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="{{ url_prefix }}#services">{{ site.t[page.language].menu.service }}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="{{ url_prefix }}#products">{{ site.t[page.language].menu.products }}</a>
-                    </li>
+
                     <li>
                         <a class="page-scroll" href="{{ url_prefix }}#team">{{ site.t[page.language].menu.team }}</a>
                     </li>

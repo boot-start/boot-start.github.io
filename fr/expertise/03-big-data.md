@@ -4,4 +4,5 @@ description: Nous pouvons vous aider à décortiquer vos données et les faire p
              ElasticSearch, Weka, Knime, et, pourquoi pas Hadoop... Mais vos données sont elles vraiment si grandes ?
 icon: database
 category: expertise
+subcategory: data
 ---

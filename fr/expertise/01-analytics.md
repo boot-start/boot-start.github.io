@@ -4,4 +4,5 @@ description: Nous pouvons faire l'analyse de vos données ou bâtir des services
              des technologies de statistiques et de classifications telles que ElasticSearch, Weka, Knime
 icon: line-chart
 category: expertise
+subcategory: data
 ---
