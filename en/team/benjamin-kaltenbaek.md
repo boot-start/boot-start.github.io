@@ -1,6 +1,6 @@
 ---
 title: Benjamin Kaltenbaek
-subtitle: Data Evengelist
+subtitle: Data Evangelist
 arrival: 2017-03
 role: Resp. Communication Marketing
 photo: /img/team/bk.jpg
@@ -8,7 +8,7 @@ category: team
 facebook: benktbk
 linkedin: benktb
 twitter: ben_ktb
-permalink: /fr/team/benjamin-kaltenbaek/
+permalink: /en/team/benjamin-kaltenbaek/
 ---
 Graduated with a digital Master's degree, Benjamin grew up with internet,
 very active on social media and passionated by new technologies,

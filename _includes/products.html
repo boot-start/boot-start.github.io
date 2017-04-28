@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="row text-center">
-                {% assign filtered_pages = (site.pages | where: "category", "product" | where: "language", page.language) %}
+                {% assign filtered_pages = (site.pages | where: "category", "products" | where: "language", page.language) %}
                 {% for prod in filtered_pages %}
                 <div class="col-md-4 {%if forloop.last and ((filtered_pages | size) % 3 = 1) %}col-md-offset-4{% endif %}">
                     <span class="fa-stack fa-4x">

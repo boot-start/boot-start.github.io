@@ -1,8 +1,8 @@
 ---
 title: Media Server
-description: Le Media Server Boot-Start est un service REST permettant l'upload, le stockage, la conversion et la mise à disposition efficace eten ligne de contenu media.
+description: Le Media Server Boot-Start est un service REST permettant l'upload, le stockage, la conversion et la mise à disposition efficace et en ligne de contenu media.
 icon: picture-o
-category: product
+category: products
 ---
 Le Media Server Boot-Start est un service REST permettant l'upload, le stockage, la conversion et la mise à disposition efficace eten ligne de contenu media.
 La génération de différentes taille de média est faites à la volée si nécessaire. Le Media Server permet l'upload d'une ou plusieurs fichiers média ) la fois. 

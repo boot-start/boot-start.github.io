@@ -36,7 +36,7 @@ defaults:
    values:
      language: fr
      category: offer
-     layout: page
+     layout: bootstrap
  -
    scope:
      path: "en/offer"
@@ -49,14 +49,14 @@ defaults:
      path: "fr/products"
    values:
      language: fr
-     category: product
+     category: products
      layout: page
  -
    scope:
      path: "en/products"
    values:
      language: en
-     category: product
+     category: products
      layout: page
  -
    scope:
@@ -92,6 +92,20 @@ defaults:
     values:
       language: fr
       category: team
+      layout: page
+ -
+    scope:
+      path: "en/technologies"
+    values:
+      language: en
+      category: technologies
+      layout: page
+ -
+    scope:
+      path: "fr/technologies"
+    values:
+      language: fr
+      category: technologies
       layout: page
  -
     scope:
@@ -144,6 +158,7 @@ t:
     more: more
     menu:
       home: Home
+      service: Services
       products: Products
       expertise: Expertise
       project: Whole Project
@@ -153,33 +168,42 @@ t:
       jobs: Jobs
     project:
       heading: "We help and develop your inovative project"
-      subheading: "Notre métier est de vous construire la solution la plus adaptée et fonctionnelle"
+      subheading: "Our job is to build the most adapted and user-friendly solution "
       br:
         subheading: "we work with a 'sprint' method"
       advice:
         heading: "Advices and strategy"
         subheading: "We bring you a vision about all the possibilities and suggestions according to your strategy"
       poc:
-        heading: " Proof Of Concept"
+        heading: "Proof Of Concept"
         subheading: "You can test fastly your project with a fonctional prototype"
       integration:
-        heading: " Developement et Integration"
+        heading: "Developement and Integration"
         subheading: "We create with you the product the as efficient as possible"
       expertise:
-        heading: " Our super powers"
+        heading: "Our super powers"
         subheading: "Above all, Boot-Start is a team with complementaries and advanced skills"
       products:
-        heading: " Nos super products"
+        heading: "Our super products"
         subheading: "Here are products we developed and we can integrate in your project"
-    product:
+    expertise:
+      heading: "Expertise"
+      subheading: "Here are some of the advanced topics we can work on for you"
+      data:
+        heading: "Expertise Data Processing"
+        subheading: "Our team have got specifical skills "
+      ml:
+        heading: "Expertise Data Intelligence"
+        subheading: "Here are advanced technologies we master and we are used to adapt to companies context"
+      dev:
+        heading: "Expertise agile project"
+        subheading: "We are used to work on whole project too "
+    products:
       heading: "Products"
-      subheading: "We mutualize the software we develop, some made available as products."
+      subheading: "We customize our products according to the company and the kind of data processing"
     service:
       heading: "Services"
       subheading: "We have a wide scope of tasks we can help you get done."
-    expertise:
-      heading: "Expertise"
-      subheading: "Here are some of the advanced topics we can work on for you."
     portfolio:
       heading: "Portfolio"
       subheading: "They trust us and we helped them get things done."
@@ -245,22 +269,22 @@ t:
         subheading: "Voici des produits déjà développés par Boot-Start et que nous pouvons intégrer chez vous"
     products:
       heading: "Produits"
-      subheading: "Nous mutualisons nos développements, certains devenant des produits."
+      subheading: "Nos produits sont systématiquement personnalisés selon l'entreprise et les données traitées"
     expertise:
-      heading: Expertise
+      heading: "Expertise"
       subheading: "Voici quelques sujets avancés sur lesquels nous pouvons vous accompagner."
       data:
-        heading: Expertise Traitement de données
+        heading: "Expertise Traitement de données"
         subheading: "Voici quelques sujets avancés sur lesquels nous pouvons vous accompagner."
       ml:
-        heading: Expertise Data Intelligence
+        heading: "Expertise Data Intelligence"
         subheading: "Voici quelques technologies de pointe que nous avons l'habitude d'adapter aux innovations d'entreprise"
 
       dev:
-                heading: Expertise projet agile
+                heading: "Expertise projet agile"
                 subheading: " Nous avons l'habitude de travailler sur des projets complets "
     portfolio:
-      heading: Portfolio
+      heading: "Portfolio"
       subheading: "Ils nous font confiance et nous les avons aidés à concrétiser leurs idées."
     team:
       heading: "Notre Equipe Incroyable"
