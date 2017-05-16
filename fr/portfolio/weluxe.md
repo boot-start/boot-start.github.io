@@ -8,4 +8,6 @@ category: portfolio
 photo: /img/portfolio/weluxe.png
 layout: page
 ---
-Nous développons la stack complète de la plateforme de produits de luxe [WeLuxe]({{page.website}}).
+Nous avons developpé la stack complète de la plateforme de produits de luxe [WeLuxe]({{page.website}}) : 2 applications mobiles, back end et front end.
+
+L'objectif de WeLuxe est la mise en relation d'acheteurs et vendeurs de produits de luxe. Nous avons développé des fonctionnalités spécifiques tels qu'un chat, un système d'envoi de pings, un moteur de recherche.

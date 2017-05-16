@@ -123,6 +123,20 @@ defaults:
       layout: page
  -
     scope:
+          path: "fr/network"
+    values:
+          language: fr
+          category: network
+          layout: page
+ -
+    scope:
+          path: "fr/provinews"
+    values:
+          language: fr
+          category: provinews
+          layout: page
+ -
+    scope:
       path: "en/jobs"
     values:
       language: en
@@ -243,9 +257,10 @@ t:
       portfolio: Portfolio
       contact: Contact
       jobs: Emploi
+      news: News
     offer:
       heading: "Nos Services"
-      subheading: "2 types d'approches avec nos clients partenaires, l'accompagnement sur un projet global et l'expertise sur un sujet technique précis."
+      subheading: "3 types d'approches avec nos clients partenaires, l'accompagnement sur un projet global, l'expertise sur un sujet technique précis et l'adaptation d'un de nos fabuleux produits."
     service:
       heading: "Services"
       subheading: "Nous avons un large panel de tâches que nous pouvons vous aider à accomplir."
@@ -279,13 +294,21 @@ t:
       ml:
         heading: "Expertise Data Intelligence"
         subheading: "Voici quelques technologies de pointe que nous avons l'habitude d'adapter aux innovations d'entreprise"
-
       dev:
-                heading: "Expertise projet agile"
-                subheading: " Nous avons l'habitude de travailler sur des projets complets "
+        heading: "Expertise projet agile"
+        subheading: " Nous avons l'habitude de travailler sur des projets complets "
+    technologies:
+      heading: "Notre stack technologique"
+      subheading: "Voici une liste non exhaustive des technologies que nous utilisons"
     portfolio:
       heading: "Portfolio"
       subheading: "Ils nous font confiance et nous les avons aidés à concrétiser leurs idées."
+    network:
+      heading: "Réseaux"
+      subheading: "Nous appartenons aux réseaux suivants"
+    provinews:
+      heading: "News"
+      subheading: "Actualité de notre entreprise et des différents acteurs de la data"
     team:
       heading: "Notre Equipe Incroyable"
       subheading: "Une synergie de talents dévoués à votre projet."

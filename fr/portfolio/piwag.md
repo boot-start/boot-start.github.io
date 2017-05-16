@@ -13,4 +13,4 @@ Le but des créateurs est notamment de faire découvrir des jeux peu médiatisé
 Nous avons développé toute la plateforme Piwag, mis en place un questionnaire complet afin de collecter précisément des données sur les utilisateurs et de faire un profilage poussé. Nous avons ensuite intégré des technologies de recommandation
 afin de faire matcher joueurs et jeux intelligement. Nous avons également développé un moteur de recherche sur les jeux classés.
 Nous développons la stack complète de la plateforme  de recommandation de jeux vidéos.
-Des algorithmes basé sur le machine learning permettent au moteur de recommandation de s'auto-améliorer en fonction de l'intéret porté par les joueurs aux jeux suggérés.
+Des algorithmes basés sur le machine learning permettent au moteur de recommandation de s'auto-améliorer en fonction de l'intéret porté par les joueurs aux jeux suggérés.
