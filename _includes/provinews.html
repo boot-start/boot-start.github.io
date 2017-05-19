@@ -12,7 +12,7 @@
 		    {% assign sorted_pages = (site.pages | where: "category", "provinews" | where: "language", page.language | sort: "end") %}
             {% for project in sorted_pages reversed %}
 		    <div class="col-md-3 col-sm-6 portfolio-item">
-                <a href="{{ project.url }}" class="portfolio-link">
+                <a href="{{ project.url }}" target="_blank" class="portfolio-link">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fa fa-plus fa-3x"></i>

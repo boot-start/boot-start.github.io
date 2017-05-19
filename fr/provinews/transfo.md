@@ -4,6 +4,7 @@ title: C'est quoi concrètement, la transformation digitale ?
 description: 3 évolutions à appliquer en interne
 category: provinews
 photo: /img/provinews/transfo.jpg
+website: /
 layout: page
 ---
 <h3> 3 grandes évolutions à opérer en interne </h3>

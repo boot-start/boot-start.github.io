@@ -2,6 +2,7 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .text-muted {
   color: #777777;
 }
@@ -326,7 +327,7 @@ section h3.section-subheading {
 }
  section h3.section-subheading-project {
    font-size: 16px;
-   font-family: "Droid Serif";
+   font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
    text-transform: none;
    font-style: italic;
    font-weight: 700;
