@@ -3,7 +3,7 @@ slug: enedis
 end: 2017-
 title: Enedis
 website: http://www.enedis.fr/
-topic: Migration de données, exploitation
+topic: Data migration, exploitation
 category: portfolio
 photo: /img/portfolio/enedis.png
 layout: page

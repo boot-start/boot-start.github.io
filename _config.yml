@@ -204,7 +204,7 @@ t:
       news: News
     offer:
       heading: "Our services"
-      subheading: "3 kind of approaches whit our clients, working together in a whole project, expertise in very specific technical subjects and integration of one of our amazing product."
+      subheading: "3 way of working with our clients: developping together a whole project, expertise in technical subjects and integration of our amazing products."
     service:
       heading: "Services"
       subheading: "We have a large scope of tasks that you can hire us for."
@@ -219,13 +219,13 @@ t:
         subheading: "You can test fastly your project with a fonctional prototype"
       integration:
         heading: "Developement and Integration"
-        subheading: "We create with you the product the as efficient as possible"
+        subheading: "We create with you the solution you need by integrating our powerful technologies or product"
       expertise:
         heading: "Our super powers"
         subheading: "Above all, Boot-Start is a team with complementaries and advanced skills"
       products:
         heading: "Our super products"
-        subheading: "Here are products we developed and we can integrate in your project"
+        subheading: "Here are products based on our best algorithms and the work of our Data scientists and developpers "
     expertise:
       heading: "Expertise"
       subheading: "Here are some of the advanced topics we can work on for you"
@@ -240,7 +240,7 @@ t:
         subheading: "We are used to work on whole project too "
     products:
       heading: "Products"
-      subheading: "We customize our products according to the company and the kind of data processing"
+      subheading: "We customize our products according to the company and the kind of data to process"
     service:
       heading: "Services"
       subheading: "We have a wide scope of tasks we can help you get done."
