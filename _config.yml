@@ -43,7 +43,7 @@ defaults:
    values:
      language: en
      category: offer
-     layout: page
+     layout: bootstrap
  -
    scope:
      path: "fr/products"
