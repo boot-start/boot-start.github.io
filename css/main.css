@@ -45,6 +45,7 @@ header .intro-text .intro-heading {
 }
 .post-content p {
    text-align: justify;
+   letter-spacing:0.2px;
 }
 
 .intro-logo {
@@ -158,4 +159,41 @@ header .intro-back .intro-lead-in {
 .tech img.thumbnail {
     width: 100%;
     border: none;
+}
+
+.blog-content {
+    text-align: justify;
+}
+
+.blog-content h1 {
+    font-size: 68px;
+    font-family: montserrat;
+    font-weight: normal;
+    text-transform: none;
+    text-align: center;
+}
+.blog-content h3 {
+    font-size: 42px;
+    font-family: montserrat;
+    font-weight: normal;
+    text-transform: none;
+    text-align: left;
+}
+
+.blog-content p {
+    font-size: 20px;
+    font-family: montserrat;
+    line-height: 250%;
+
+}
+
+.blog-content ul {
+    font-size: 20px;
+    font-family: montserrat;
+    line-height: 250%;
+
+}
+
+.blog-img {
+
 }

@@ -27,8 +27,33 @@ layout: bootstrap
     </div>
 </header>
 
+<br><br><br><br><br><br><br>
+
 <div class="container">
+    {% if page.illustration %}
+    <img src="{{ page.illustration }}" class="img-responsive" alt="">
+    {% endif %}
+
+    {% if page.blog %}
+    <article class="blog-content">
+    {{ content }}
+    </article>
+
+    {% else %}
+
     <article class="post-content">
     {{ content }}
     </article>
+    {% endif %}
+
+    <div>
+    {% if page.prev %}
+    <a href="{{ page.prev.url }}"><img src="{{ page.prev.image }}">{{ page.prev.title }}</a>
+    {% endif %}
+    </div>
+    <div>
+    {% if page.next %}
+    <a href="{{ page.next.url }}"><img src="{{ page.next.image }}">{{ page.next.title }}</a>
+    {% endif %}
+    </div>
 </div>

@@ -19,8 +19,6 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-
-
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
 
@@ -42,9 +40,16 @@
     <![endif]-->
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{" /css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
 
 
+    <style>
+        {% if page.background %}
+        header {
+            background-image: url({{page.background}}) !important
+        }
+        {% endif %}
+    </style>
 
     <!-- BEGIN Swipper -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/css/swiper.css">
@@ -141,16 +146,11 @@
   })
   </script>
 
-
     {% include analytics/google.html %}
 
     {% include analytics/saleswings.html %}
 
-    <script type="text/javascript"
-                src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5699364a0e98c516"
-                async="async">
-    </script>
-
+    {% include social/addthis.html %}
 
     {% include cookielaw.html %}
 </body>

@@ -3,7 +3,7 @@ slug: slib
 end: 2017-
 title: Slib (BNP Paribas)
 website: https://www.slib.com/
-topic: Exploitation : mise en place d'un système d'alertes
+topic: "Exploitation : mise en place d'un système d'alertes"
 category: portfolio
 photo: /img/portfolio/slib.png
 layout: page
