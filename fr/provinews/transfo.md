@@ -4,23 +4,22 @@ title: C'est quoi concrètement, la transformation digitale ?
 description: 3 évolutions à appliquer en interne
 category: provinews
 photo: /img/provinews/transfo.jpg
-illustration: /img/header-bg.jpg
+illustration: /img/provinews/knowledge-management-data.jpg
 prev:
-    image: /img/provinews/hello-tomorrow.png
-    url: ../hello
+    title: "Article Précédent: Intelligence Artificielle"
+    url: ../../fr/blog/intelligence-artificielle-2017
 next:
-    image:
-    url:
-background: /img/advice-black.jpg
+    title: "Article suivant: Hello Tomorrow"
+    url: ../../fr/blog/hello-tomorrow
+background: /img/provinews/transformation-digitale-data.jpg
 website: /
 layout: page
 blog: yes
+permalink: fr/blog/transformation-digitale
 ---
 
 <br><br><br>
-
 <h1> 3 grandes évolutions à opérer en interne </h1>
-
 <br><br>
 
 
@@ -39,17 +38,13 @@ Créer un site internet, c’est important, mais si l’on néglige l'expérienc
 Un site internet bien pensé et “user friendly” est aujourd’hui un strict minimum, si cela n’a pas été mis en place, il paraît nécessaire de s’y intéresser afin de s’attacher à des innovations à plus forte valeur ajoutée , car la digitalisation, c’est bien plus que la mise en place de nouveaux canaux de vente et de communication, <b> c’est une transformation de l’intégralité de l’entreprise et de sa gestion.</b>
 
 <br><br>
-
 <h3> Saisie de données manuelle et gestion des documents </h3>
-
 <br>
 
 Perdre du temps à saisir des données, classer des documents, transférer des informations d’une base de données à un autre, d’une boîte mail à un fichier, <b>voici autant de tâches qui vont être amenées à disparaître</b>. Un certain nombre de solutions permettent aujourd’hui d’automatiser tout cela. Certaines entreprises choisissent d'intégrer des logiciels préconçues, d'autres optent pour un développement spécifique, sur-mesure. Le gain de temps lié à l'automatisation de la collecte, du nettoyage et de la classification d'informations, représente <b> un facteur majeur de gain de productivité </b> pour ses collaborateurs. Ainsi, le temps passé par ses collaborateurs à effectuer ces missions redondante représente un avantage compétitif à saisir.
 
 <br><br>
-
 <h3>Accès aux informations, connaissance de son entreprise, de ses clients</h3>
-
 <br>
 
 L’information est une ressource clé pour l’entreprise, si ce n’est la matière première principale pour certaines. La facilité d’accès aux informations présente un premier point majeur pour moderniser une entreprise.
@@ -59,9 +54,7 @@ Selon L’Association Information et Management (AIM), un employé passe en moye
 La connaissance doit se partager et être facilement accessible au sein d’une entreprise. On ne peut attendre d’un collaborateur qu’il consulte son ordinateur, le CRM, l’ERP, l’outil de facturation, les boite mails de ses collègues, l’ensemble des fichiers partagés via Google Drive, Dropbox, l’outil d’analyse du site web, les données des réseaux sociaux etc avant chaque décision. Posséder une plateforme intelligente d’accès à l’ensemble des informations parait aujourd’hui nécessaire pour la productivité de ses collaborateurs.
 
 <br><br>
-
 <h3> Analyse, prédiction et identification de causes </h3>
-
 <br>
 
 Les évolutions technologiques permettent aujourd’hui aux dirigeants d’avoir une approche proactive de la connaissance de leur entreprise. Auparavant, pour expliquer un fort absentéisme ou de bonnes ventes, nous pouvions émettre des hypothèses, faire confiance au destin. Aujourd’hui, les algorithmes d’analyse et de prédiction permettent de trouver des corrélations et ainsi comprendre la cause de problèmes ou de réussites. Les Big Data peuvent être considérées comme la fin des <b> moyennes </b> pour donner du sens à des metrics.
@@ -76,5 +69,4 @@ Les évolutions technologiques permettent aujourd’hui aux dirigeants d’avoir
 
 Il est important de posséder un certain nombre de données afin d’analyser des tendances, c’est comme cela que de nombreux magasins, villes, lignes industrielles, entreprises diverses s’équipent de capteurs afin de comprendre la cause de certains événements et d’ajuster leur fonctionnement.
 Garder une trace de l’activité, de la production, du comportement des collaborateurs, des clients permet d’analyser les causes et ainsi améliorer les processus, la logistique, la productivité, les ventes.
-
 
