@@ -5,7 +5,7 @@ title: Slib (BNP Paribas)
 website: https://www.slib.com/
 topic: "Exploitation : mise en place d'un système d'alertes"
 category: portfolio
-photo: /img/portfolio/slib.png
+photo: /img/portfolio/slib.jpg
 layout: page
 ---
 Mise en place d'un système d'alertes à partir de logs avec Active MQ
