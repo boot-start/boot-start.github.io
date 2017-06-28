@@ -5,7 +5,7 @@ title: Slib (BNP Paribas)
 website: https://www.slib.com/
 topic: "Exploitation : alerts system"
 category: portfolio
-photo: /img/portfolio/slib.png
+photo: /img/portfolio/slib.jpg
 layout: page
 ---
 We set an alerts system with ActiveMQ and other functions as a filter for duplications.
