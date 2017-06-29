@@ -258,7 +258,31 @@ fieldset[disabled] .btn-sample.active {
 }
 
 .navigation {
-    margin-top: 15% ;
+    margin-top: 5% ;
     margin-bottom: 15% ;
 
 }
+
+.img-mini{
+    margin-top: 2px ;
+    weight: 68 px ;
+    width: 100% ;
+
+}
+.author {
+    font-weight: bold  ;
+    font-size: 20px ;
+
+}
+.author-statut {
+
+
+}
+
+.author-twitter {
+    font-weight: bold  ;
+    font-color: #c11759 ;
+    font-size: 20px ;
+
+}
+
