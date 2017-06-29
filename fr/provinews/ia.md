@@ -12,7 +12,7 @@ next:
     title: "Article suivant: Transformation Digitale "
     url: ../../fr/blog/transformation-digitale
 background: /img/intelligence_artificielle_2017.jpg
-website: /
+website: blog/intelligence-artificielle-2017
 layout: page
 blog: yes
 permalink: fr/blog/intelligence-artificielle-2017

@@ -12,10 +12,11 @@ next:
     title: "Article suivant: Hello Tomorrow"
     url: ../../fr/blog/hello-tomorrow
 background: /img/provinews/transformation-digitale-data.jpg
-website: /
+website: blog/transformation-digitale
 layout: page
 blog: yes
 permalink: fr/blog/transformation-digitale
+link: ../products/smart-knowledge-management/
 ---
 
 <br><br><br>
@@ -39,10 +40,11 @@ Créer un site internet, c’est important, mais si l’on néglige l'expérienc
 leurs attentes et qu’il ne correspond pas à l’image que l’on veut donner, l'entreprise bénéficiera peu de ces initiatives.
 Ainsi, il est parfois préférable de prendre plus de temps à la préparation d'une stratégie digitale cohérente et au choix
 des bonnes ressources pour la réalisation des changements techniques et organisationnels.
-Un site internet bien pensé et “user friendly” est aujourd’hui un strict minimum, si cela n’a pas été mis en place,
-il paraît nécessaire de s’y intéresser afin de s’attacher à des innovations à plus forte valeur ajoutée ,
-car la digitalisation, c’est bien plus que la mise en place de nouveaux canaux de vente et de communication,
-<b> c’est une transformation de l’intégralité de l’entreprise et de sa gestion.</b>
+Un site internet bien pensé et “user friendly” est aujourd’hui un strict minimum, le passage à la communication et vente en ligne
+parait nécéssaires pour la plupart des entreprises. En B2C par exemple, sept consommateurs sur 10 effectuent des achats en ligne, quand seulement une PME sur huit
+proposent un service de vente en ligne. Mais une fois ces évolutions opérées, l'enjeu est de s’attacher à des innovations
+à plus forte valeur ajoutée , car la digitalisation, c’est bien plus que la mise en place de nouveaux canaux de vente et
+de communication, <b> c’est une transformation de l’intégralité de l’entreprise et de sa gestion.</b>
 
 <br><br>
 <h3> Saisie de données manuelle et gestion de fichiers </h3>
@@ -133,7 +135,7 @@ La transformation digitale est au coeur des débats aujourd'hui, mais certains f
 développer. La resistance au changement doit parfois amener les dirigeants à considerer cette digitalisation de manière
 progressive, et les solutions existent pour amener une transformation "co-existante" avec le fonctionnement
 actuel de l'entreprise. Les solutions d'interface alternative permettent de laisser le choix aux collaborateurs.
-C'est ce qui est développé chez Boot-Start, par exemple, avec une plateforme Smart Knowledge Management qui s'adapte aux
+C'est ce qui est développé chez Boot-Start, par exemple, avec une plateforme [Smart Knowledge Management]({{page.link}}) qui s'adapte aux
 stacks technologiques déjà existantes et qui laisse le choix aux collaborateurs de s'en servir ou pas.
 Constatant bien souvent les bénéfices, ces mêmes collaborateurs se dirigent naturellement sur cet outil fraichement installé.
 
