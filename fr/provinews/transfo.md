@@ -50,8 +50,8 @@ des bonnes ressources pour la réalisation des changements techniques et organis
 Un site Internet bien pensé et “user friendly” est aujourd’hui un strict minimum, le passage à la communication et vente en ligne
 paraît nécéssaire pour la plupart des entreprises. En B2C par exemple, sept consommateurs sur dix effectuent des achats en ligne, quand seulement une PME sur huit
 propose un service de vente en ligne. Mais une fois ces évolutions opérées, l'enjeu est de s’attacher à des innovations
-à plus forte valeur ajoutée, car la digitalisation, c’est bien plus que la mise en place de nouveaux canaux de vente et
-de communication, <b> c’est une transformation de l’intégralité de l’entreprise et de sa gestion.</b>
+à plus forte valeur ajoutée, car <b> la digitalisation, c’est bien plus que la mise en place de nouveaux canaux de vente et
+de communication, c’est une transformation de l’intégralité de l’entreprise et de sa gestion.</b>
 
 <br><br>
 <h3> Saisie de données manuelle et gestion de fichiers </h3>
