@@ -6,7 +6,7 @@ layout: bootstrap
     <div class="intro-text intro-short">
         <div class="intro-back">
             <div class="container">
-                <div class="media">
+                <div class="media media-ajust">
                     <div class="media-left">
                         <a href="#">
                             {% if page.photo %}
@@ -46,25 +46,28 @@ layout: bootstrap
     </article>
     {% endif %}
 
-
+    {% if page.blogauthor %}
 <div class="container navigation">
     <div class="row">
-        {% if page.author %}
+
         <div class="col-lg-1">
             <div class="img-mini">  <img src="{{ page.miniphoto }}" alt="Benjamin Kaltenbaek" style="width:68px;height:100%;"> </div>
         </div>
 
+
+
         <div class="col-lg-6">
-            <div class="author"> {{ page.author.name }} </div>
-            <div class="author-statut">{{ page.author.statut }} </div>
+            <div class="author"> {{ page.blogauthor.name }} </div>
+            <div class="author-statut">{{ page.blogauthor.statut }} </div>
             <div class="author-twitter">
-                <a href="https://twitter.com/{{ page.twitter }}" ><i class="fa fa-twitter" ></i>  {{ page.twauthor.name }}</a>
+                <a href="https://twitter.com/{{ page.twitter }}" > <i class="fa fa-twitter" ></i>  {{ page.twauthor.name }}</a>
 
             </div>
         </div>
-        {% endif %}
+
     </div>
 </div>
+    {% endif %}
 
 <div class="container navigation">
     <div class="row">

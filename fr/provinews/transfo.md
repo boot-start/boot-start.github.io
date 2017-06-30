@@ -6,7 +6,7 @@ category: provinews
 photo: /img/provinews/transfo.jpg
 illustration: /img/provinews/knowledge-management-data.jpg
 prev:
-    title: "Article Précédent: Intelligence Artificielle"
+    title: "Article précédent: Enjeux de l'IA"
     url: ../../fr/blog/intelligence-artificielle-2017
 next:
     title: "Article suivant: Hello Tomorrow"
@@ -17,7 +17,7 @@ layout: page
 blog: yes
 permalink: fr/blog/transformation-digitale
 link: ../products/smart-knowledge-management/
-author:
+blogauthor:
     name: Benjamin Kaltenbaek
     statut: Responsable Marketing, Communication chez Boot-Start
 miniphoto: /img/team/bk.jpg

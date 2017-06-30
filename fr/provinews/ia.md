@@ -16,6 +16,13 @@ website: blog/intelligence-artificielle-2017
 layout: page
 blog: yes
 permalink: fr/blog/intelligence-artificielle-2017
+blogauthor:
+    name: Benjamin Kaltenbaek
+    statut: Responsable Marketing, Communication chez Boot-Start
+miniphoto: /img/team/bk.jpg
+twauthor:
+    name: "@Ben_ktb"
+twitter: ben_ktb
 ---
 
 <br><br><br>
