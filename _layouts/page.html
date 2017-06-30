@@ -3,8 +3,17 @@ layout: bootstrap
 ---
 
 <header>
+    {% if page.blog %}
+    <div class="intro-text intro-blog intro-short">
+        <div class="intro-back">
+
+            {% else %}
+
     <div class="intro-text intro-short">
         <div class="intro-back">
+
+            {% endif %}
+
             <div class="container">
                 <div class="media media-ajust">
                     <div class="media-left">
@@ -81,7 +90,7 @@ layout: bootstrap
 
     {% if page.next %}
         <div class="col-lg-6 text-center">
-            <a href="{{ page.next.url }}"class="btn btn-sample" role="button">{{ page.next.title }}  <i class="glyphicon glyphicon-triangle-right" ></i></a>
+            <a href="{{ page.next.url }}" class="btn btn-sample" role="button">{{ page.next.title }}  <i class="glyphicon glyphicon-triangle-right" ></i></a>
         </div>
     {% endif %}
 

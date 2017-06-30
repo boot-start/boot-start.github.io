@@ -103,6 +103,10 @@ header .intro-back .intro-lead-in {
   margin-bottom: 0px !important;
 }
 
+.intro-blog {
+height: 50vh !important;
+
+     }
 
 @media (min-width: 768px) {
   header .intro-text {
