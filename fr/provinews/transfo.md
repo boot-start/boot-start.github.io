@@ -32,8 +32,6 @@ twitter: ben_ktb
 
 
 
-
-
 “Notre société est en pleine mutation”, “Le digital prend de plus en plus de place dans nos vies” nous avons l’impression
 que ces phrases font partie de notre quotidien et pourtant, une question fondamentale se pose encore pour de
 nombreuses entreprises, comment agir en fonction ? Tout le monde s’accorde à dire que la société ne s'adaptera pas aux
