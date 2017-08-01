@@ -1,0 +1,98 @@
+---
+layout: bootstrap
+---
+
+<header>
+    {% if page.blog %}
+    <div class="intro-text intro-blog intro-short">
+        <div class="intro-back">
+
+            {% else %}
+
+    <div class="intro-text intro-short">
+        <div class="intro-back">
+
+            {% endif %}
+
+            <div class="container">
+                <div class="media media-ajust">
+                    <div class="media-left">
+                        <a href="#">
+                            {% if page.photo %}
+                            <img src="{{ page.photo }} " class="media-object" alt="">
+                            {% endif %}
+                            {% if page.icon %}
+                            <i class="fa fa-{{page.icon}} fa-5x"></i>
+                            {% endif %}
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <div class="intro-heading">{{ page.title }}</div>
+                        <div class="intro-lead-in">{{ page.subtitle }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<br><br><br><br><br><br><br>
+
+<div class="container">
+    {% if page.illustration %}
+    <img src="{{ page.illustration }}" class="img-responsive" alt="">
+    {% endif %}
+
+    {% if page.blog %}
+    <article class="blog-content">
+    {{ content }}
+    </article>
+
+    {% else %}
+
+    <article class="post-content">
+    {{ content }}
+    </article>
+    {% endif %}
+
+    {% if page.blogauthor %}
+<div class="container navigation">
+    <div class="row">
+
+        <div class="col-lg-1">
+            <div class="img-mini">  <img src="{{ page.miniphoto }}" alt="Benjamin Kaltenbaek" style="width:68px;height:100%;"> </div>
+        </div>
+
+
+
+        <div class="col-lg-6">
+            <div class="author"> {{ page.blogauthor.name }} </div>
+            <div class="author-statut">{{ page.blogauthor.statut }} </div>
+            <div class="author-twitter">
+                <a href="https://twitter.com/{{ page.twitter }}" target="_blank" > <i class="fa fa-twitter" ></i>  {{ page.twauthor.name }}</a>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+    {% endif %}
+
+<div class="container navigation">
+    <div class="row">
+
+        {% if page.prev %}
+        <div class="col-lg-6 text-center">
+            <a href="{{ page.prev.url }}" class="btn btn-sample" role="button"><i class="glyphicon glyphicon-triangle-left" ></i>  {{ page.prev.title }}</a>
+        </div>
+    {% endif %}
+
+
+    {% if page.next %}
+        <div class="col-lg-6 text-center">
+            <a href="{{ page.next.url }}" class="btn btn-sample" role="button">{{ page.next.title }}  <i class="glyphicon glyphicon-triangle-right" ></i></a>
+        </div>
+    {% endif %}
+
+    </div>
+</div>

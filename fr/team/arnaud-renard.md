@@ -2,7 +2,7 @@
 title: Arnaud Renard
 arrival: 2014-09
 role: CTO
-photo: /img/team/arnaud.png
+photo: /img/team/arnaud.jpg
 category: team
 facebook: arnaud.renard.85
 linkedin: renarnaud
