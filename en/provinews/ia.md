@@ -1,7 +1,7 @@
 ---
 slug: ia
-title: Les premiers pas de l'Intelligence Artificielle
-description: Mobilité et sémantisation, les enjeux de l'IA
+title: First steps of Artificial Intelligence
+description: Mobility and semantic, IA issues
 category: provinews
 photo: /img/provinews/intelligence_artificielle.jpg
 illustration: /img/intelligence_artificielle_2017.jpg
@@ -15,7 +15,7 @@ background: /img/intelligence_artificielle_2017.jpg
 website: blog/intelligence-artificielle-2017
 layout: page
 blog: yes
-permalink: fr/blog/intelligence-artificielle-2017
+permalink: en/blog/intelligence-artificielle-2017
 blogauthor:
     name: Benjamin Kaltenbaek
     statut: Responsable Marketing, Communication chez Boot-Start

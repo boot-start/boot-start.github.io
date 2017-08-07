@@ -153,7 +153,7 @@ defaults:
    scope:
      path: "en/provinews"
    values:
-     language: fr
+     language: en
      category: provinews
      layout: page
  -

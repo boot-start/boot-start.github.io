@@ -9,6 +9,8 @@ facebook: benktbk
 linkedin: benktb
 twitter: ben_ktb
 permalink: /en/team/benjamin-kaltenbaek/
+illustration: /img/provinews/elastic-search-bigdata-bootstart.png
+layout: page
 ---
 Graduated with a digital Master's degree, Benjamin grew up with internet,
 very active on social media and passionated by new technologies,
