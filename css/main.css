@@ -301,7 +301,6 @@ fieldset[disabled] .btn-sample.active {
     margin-top: 6px ;
 }
 
-}
 
 .blog-content p {
     font-size: 20px;
@@ -353,4 +352,20 @@ fieldset[disabled] .btn-sample.active {
     font-size: 20px ;
 
 }
+
+
+/* Team images */
+
+@media (max-width: 679px) {
+.team-member img
+ {
+       height: 200px !important ;
+       }
+}
+
+
+.team-member img
+    {
+        height: 190px ;
+    }
 

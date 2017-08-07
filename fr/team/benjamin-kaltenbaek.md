@@ -2,7 +2,7 @@
 title: Benjamin Kaltenbaek
 subtitle: Data Evangelist
 arrival: 2017-03
-role: Resp. Communication Marketing
+role: Resp. Marketing
 photo: /img/team/bk.jpg
 category: team
 facebook: benktbk
