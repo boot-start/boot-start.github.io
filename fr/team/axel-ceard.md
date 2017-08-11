@@ -1,6 +1,6 @@
 ---
 title: Axel Céard
-subtitle: Troubadour arithmétique
+subtitle: Troubadour de l'algo
 arrival: 2017-06
 role: Développeur Junior
 photo: /img/team/axel.jpg
