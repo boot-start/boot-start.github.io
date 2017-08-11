@@ -2,7 +2,7 @@
 slug: optimiz
 end: 2016-01
 title: Optimiz.me
-website: http://www.opitmiz.me/
+website: http://www.optimiz.me/
 topic: Crawling, Recommandation
 category: portfolio
 photo: /img/portfolio/optimiz.png
