@@ -79,7 +79,14 @@
 
     {% include nav.html %}
     {% include analytics/google-tag.html %}
-
+    {% if page.call-to-action %}
+    <div id="call-to-action" class="fixed-icon hide">
+        <a href="{{ page.contact-link }}">
+        <span class="fa fa-envelope" title="{{ page.cta-tooltip }}">
+        </span>
+        </a>
+    </div>
+    {% endif %}
 
     {{ content }}
 

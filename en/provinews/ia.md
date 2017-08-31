@@ -15,6 +15,9 @@ background: /img/intelligence_artificielle_2017.jpg
 website: blog/intelligence-artificielle-2017
 layout: page
 blog: yes
+call-to-action: yes
+cta-tooltip: Click here to contact us !
+contactLink: /en/#contact
 permalink: en/blog/intelligence-artificielle-2017
 blogauthor:
     name: Benjamin Kaltenbaek

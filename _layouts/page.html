@@ -55,6 +55,15 @@ layout: bootstrap
     </article>
     {% endif %}
 
+    {% if page.call-to-action %}
+<div id="call-to-action" class="fixed-icon hide">
+    <a href="{{ page.contactLink }}">
+        <span class="fa fa-envelope" title="{{ page.cta-tooltip }}">
+        </span>
+    </a>
+</div>
+    {% endif %}
+
     {% if page.blogauthor %}
 <div class="container navigation">
     <div class="row">

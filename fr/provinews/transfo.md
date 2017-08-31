@@ -15,6 +15,9 @@ background: /img/provinews/transformation-digitale-data.jpg
 website: blog/transformation-digitale
 layout: page
 blog: yes
+call-to-action: yes
+cta-tooltip: Cliquez ici pour nous contacter !
+contactLink: /fr/#contact
 permalink: fr/blog/transformation-digitale
 link: ../products/smart-knowledge-management/
 blogauthor:

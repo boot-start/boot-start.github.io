@@ -15,6 +15,9 @@ background: /img/provinews/transformation-digitale-data.jpg
 website: blog/elastic_search_expertise
 layout: page
 blog: yes
+call-to-action: yes
+cta-tooltip: Cliquez ici pour nous contacter !
+contactLink: /fr/#contact
 permalink: fr/blog/elastic_search_expertise
 ---
 

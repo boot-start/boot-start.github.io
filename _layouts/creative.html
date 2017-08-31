@@ -37,6 +37,14 @@
 <body id="page-top">
 
 {{ content }}
+{% if page.call-to-action %}
+<div id="call-to-action" class="fixed-icon hide">
+    <a href="{{ page.contact-link }}">
+        <span class="fa fa-envelope" title="{{ page.cta-tooltip }}">
+        </span>
+    </a>
+</div>
+{% endif %}
 
 <!-- jQuery -->
 <script src="vendor/jquery/jquery.min.js"></script>

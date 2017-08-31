@@ -6,6 +6,9 @@ website: fr/blog/hello-tomorrow
 photo: /img/provinews/hello-tomorrow.png
 layout: page
 blog: yes
+call-to-action: yes
+cta-tooltip: Cliquez ici pour nous contacter !
+contactLink: /fr/#contact
 permalink: fr/blog/hello-tomorrow
 ---
 

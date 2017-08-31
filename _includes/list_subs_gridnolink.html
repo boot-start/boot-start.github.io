@@ -11,14 +11,7 @@
 		    {% assign sorted_pages = (site.pages | where: "category", include.category | where: "language", page.language | sort: "end") %}
             {% for subpage in sorted_pages reversed %}
 		    <div class="col-md-3 col-sm-6 portfolio-item">
-                <a href="{{ subpage.url }}" class="portfolio-link">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="{{ subpage.photo }}" class="img-responsive" alt="">
-                </a>
+
                 <div class="portfolio-caption">
                     <h4><a href="{{ subpage.website }}" target=_blank>{{ subpage.title }}</a></h4>
                     <p class="text-muted">{{ subpage.topic }}</p>
