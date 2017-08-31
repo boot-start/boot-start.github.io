@@ -8,6 +8,7 @@ facebook: arnaud.renard.85
 linkedin: renarnaud
 twitter: renarnaud
 permalink: /fr/team/arnaud-renard/
+shooting: /img/team/originaux/arnaud-cto-data-science.jpg
 ---
 Expert en traitement automatique de langue et en recherche d'information. Il possède une formation
 d’ingénieur en informatique de l’INSA de Lyon complétée par son activité d’enseignement et de recherche

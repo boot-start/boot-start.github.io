@@ -810,3 +810,8 @@ body {
 .hide {
     display: none;
 }
+
+.img-team{
+    margin-top: 35px ;
+    width: 400px;
+}

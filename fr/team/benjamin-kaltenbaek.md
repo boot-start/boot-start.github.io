@@ -9,6 +9,7 @@ facebook: benktbk
 linkedin: benktb
 twitter: ben_ktb
 permalink: /fr/team/benjamin-kaltenbaek/
+shooting: /img/team/originaux/ben-data-evengelist-marketing.jpg
 ---
 Diplômé d’un master en stratégie digitale, Benjamin a grandi avec Internet , et il a très vite su mettre cela à profit.
 Actif sur les réseaux sociaux et passionné par les nouvelles technologies,

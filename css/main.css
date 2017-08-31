@@ -59,8 +59,9 @@ header .intro-text .intro-heading {
 }
 
 .post-content p {
-   text-align: justify;
+   text-align: left;
    letter-spacing:0.2px;
+   margin-top: 20px;
 }
 
 .intro-logo {
@@ -172,9 +173,6 @@ height: 50vh !important;
    height: 11em;
 }
 
-.post-content {
-    margin-top: 20px;
-}
 
 .tech img.thumbnail {
     width: 100%;
@@ -230,7 +228,7 @@ fieldset[disabled] .btn-sample.active {
 }
 
 .blog-content {
-    text-align: justify;
+    text-align: left;
 }
 
 
@@ -336,6 +334,7 @@ fieldset[disabled] .btn-sample.active {
     width: 100% ;
 
 }
+
 .author {
     font-weight: bold  ;
     font-size: 20px ;
