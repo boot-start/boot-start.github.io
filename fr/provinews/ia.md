@@ -17,7 +17,7 @@ layout: page
 blog: yes
 call-to-action: yes
 cta-tooltip: Cliquez ici pour nous contacter !
-contactLink: /fr/#contact
+contact-link: /fr/#contact
 permalink: fr/blog/intelligence-artificielle-2017
 blogauthor:
     name: Benjamin Kaltenbaek
