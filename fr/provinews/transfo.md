@@ -15,9 +15,6 @@ background: /img/provinews/transformation-digitale-data.jpg
 website: blog/transformation-digitale
 layout: page
 blog: yes
-call-to-action: yes
-cta-tooltip: Cliquez ici pour nous contacter !
-contactLink: /fr/#contact
 permalink: fr/blog/transformation-digitale
 link: ../products/smart-knowledge-management/
 blogauthor:
@@ -27,6 +24,9 @@ miniphoto: /img/team/bk.jpg
 twauthor:
     name: "@Ben_ktb"
 twitter: ben_ktb
+call-to-action: yes
+cta-tooltip: Discutons de votre transformation digitale !
+contact-link: /fr/#contact
 ---
 
 <br><br><br>
