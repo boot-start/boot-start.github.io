@@ -7,6 +7,8 @@ topic: Backend, Frontend, Mobile (iOS & Android)
 category: portfolio
 photo: /img/portfolio/weluxe.png
 layout: page
+shooting: /img/portfolio/screen/weluxe-marketplace-search.jpg
+shootingfx: /img/portfolio/screen/weluxe-marketplace-search.jpg
 ---
 Nous avons developpé la stack complète de la plateforme de produits de luxe [WeLuxe]({{page.website}}) : 2 applications mobiles, back end et front end.
 

@@ -7,5 +7,7 @@ topic: Backend, Search
 category: portfolio
 photo: /img/portfolio/365talents.png
 layout: page
+shooting: /img/portfolio/screen/365talents-search-engine-elasticsearch.jpg
+shootingfx: /img/portfolio/screen/365talents-search-engine-elasticsearch.jpg
 ---
 Nous aidons [3565talents]({{page.website}}) à mettre en place leur moteur de recherche de profils.

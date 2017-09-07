@@ -88,6 +88,34 @@ defaults:
      layout: page
  -
    scope:
+     path: "fr/segment"
+   values:
+     language: fr
+     category: segment
+     layout: page
+ -
+    scope:
+      path: "en/segment"
+    values:
+      language: en
+      category: segment
+      layout: page
+ -
+   scope:
+     path: "fr/presentation"
+   values:
+     language: fr
+     category: pme
+     layout: presentation
+ -
+   scope:
+     path: "en/presentation"
+   values:
+     language: en
+     category: segment
+     layout: presentation
+ -
+   scope:
      path: "en/team"
    values:
      language: en
@@ -193,12 +221,12 @@ t:
     more: more
     menu:
       home: Home
-      service: Services
+      service: Offers
       products: Products
       expertise: Expertise
-      project: Whole Project
+      project: Your project
       team: Team
-      portfolio: Portfolio
+      portfolio: References
       contact: Contact
       jobs: Jobs
       news: News
@@ -211,15 +239,6 @@ t:
     project:
       heading: "We help and develop your inovative project"
       subheading: "Our job is to build the most adapted and user-friendly solution "
-      advice:
-        heading: "Advices and strategy"
-        subheading: "We bring you a vision about all the possibilities and suggestions according to your strategy"
-      poc:
-        heading: "Proof Of Concept"
-        subheading: "You can test fastly your project with a fonctional prototype"
-      integration:
-        heading: "Developement and Integration"
-        subheading: "We create with you the solution you need by integrating our powerful technologies or product"
       expertise:
         heading: "Our super powers"
         subheading: "Above all, Boot-Start is a team with complementaries and advanced skills"
@@ -245,11 +264,14 @@ t:
       heading: "Services"
       subheading: "We have a wide scope of tasks we can help you get done."
     portfolio:
-      heading: "Portfolio"
+      heading: "References"
       subheading: "They trust us and we helped them get things done."
     provinews:
       heading: "News"
       subheading: "News about our company, data science and big-data "
+    technologies:
+      heading: "Our technology stack"
+      subheading: "Boot-start's ingineers are experts on these technologies"
     team:
       heading: "Our Amazing Team"
       subheading: "Dedicated to make the best out of few."
@@ -283,7 +305,7 @@ t:
       products: Produits
       expertise: Expertise
       team: Equipe
-      portfolio: Portfolio
+      portfolio: Références
       contact: Contact
       jobs: Emploi
       news: News
@@ -305,6 +327,9 @@ t:
       integration:
         heading: " Développement et Intégration"
         subheading: "Notre métier est de vous construire le produit le plus adapté et efficace"
+      segment:
+        heading: "Avec qui travaillons nous? "
+        subheading: "3 façons d'accompagner nos clients partenaires "
       expertise:
         heading: " Nos super pouvoirs"
         subheading: "Boot-Start c'est avant tout des compétences pointues et complémentaires"
@@ -330,8 +355,8 @@ t:
       heading: "Notre stack technologique"
       subheading: "Voici une liste non exhaustive des technologies que nous utilisons"
     portfolio:
-      heading: "Portfolio"
-      subheading: "Ils nous font confiance et nous les avons aidés à concrétiser leurs idées."
+      heading: "Références"
+      subheading: "Ils nous font confiance et nous les avons aidé à concrétiser leurs idées."
     network:
       heading: "Réseaux"
       subheading: "Nous appartenons aux réseaux suivants"

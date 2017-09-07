@@ -37,6 +37,7 @@ nav.navbar.navbar-shrink .page-scroll img {
 
 .intro-text .media img {
     width: 92px;
+
 }
 
 
@@ -49,6 +50,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         font-size: 25px !important;
         line-height: 1.2 ; !important ;
+        padding-top: 150px !important;
     }
 }
 
@@ -111,7 +113,7 @@ height: 50vh !important;
 
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 50px !important;
+    padding-top: 250px !important;
     padding-bottom: 60px !important;
   }
   }
