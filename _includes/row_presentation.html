@@ -6,8 +6,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ site.t[page.language][include.category].heading }}</h2>
-                <h3 class="section-subheading text-muted">{{ site.t[page.language][include.category].subheading }}</h3>
+                <h2 class="section-heading">{{ site.t[page.language][include.subcategory].heading }}</h2>
+                <h3 class="section-subheading text-muted">{{ site.t[page.language][include.subcategory].subheading }}</h3>
             </div>
         </div>
         <div class="row text-center">
@@ -21,8 +21,9 @@
 
             <div class="row cover">
                 <div class=" col-md-6 no-margin">
-                    <p class="subtitle-show"> {{ subpage.title }}</p>
-                    <p> {{ subpage.description }} </p>
+                    <p class="subtitle-show"> {{ subpage.subtitle }}</p>
+                    <p class="text-show"> {{ subpage.description }} </p>
+                    <p class="text-show"> {{ subpage.description2 }} </p>
                 </div>
                 <div class=" col-md-6 no-margin">
                     <img src="{{ subpage.pic }} " class="img-responsive" alt="{{ subpage.title }}">
@@ -43,6 +44,7 @@
             <h4 class="service-heading"></h4>
             <p class="subtitle-show"> {{ subpage.subtitle }}  </p>
             <p class="text-show"> {{ subpage.description }} </p>
+            <p class="text-show"> {{ subpage.description2 }} </p>
         </div>
     </div>
     {% endif %}

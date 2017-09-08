@@ -98,21 +98,35 @@ defaults:
       path: "en/segment"
     values:
       language: en
-      category: segment
+      category: pme
       layout: page
  -
    scope:
      path: "fr/presentation"
    values:
      language: fr
-     category: pme
+     category: presentation
      layout: presentation
  -
    scope:
      path: "en/presentation"
    values:
      language: en
-     category: segment
+     category: presentation
+     layout: presentation
+ -
+   scope:
+     path: "fr/pme"
+   values:
+     language: fr
+     category: pme
+     layout: presentation
+ -
+   scope:
+     path: "en/pme"
+   values:
+     language: en
+     category: pme
      layout: presentation
  -
    scope:
@@ -316,7 +330,7 @@ t:
       heading: "Services"
       subheading: "Nous avons un large panel de tâches que nous pouvons vous aider à accomplir."
     project:
-      heading: "Nous accompagnons et développons pour vous votre projet innovant "
+      heading: " Notre accompagnement "
       subheading: "Notre métier est de vous construire la solution la plus adaptée et fonctionnelle"
       advice:
         heading: "Conseil et stratégie"
@@ -327,15 +341,18 @@ t:
       integration:
         heading: " Développement et Intégration"
         subheading: "Notre métier est de vous construire le produit le plus adapté et efficace"
-      segment:
-        heading: "Avec qui travaillons nous? "
-        subheading: "3 façons d'accompagner nos clients partenaires "
-      expertise:
-        heading: " Nos super pouvoirs"
-        subheading: "Boot-Start c'est avant tout des compétences pointues et complémentaires"
-      products:
-        heading: " Nos super produits"
-        subheading: "Voici des produits déjà développés par Boot-Start et que nous pouvons intégrer chez vous"
+    segment:
+      heading: " Nos 2 façons d'opérer "
+      subheading: " Nous travaillons sur la digitalisation de PME et ETI et sur le lancement de start-ups "
+      pme:
+        heading: "blablabla"
+        subheading: "ouloulou"
+    expertise:
+      heading: " Nos super pouvoirs"
+      subheading: "Boot-Start c'est avant tout des compétences pointues et complémentaires"
+    products:
+      heading: " Nos super produits"
+      subheading: "Voici des produits déjà développés par Boot-Start et que nous pouvons intégrer chez vous"
     products:
       heading: "Produits"
       subheading: "Nos produits sont systématiquement personnalisés selon l'entreprise et les données traitées"
