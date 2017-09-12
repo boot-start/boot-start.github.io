@@ -342,7 +342,7 @@ section h3.section-subheading {
 }
  section h3.section-subheading-project {
    font-size: 16px;
-   font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+   font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
    text-transform: none;
    font-style: italic;
    font-weight: 700;
@@ -794,6 +794,7 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #c11759;
 }
+
 @media (min-width: 1024px) {
     .fixed-icon {
         font-size: 40px;
@@ -806,10 +807,11 @@ body {
     .fixed-icon:hover {
         opacity: 1;
     }
+    .hide {
+        display: none;
+    }
 }
-.hide {
-    display: none;
-}
+
 
 .img-team{
     margin-top: 35px ;
@@ -858,12 +860,13 @@ body {
 .cover {
     width: 100% !important ;
     margin: 0 0 0 0 !important ;
+    padding: 10 0 -10 0 ;
 }
 
 .title-pic {
-
     position: absolute;
     top: 50%;
+    transform: translateY(-50%);
     width: 60%;
     left: 20%;
     text-align: center;
@@ -884,9 +887,84 @@ body {
 }
 
 .subtitle-show {
-    margin: 5% 30% 0 30% ;
-    text-align: center ;
+    margin: 5% 30% 0 30%;
+    text-align: center;
     font-family: montserrat;
-    font-size: 17px ;
-    font-weight: bold ;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+@media (max-width: 1550px) {
+    .title-pic {
+        font-size: 30px;
+    }
+
+    .text-show {
+        margin: 2% 10% 4% 10%;
+        line-height: 1.7;
+        font-size: 14px;
+    }
+
+    .subtitle-show {
+        margin: 5% 20% 0 20%;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .title-pic {
+        font-size: 25px;
+    }
+
+    .text-show {
+        margin: 3.5% 7% 3.5% 7%;
+        line-height: 1.5;
+        font-size: 12px;
+    }
+
+    .subtitle-show {
+        margin: 8% 18% 0 18%;
+        font-size: 15px;
+        line-height: 1;
+    }
+}
+
+@media (max-width: 1200px) {
+    .title-pic {
+        font-size: 25px;
+    }
+
+    .text-show {
+        margin: 1.5% 7% 3.5% 7%;
+        line-height: 1.5;
+        font-size: 11.5px;
+    }
+
+    .subtitle-show {
+        margin: 2% 18% 0 18%;
+        font-size: 15px;
+        line-height: 1;
+    }
+}
+
+.btn-subcategory {
+    border-color: #C11759;
+    font-weight: light;
+    border-radius: 0;
+    color: #C11759;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+.btn-subcategory:hover {
+    background-color: #C11759;
+    color: white;
+}
+
+.btn-spacing {
+    margin: 0 4% 0 4%;
+}
+
+.spacing {
+    margin: 5% 0;
 }

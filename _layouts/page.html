@@ -58,12 +58,12 @@ layout: bootstrap
     {% endif %}
 
     {% if page.call-to-action %}
-<div id="call-to-action" class="fixed-icon">
-    <a href="{{ page.contact-link }}">
-        <span class="fa fa-envelope" title="{{ page.cta-tooltip }}">
-        </span>
-    </a>
-</div>
+    <div id="call-to-action" class="fixed-icon hide">
+        <a href="{{ page.contact-link }}">
+            <span class="fa fa-envelope" title="{{ page.cta-tooltip }}">
+            </span>
+        </a>
+    </div>
     {% endif %}
 
     {% if page.blogauthor %}

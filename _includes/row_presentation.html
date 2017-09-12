@@ -2,55 +2,54 @@
 <section id="{{ include.category }}">
 
 
+    {% assign sorted_pages = (site.pages | where: "subcategory", include.subcategory | where: "language", page.language | sort: "end") %}
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ site.t[page.language][include.subcategory].heading }}</h2>
-                <h3 class="section-subheading text-muted">{{ site.t[page.language][include.subcategory].subheading }}</h3>
-            </div>
-        </div>
-        <div class="row text-center">
+    <div class="col-md-12 spacing">
+        {% for subpage in sorted_pages reversed %}
+
+        <a class="page-scroll col-md-2 btn btn-subcategory btn-spacing" href="#{{ subpage.title }}">
+            {{ subpage.title }}
+        </a>
+
+        {% endfor %}
 
     </div>
-    </div>
-            {% assign sorted_pages = (site.pages | where: "category", include.category | where: "language", page.language | sort: "end") %}
-            {% for subpage in sorted_pages reversed %}
 
-    {% if subpage.text-left %}
+    {% for subpage in sorted_pages reversed %}
 
-            <div class="row cover">
-                <div class=" col-md-6 no-margin">
+        {% if subpage.text-left %}
+
+            <div id="{{ subpage.title }}" class="row cover">
+                <div class="col-md-6 col-md-push-6 no-margin">
+                    <img src="{{ subpage.pic }}" class="img-responsive" alt="{{ subpage.title }}">
+                    <div class="title-pic"> {{ subpage.title }} </div>
+                </div>
+                <div class="col-md-6 col-md-pull-6 no-margin">
                     <p class="subtitle-show"> {{ subpage.subtitle }}</p>
                     <p class="text-show"> {{ subpage.description }} </p>
                     <p class="text-show"> {{ subpage.description2 }} </p>
                 </div>
-                <div class=" col-md-6 no-margin">
-                    <img src="{{ subpage.pic }} " class="img-responsive" alt="{{ subpage.title }}">
-                    <div class="title-pic"> {{ subpage.title }} </div>
-
-                </div>
             </div>
 
-    {% else %}
+        {% else %}
 
 
-    <div class="row cover">
-        <div class=" col-md-6 no-margin">
-            <img src="{{ subpage.pic }} " class="img-responsive" alt="{{ subpage.title }}">
-            <div class="title-pic"> {{ subpage.title }} </div>
-        </div>
-        <div class=" col-md-6 no-margin">
-            <h4 class="service-heading"></h4>
-            <p class="subtitle-show"> {{ subpage.subtitle }}  </p>
-            <p class="text-show"> {{ subpage.description }} </p>
-            <p class="text-show"> {{ subpage.description2 }} </p>
-        </div>
-    </div>
-    {% endif %}
+            <div id="{{ subpage.title }}" class="row cover">
+                <div class="col-md-6 no-margin">
+                    <img src="{{ subpage.pic }}" class="img-responsive" alt="{{ subpage.title }}">
+                    <div class="title-pic"> {{ subpage.title }} </div>
+                </div>
+                <div class=" col-md-6 no-margin">
+                    <p class="subtitle-show"> {{ subpage.subtitle }}  </p>
+                    <p class="text-show"> {{ subpage.description }} </p>
+                    <p class="text-show"> {{ subpage.description2 }} </p>
+                </div>
+            </div>
+        {% endif %}
 
-            {% endfor %}
+    {% endfor %}
 
 
 </section>
-    <br><br><br><br><br>
+
+<script src="js/anchorScroll.js"></script>
