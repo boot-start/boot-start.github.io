@@ -6,7 +6,7 @@ website:
 topic: Recommandation
 category: portfolio
 photo: /img/portfolio/ifeedforu.png
-layout: page
+layout: page-separate
 shooting: /img/portfolio/screen/ifeedforu-recommandation-ia-elasticsearch.jpg
 shootingfx: /img/portfolio/screen/ifeedforu-recommandation-ia-elasticsearch.jpg
 ---

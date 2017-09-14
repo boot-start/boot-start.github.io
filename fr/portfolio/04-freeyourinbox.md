@@ -6,7 +6,7 @@ website: http://www.freeyourinbox.com/
 topic: Frontend, Backend, Gmail
 category: portfolio
 photo: /img/portfolio/freeyourinbox.png
-layout: page
+layout: page-separate
 shooting: /img/portfolio/screen/freeyourinbox-plateforme-web-backend.jpg
 shootingfx: /img/portfolio/screen/freeyourinbox-plateforme-web-backend.jpg
 ---

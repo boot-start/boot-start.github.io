@@ -6,7 +6,7 @@ website: http://www.optimiz.me/
 topic: Crawling, Recommandation
 category: portfolio
 photo: /img/portfolio/optimiz.png
-layout: page
+layout: page-separate
 shooting: /img/portfolio/screen/optimiz-me-moteur-recommandation.jpg
 shootingfx: /img/portfolio/screen/optimiz-me-moteur-recommandation.jpg
 ---

@@ -3,7 +3,7 @@ slug: hellotomorrow
 title: Hello Tomorrow
 category: provinews
 website: fr/blog/hello-tomorrow
-photo: /img/provinews/hello-tomorrow.png
+photo: /img/provinews/hello-tomorrow.jpg
 layout: page
 blog: yes
 call-to-action: yes

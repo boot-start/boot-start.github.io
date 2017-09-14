@@ -6,7 +6,7 @@ website: http://www.homeridersystems.com/
 topic: Frontend, Backend, Benching, Mobile (Android & iOS)
 category: portfolio
 photo: /img/portfolio/homeridersystems.png
-layout: page
+layout: page-separate
 shooting: /img/portfolio/screen/homerider-application-web-elasticsearch.jpg
 shootingfx: /img/portfolio/screen/homerider-application-web-elasticsearch.jpg
 ---

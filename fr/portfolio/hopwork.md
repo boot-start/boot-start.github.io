@@ -6,7 +6,7 @@ website: http://www.hopwork.fr/
 topic: Search, Recommandation, Classification
 category: portfolio
 photo: /img/portfolio/hopwork.png
-layout: page
+layout: page-separate
 shooting: /img/portfolio/screen/hopwork-search-recommandation-elasticsearch.jpg
 shootingfx: /img/portfolio/screen/hopwork-search-recommandation-elasticsearch.jpg
 ---

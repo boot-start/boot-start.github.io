@@ -134,14 +134,14 @@ defaults:
    values:
      language: en
      category: team
-     layout: page
+     layout: page-separate
  -
    scope:
       path: "fr/team"
    values:
       language: fr
       category: team
-      layout: page
+      layout: page-separate
  -
    scope:
      path: "en/technologies"
@@ -158,18 +158,32 @@ defaults:
      layout: page
  -
    scope:
+     path: "en/technologies-less"
+   values:
+     language: en
+     category: technologies-less
+     layout: page
+ -
+   scope:
+     path: "fr/technologies-less"
+   values:
+     language: fr
+     category: technologies-less
+     layout: page
+ -
+   scope:
      path: "en/portfolio"
    values:
      language: en
      category: portfolio
-     layout: page
+     layout: page-separate
  -
    scope:
      path: "fr/portfolio"
    values:
      language: fr
      category: portfolio
-     layout: page
+     layout: page-separate
  -
    scope:
      path: "fr/network"
@@ -315,9 +329,11 @@ t:
     menu:
       home: Accueil
       service: Services
-      project: Accompagnement
       products: Produits
       expertise: Expertise
+      pme: PME/ETI
+      startup: Start up
+      gc: Grands comptes
       team: Equipe
       portfolio: Références
       contact: Contact
@@ -342,11 +358,8 @@ t:
         heading: " Développement et Intégration"
         subheading: "Notre métier est de vous construire le produit le plus adapté et efficace"
     segment:
-      heading: " Nos 2 façons d'opérer "
-      subheading: " Nous travaillons sur la digitalisation de PME et ETI et sur le lancement de start-ups "
-      pme:
-        heading: "blablabla"
-        subheading: "ouloulou"
+      heading: " Nos prestations "
+      subheading: " Notre savoir-faire est apprécié par des entreprises de natures différentes, nous avons mis au point des offres adaptées au contexte de nos clients. "
     expertise:
       heading: " Nos super pouvoirs"
       subheading: "Boot-Start c'est avant tout des compétences pointues et complémentaires"
@@ -371,6 +384,9 @@ t:
     technologies:
       heading: "Notre stack technologique"
       subheading: "Voici une liste non exhaustive des technologies que nous utilisons"
+    technologies-less:
+      heading: "Autres technologies"
+      subheading: "Nous pouvons également travailler avec les technologies suivantes"
     portfolio:
       heading: "Références"
       subheading: "Ils nous font confiance et nous les avons aidé à concrétiser leurs idées."

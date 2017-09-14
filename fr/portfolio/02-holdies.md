@@ -6,7 +6,7 @@ website: https://holdies.com/
 topic: Analyse de données, Recommandation, Classification
 category: portfolio
 photo: /img/portfolio/holdies.png
-layout: page
+layout: page-separate
 shooting: /img/portfolio/screen/holdies-pricing-engine-elasticearch.jpg
 shootingfx: /img/portfolio/screen/holdies-pricing-engine-elasticearch.jpg
 ---

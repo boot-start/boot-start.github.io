@@ -6,7 +6,7 @@ website: http://www.365talents.com/
 topic: Backend, Search
 category: portfolio
 photo: /img/portfolio/365talents.png
-layout: page
+layout: page-separate
 shooting: /img/portfolio/screen/365talents-search-engine-elasticsearch.jpg
 shootingfx: /img/portfolio/screen/365talents-search-engine-elasticsearch.jpg
 ---

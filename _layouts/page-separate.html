@@ -46,10 +46,15 @@ layout: bootstrap
     </article>
 
     {% else %}
-
+    <div class="col-md-6">
     <article class="post-content">
-        {{ content }}
+    {{ content }}
     </article>
+    </div>
+    <div class="col-md-6 hov-pic">
+        <img src="{{ page.shootingfx }}" class="img-team fx">
+        <img src="{{ page.shooting }}" class="img-team good">
+    </div>
     {% endif %}
 
     {% if page.call-to-action %}

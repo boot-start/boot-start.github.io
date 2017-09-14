@@ -6,7 +6,7 @@ website: http://www.piwag.com/
 topic: Frontend, Backend, Search, Recommandation 
 category: portfolio
 photo: /img/portfolio/piwag.png
-layout: page
+layout: page-separate
 shooting: /img/portfolio/screen/piwag-plateforme-backend-recommandation.jpg
 shootingfx: /img/portfolio/screen/piwag-plateforme-backend-recommandation.jpg
 ---

@@ -5,8 +5,8 @@ title: Hello Tomorrow
 website: http://hello-tomorrow.org
 topic: Search
 category: portfolio
-photo: /img/portfolio/hello-tomorrow.png
-layout: page
+photo: /img/portfolio/hello-tomorrow.jpg
+layout: page-separate
 shooting: /img/portfolio/screen/hello-tomorrow-backend-search-network.jpg
 shootingfx: /img/portfolio/screen/hello-tomorrow-backend-search-network.jpg
 ---

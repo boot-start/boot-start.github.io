@@ -6,7 +6,7 @@ website: http://www.afnor.org/
 topic: Search, Architecture
 category: portfolio
 photo: /img/portfolio/afnor.png
-layout: page
+layout: page-separate
 shooting: /img/portfolio/screen/afnor-search-web.jpg
 shootingfx: /img/portfolio/screen/afnor-search-web.jpg
 ---

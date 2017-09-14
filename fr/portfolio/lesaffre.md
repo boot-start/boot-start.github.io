@@ -6,7 +6,7 @@ website: http://www.lesaffre.com/
 topic: Backend, Frontend, Search
 category: portfolio
 photo: /img/portfolio/lesaffre.png
-layout: page
+layout: page-separate
 shooting: /img/portfolio/screen/lesaffre-ECM-files.jpg
 shootingfx: /img/portfolio/screen/lesaffre-ECM-files.jpg
 ---

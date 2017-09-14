@@ -6,7 +6,7 @@ website: http://goweluxe.com
 topic: Backend, Frontend, Mobile (iOS & Android) 
 category: portfolio
 photo: /img/portfolio/weluxe.png
-layout: page
+layout: page-separate
 shooting: /img/portfolio/screen/weluxe-marketplace-search.jpg
 shootingfx: /img/portfolio/screen/weluxe-marketplace-search.jpg
 ---

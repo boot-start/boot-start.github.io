@@ -859,8 +859,17 @@ body {
 
 .cover {
     width: 100% !important ;
-    margin: 0 0 0 0 !important ;
-    padding: 10 0 -10 0 ;
+    margin: -70px 0 0 0 !important ;
+    padding-top: 70px;
+}
+
+@media (max-width: 1160px) {
+
+.cover {
+    width: 100% !important ;
+    margin: -116px 0 0 0 !important;
+    padding-top: 116px;
+}
 }
 
 .title-pic {
@@ -967,4 +976,9 @@ body {
 
 .spacing {
     margin: 5% 0;
+}
+
+@media (max-width: 900px) {
+.btn-spacing {
+    margin: 4% 30% 1% 30%;
 }
