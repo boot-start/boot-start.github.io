@@ -5,9 +5,14 @@ author: Benjamin Habegger
 description: Équipe d'experts en services IT, web, big data et IA. Lancement de start-ups et digitalisation des PME/ETI
 permalink: /fr/
 language: fr
+call-to-action: yes
+cta-tooltip: Discutons de votre problématique
+contact-link: /fr/#contact
 ---
 
     {% include intro.html %}
+
+    {% include list_subs.html category='segment' %}
 
     {% include list_subs.html category='offer' %}
 
@@ -17,7 +22,7 @@ language: fr
 
     {% include list_subs_grid.html category='portfolio' %}
 
-    {% include list_subs_grid.html category='network' %}
+    {% include list_subs_gridnolink.html category='network' %}
 
     {% include list_subs.html category='products' %}
 

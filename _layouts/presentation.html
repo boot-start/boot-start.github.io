@@ -1,0 +1,93 @@
+---
+layout: bootstrap
+---
+
+<header>
+    {% if page.blog %}
+    <div class="intro-text intro-blog intro-short">
+        <div class="intro-back">
+
+            {% else %}
+
+    <div class="intro-text intro-short">
+        <div class="intro-back">
+
+            {% endif %}
+
+            <div class="container">
+                <div class="media media-ajust">
+                    <div class="media-left">
+                        <a href="#">
+                            {% if page.photo %}
+                            <img src="{{ page.photo }} " class="media-object" alt="{{ page.title }}">
+                            {% endif %}
+
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <div class="intro-heading">{{ page.title }}</div>
+                        <div class="intro-lead-in">{{ page.subtitle }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+    {% if page.illustration %}
+    <img src="{{ page.illustration }}" class="img-responsive cover" alt="{{ page.title }}">
+    {% endif %}
+
+
+    {{ content }}
+
+    {% if page.call-to-action %}
+<div id="call-to-action" class="fixed-icon">
+    <a href="{{ page.contact-link }}">
+        <span class="fa fa-envelope" title="{{ page.cta-tooltip }}">
+        </span>
+    </a>
+</div>
+    {% endif %}
+
+    {% if page.blogauthor %}
+<div class="container navigation">
+    <div class="row">
+
+        <div class="col-lg-1">
+            <div class="img-mini">  <img src="{{ page.miniphoto }}" alt="Benjamin Kaltenbaek" style="width:68px;height:100%;"> </div>
+        </div>
+
+
+
+        <div class="col-lg-6">
+            <div class="author"> {{ page.blogauthor.name }} </div>
+            <div class="author-statut">{{ page.blogauthor.statut }} </div>
+            <div class="author-twitter">
+                <a href="https://twitter.com/{{ page.twitter }}" target="_blank" > <i class="fa fa-twitter" ></i>  {{ page.twauthor.name }}</a>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+    {% endif %}
+
+<div class="container navigation">
+    <div class="row">
+
+        {% if page.prev %}
+        <div class="col-lg-6 text-center">
+            <a href="{{ page.prev.url }}" class="btn btn-sample" role="button"><i class="glyphicon glyphicon-triangle-left" ></i>  {{ page.prev.title }}</a>
+        </div>
+    {% endif %}
+
+
+    {% if page.next %}
+        <div class="col-lg-6 text-center">
+            <a href="{{ page.next.url }}" class="btn btn-sample" role="button">{{ page.next.title }}  <i class="glyphicon glyphicon-triangle-right" ></i></a>
+        </div>
+    {% endif %}
+
+    </div>
+    <br><br><br><br><br>

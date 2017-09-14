@@ -21,9 +21,6 @@ layout: bootstrap
                             {% if page.photo %}
                             <img src="{{ page.photo }} " class="media-object" alt="">
                             {% endif %}
-                            {% if page.icon %}
-                            <i class="fa fa-{{page.icon}} fa-5x"></i>
-                            {% endif %}
                         </a>
                     </div>
                     <div class="media-body">
@@ -49,23 +46,19 @@ layout: bootstrap
     </article>
 
     {% else %}
-    <div class="col-md-6">
+
     <article class="post-content">
-    {{ content }}
+        {{ content }}
     </article>
-    </div>
-    <div class="col-md-6">
-        <img src="{{ page.shooting }}" class="img-team">
-    </div>
     {% endif %}
 
     {% if page.call-to-action %}
-<div id="call-to-action" class="fixed-icon">
-    <a href="{{ page.contact-link }}">
-        <span class="fa fa-envelope" title="{{ page.cta-tooltip }}">
-        </span>
-    </a>
-</div>
+    <div id="call-to-action" class="fixed-icon hide">
+        <a href="{{ page.contact-link }}">
+            <span class="fa fa-envelope" title="{{ page.cta-tooltip }}">
+            </span>
+        </a>
+    </div>
     {% endif %}
 
     {% if page.blogauthor %}
@@ -109,3 +102,4 @@ layout: bootstrap
 
     </div>
 </div>
+    <br><br><br><br><br>

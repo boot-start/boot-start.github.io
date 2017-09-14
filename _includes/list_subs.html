@@ -13,7 +13,7 @@
                 {% assign modulo = (forloop.index0 | mod:3) %}
                 {% assign offset = (forloop.length - forloop.index0) %}
                 <div class="col-md-4 {% if modulo==0 and offset==2 %}col-md-offset-2{% endif %} {% if modulo==0 and offset==1 %}col-md-offset-4{% endif %}">
-                    <span class="fa-stack fa-4x">
+                    <span class="fa-stack fa-4x fa-hov">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <a href="{{ subpage.url }}"><i class="fa fa-{{ subpage.icon }} fa-stack-1x fa-inverse"></i></a>
                     </span>
@@ -21,7 +21,7 @@
                     <p class="text-muted justify">
                     {{ subpage.description }}
                     </p>
-                    <p style="text-algin: center"><a href="{{ subpage.url }}">{{ site.t[page.language].more }} ...</a></p>
+                    <p style="text-align: center"><a href="{{ subpage.url }}">{{ site.t[page.language].more }} ...</a></p>
                 </div>
                 {% endfor %}
             </div>

@@ -88,18 +88,60 @@ defaults:
      layout: page
  -
    scope:
+     path: "fr/segment"
+   values:
+     language: fr
+     category: segment
+     layout: page
+ -
+    scope:
+      path: "en/segment"
+    values:
+      language: en
+      category: pme
+      layout: page
+ -
+   scope:
+     path: "fr/presentation"
+   values:
+     language: fr
+     category: presentation
+     layout: presentation
+ -
+   scope:
+     path: "en/presentation"
+   values:
+     language: en
+     category: presentation
+     layout: presentation
+ -
+   scope:
+     path: "fr/pme"
+   values:
+     language: fr
+     category: pme
+     layout: presentation
+ -
+   scope:
+     path: "en/pme"
+   values:
+     language: en
+     category: pme
+     layout: presentation
+ -
+   scope:
      path: "en/team"
    values:
      language: en
      category: team
-     layout: page
+     layout: page-separate
  -
    scope:
       path: "fr/team"
    values:
       language: fr
       category: team
-      layout: page
+      layout: page-separate
  -
    scope:
      path: "en/technologies"
@@ -116,18 +158,32 @@ defaults:
      layout: page
  -
    scope:
+     path: "en/technologies-less"
+   values:
+     language: en
+     category: technologies-less
+     layout: page
+ -
+   scope:
+     path: "fr/technologies-less"
+   values:
+     language: fr
+     category: technologies-less
+     layout: page
+ -
+   scope:
      path: "en/portfolio"
    values:
      language: en
      category: portfolio
-     layout: page
+     layout: page-separate
  -
    scope:
      path: "fr/portfolio"
    values:
      language: fr
      category: portfolio
-     layout: page
+     layout: page-separate
  -
    scope:
      path: "fr/network"
@@ -193,12 +249,12 @@ t:
     more: more
     menu:
       home: Home
-      service: Services
+      service: Offers
       products: Products
       expertise: Expertise
-      project: Whole Project
+      project: Your project
       team: Team
-      portfolio: Portfolio
+      portfolio: References
       contact: Contact
       jobs: Jobs
       news: News
@@ -211,15 +267,6 @@ t:
     project:
       heading: "We help and develop your inovative project"
       subheading: "Our job is to build the most adapted and user-friendly solution "
-      advice:
-        heading: "Advices and strategy"
-        subheading: "We bring you a vision about all the possibilities and suggestions according to your strategy"
-      poc:
-        heading: "Proof Of Concept"
-        subheading: "You can test fastly your project with a fonctional prototype"
-      integration:
-        heading: "Developement and Integration"
-        subheading: "We create with you the solution you need by integrating our powerful technologies or product"
       expertise:
         heading: "Our super powers"
         subheading: "Above all, Boot-Start is a team with complementaries and advanced skills"
@@ -245,11 +292,14 @@ t:
       heading: "Services"
       subheading: "We have a wide scope of tasks we can help you get done."
     portfolio:
-      heading: "Portfolio"
+      heading: "References"
       subheading: "They trust us and we helped them get things done."
     provinews:
       heading: "News"
       subheading: "News about our company, data science and big-data "
+    technologies:
+      heading: "Our technology stack"
+      subheading: "Boot-start's ingineers are experts on these technologies"
     team:
       heading: "Our Amazing Team"
       subheading: "Dedicated to make the best out of few."
@@ -279,11 +329,13 @@ t:
     menu:
       home: Accueil
       service: Services
-      project: Accompagnement
       products: Produits
       expertise: Expertise
+      pme: PME/ETI
+      startup: Start up
+      gc: Grands comptes
       team: Equipe
-      portfolio: Portfolio
+      portfolio: Références
       contact: Contact
       jobs: Emploi
       news: News
@@ -294,7 +346,7 @@ t:
       heading: "Services"
       subheading: "Nous avons un large panel de tâches que nous pouvons vous aider à accomplir."
     project:
-      heading: "Nous accompagnons et développons pour vous votre projet innovant "
+      heading: " Notre accompagnement "
       subheading: "Notre métier est de vous construire la solution la plus adaptée et fonctionnelle"
       advice:
         heading: "Conseil et stratégie"
@@ -305,12 +357,15 @@ t:
       integration:
         heading: " Développement et Intégration"
         subheading: "Notre métier est de vous construire le produit le plus adapté et efficace"
-      expertise:
-        heading: " Nos super pouvoirs"
-        subheading: "Boot-Start c'est avant tout des compétences pointues et complémentaires"
-      products:
-        heading: " Nos super produits"
-        subheading: "Voici des produits déjà développés par Boot-Start et que nous pouvons intégrer chez vous"
+    segment:
+      heading: " Nos prestations "
+      subheading: " Notre savoir-faire est apprécié par des entreprises de natures différentes, nous avons mis au point des offres adaptées au contexte de nos clients. "
+    expertise:
+      heading: " Nos super pouvoirs"
+      subheading: "Boot-Start c'est avant tout des compétences pointues et complémentaires"
+    products:
+      heading: " Nos super produits"
+      subheading: "Voici des produits déjà développés par Boot-Start et que nous pouvons intégrer chez vous"
     products:
       heading: "Produits"
       subheading: "Nos produits sont systématiquement personnalisés selon l'entreprise et les données traitées"
@@ -329,9 +384,12 @@ t:
     technologies:
       heading: "Notre stack technologique"
       subheading: "Voici une liste non exhaustive des technologies que nous utilisons"
+    technologies-less:
+      heading: "Autres technologies"
+      subheading: "Nous pouvons également travailler avec les technologies suivantes"
     portfolio:
-      heading: "Portfolio"
-      subheading: "Ils nous font confiance et nous les avons aidés à concrétiser leurs idées."
+      heading: "Références"
+      subheading: "Ils nous font confiance et nous les avons aidé à concrétiser leurs idées."
     network:
       heading: "Réseaux"
       subheading: "Nous appartenons aux réseaux suivants"

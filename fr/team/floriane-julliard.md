@@ -8,6 +8,7 @@ category: team
 linkedin: floriane-julliard
 permalink: /fr/team/floriane-julliard
 shooting: /img/team/originaux/floriane-design-ux.jpg
+shootingfx: /img/team/montages/floflo-boot-start-lyon.jpg
 ---
 A la suite d’un DUT MMI (Métiers du Multimedia et de l’Internet), Floriane a intégré e-artsup afin d’élargir et de perfectionner
 sa vision artistique. Passionnée autant par la photographie que la mécanique,

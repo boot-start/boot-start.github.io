@@ -1,4 +1,0 @@
----
-category: project
-subcategory: poc
----
