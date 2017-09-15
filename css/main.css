@@ -132,10 +132,10 @@ height: 50vh !important;
 }
 
 .navbar-default .nav li a, .navbar-shrink.navbar-default .nav li.dropdown.open a {
-   color: #272F35 !important;
+   color: #272F35;
 }
-.navbar-shrink.navbar-default .nav li a {
-   color: white !important;
+.navbar-shrink .nav li a {
+   color: white;
 }
 
 
