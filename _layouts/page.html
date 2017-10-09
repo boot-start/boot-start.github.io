@@ -40,6 +40,12 @@ layout: bootstrap
     <img src="{{ page.illustration }}" class="img-responsive" alt="">
     {% endif %}
 
+    {% if page.video-link %}
+    <div class="embed-responsive embed-responsive-16by9" >
+        <iframe class="embed-responsive-item" src="{{ page.video-link }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+    {% endif %}
+
     {% if page.blog %}
     <article class="blog-content">
     {{ content }}
@@ -52,11 +58,23 @@ layout: bootstrap
     </article>
     {% endif %}
 
+    {% if page.illustration2 %}
+     <img src="{{ page.illustration2 }}" class="img-responsive" alt="">
+    {% endif %}
+
     {% if page.call-to-action %}
     <div id="call-to-action" class="fixed-icon hide">
         <a href="{{ page.contact-link }}">
             <span class="fa fa-envelope" title="{{ page.cta-tooltip }}">
             </span>
+        </a>
+    </div>
+    {% endif %}
+
+    {% if page.call-to-audit %}
+    <div id="call-to-audit" class="fixed-audit hide-cta">
+        <a  href="{{ page.audit-link }}">
+            <img class="cta-pic" src="{{ page.cta-path }}" title="{{ page.cta-tooltip }}" >
         </a>
     </div>
     {% endif %}

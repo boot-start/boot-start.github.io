@@ -123,6 +123,13 @@ defaults:
      layout: presentation
  -
    scope:
+     path: "fr/top-offer"
+   values:
+     language: fr
+     category: top-offer
+     layout: page-top-offer
+ -
+   scope:
      path: "en/pme"
    values:
      language: en

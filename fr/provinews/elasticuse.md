@@ -1,10 +1,10 @@
 ---
-slug: transformation
+slug: elasticsearch
 title: Elasticsearch et service numérique
 description: L'utilisation de la suite Elastic chez Boot-Start
 category: provinews
 photo: /img/tech/elasticsearch.png
-illustration: /img/provinews/elastic-search-bigdata-bootstart.png
+illustration2: /img/provinews/elastic-search-bigdata-bootstart.png
 prev:
     title: "Article précédent: Enjeux de l'IA"
     url: ../../fr/blog/intelligence-artificielle-2017
@@ -19,6 +19,7 @@ call-to-action: yes
 cta-tooltip: Cliquez ici pour contacter nos experts
 contact-link: /fr/#contact
 permalink: fr/blog/elastic_search_expertise
+video-link: https://www.youtube.com/embed/U0EhWcweSQ0?rel=0html5=1
 ---
 
 <br><br><br>

@@ -1,0 +1,160 @@
+---
+layout: bootstrap
+---
+
+<header>
+    {% if page.blog %}
+    <div class="intro-text intro-blog intro-short">
+        <div class="intro-back">
+
+            {% else %}
+
+    <div class="intro-text intro-short">
+        <div class="intro-back">
+
+            {% endif %}
+
+
+
+            <div class="container">
+                <div class="media media-ajust">
+                    <div class="media-left">
+                        <a href="#">
+                            {% if page.photo %}
+                            <img src="{{ page.photo }} " class="media-object" alt="">
+                            {% endif %}
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <div class="intro-heading">{{ page.title }}</div>
+                        <div class="intro-lead-in">{{ page.subtitle }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    {% if page.illu-cover %}
+
+    <section class="img-cover no-padding">
+
+
+        <img src="{{ page.illu-cover }} " style="width:100% !important;" alt=" audits numériques express de Boot-Start">
+
+    {% endif %}
+
+        <br><br><br><br>
+
+        <h2 class="expertise-title"> Plateforme de gestion de données et informations internes </h2>
+
+        <h2 class="expertise-title"> Plateforme en ligne incluant des fonctionnalités avancées </h2>
+
+        <h2 class="expertise-title"> Moteur de recommandation </h2>
+
+        <h2 class="expertise-title"> Automatisation de la collecte, du tri, du reporting de données </h2>
+
+        <h2 class="expertise-title"> Analyse predictive (causes de comportements et tendances futures) </h2>
+
+    {% if page.button-link %}
+
+        <br><br><br><br><br>
+
+        <div class="container">
+            <div id="button-audit" class="button-audit">
+                <a href="{{ page.button-link }}" target="_blank" class="bnt btn-xl"> Prendre un RDV </a>
+            </div>
+        </div>
+
+    </section>
+
+    {% endif %}
+
+<div class="container">
+    {% if page.illustration %}
+    <img src="{{ page.illustration }}" class="img-responsive" alt="">
+    {% endif %}
+
+    {% if page.video-link %}
+    <div class="embed-responsive embed-responsive-16by9" >
+        <iframe class="embed-responsive-item" src="{{ page.video-link }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+    {% endif %}
+
+    {% if page.blog %}
+    <article class="blog-content">
+    {{ content }}
+    </article>
+
+    {% else %}
+
+    <article class="post-content">
+        {{ content }}
+    </article>
+    {% endif %}
+
+    {% if page.illustration2 %}
+     <img src="{{ page.illustration2 }}" class="img-responsive" alt="">
+    {% endif %}
+
+    {% if page.call-to-action %}
+    <div id="call-to-action" class="fixed-icon hide">
+        <a href="{{ page.contact-link }}">
+            <span class="fa fa-envelope" title="{{ page.cta-tooltip }}">
+            </span>
+        </a>
+    </div>
+    {% endif %}
+
+    {% if page.call-to-audit %}
+    <div id="call-to-audit" class="fixed-audit hide-audit">
+        <a href="{{ page.audit-link }}">
+            <span class="fa fa-circle fa-5x" title="{{ page.cta-tooltip }}"> Votre audit express offert
+            </span>
+        </a>
+    </div>
+    {% endif %}
+
+    {% if page.blogauthor %}
+<div class="container navigation">
+    <div class="row">
+
+        <div class="col-lg-1">
+            <div class="img-mini">  <img src="{{ page.miniphoto }}" alt="Benjamin Kaltenbaek" style="width:68px;height:100%;"> </div>
+        </div>
+
+
+
+        <div class="col-lg-6">
+            <div class="author"> {{ page.blogauthor.name }} </div>
+            <div class="author-statut">{{ page.blogauthor.statut }} </div>
+            <div class="author-twitter">
+                <a href="https://twitter.com/{{ page.twitter }}" target="_blank" > <i class="fa fa-twitter" ></i>  {{ page.twauthor.name }}</a>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+    {% endif %}
+
+<div class="container navigation">
+    <div class="row">
+
+        {% if page.prev %}
+        <div class="col-lg-6 text-center">
+            <a href="{{ page.prev.url }}" class="btn btn-sample" role="button"><i class="glyphicon glyphicon-triangle-left" ></i>  {{ page.prev.title }}</a>
+        </div>
+    {% endif %}
+
+
+    {% if page.next %}
+        <div class="col-lg-6 text-center">
+            <a href="{{ page.next.url }}" class="btn btn-sample" role="button">{{ page.next.title }}  <i class="glyphicon glyphicon-triangle-right" ></i></a>
+        </div>
+    {% endif %}
+
+    </div>
+</div>
+    <br><br><br><br><br>

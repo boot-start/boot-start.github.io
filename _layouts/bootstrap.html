@@ -80,10 +80,18 @@
     {% include nav.html %}
     {% include analytics/google-tag.html %}
     {% if page.call-to-action %}
-    <div id="call-to-action" class="fixed-icon">
+    <div id="call-to-action" class="fixed-icon hide-cta">
         <a href="{{ page.contact-link }}">
         <span class="fa fa-envelope" title="{{ page.cta-tooltip }}">
         </span>
+        </a>
+    </div>
+    {% endif %}
+
+    {% if page.call-to-audit %}
+    <div id="call-to-audit" class="fixed-audit hide-cta">
+        <a  href="{{ page.audit-link }}">
+            <img class="cta-pic" src="{{ page.cta-path }}" title="{{ page.cta-tooltip }}" >
         </a>
     </div>
     {% endif %}

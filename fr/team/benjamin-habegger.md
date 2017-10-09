@@ -3,7 +3,6 @@ title: Benjamin Habegger
 arrival: 2014-04
 role: CEO
 photo: /img/team/benjamin.jpg
-layout: page
 category: team
 facebook: benj.habegger
 linkedin: benjaminhabegger
@@ -11,6 +10,7 @@ twitter: b_habegger
 permalink: /fr/team/benjamin-habegger/
 shooting: /img/team/originaux/benjamin-phd-data-science-bigdata.jpg
 shootingfx: /img/team/montages/benjamin-boot-start-lyon.jpg
+video-link: https://www.youtube.com/embed/U0EhWcweSQ0?rel=0html5=1
 ---
 Benjamin Habegger est un entrepreneur avec un parcours à la fois scientifique, technique et
 entrepreneurial. Il possède une thèse en informatique et est un expert dans le traitement des données
