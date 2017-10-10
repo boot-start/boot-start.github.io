@@ -1077,6 +1077,7 @@ body {
 	position:fixed;
 	bottom:30px;
 	right:30px;
+	text-decoration:none;
 }
 
 .audit svg{
@@ -1115,7 +1116,7 @@ body {
 	position:relative;
 	height:170px;
 	width:170px;
-	background:#c11759;
+	background:#272f35;
 	border-radius:500px;
 	color:white;
 	display: table-cell;
