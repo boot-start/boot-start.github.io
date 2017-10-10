@@ -63,7 +63,7 @@ layout: bootstrap
 
         <div class="container">
             <div id="button-audit" class="button-audit">
-                <a href="{{ page.button-link }}" target="_blank" class="bnt btn-xl"> Prendre un RDV </a>
+                <a href="{{ page.button-link }}" onClick="_gaq.push(['_trackEvent', 'Lead', 'Clic', 'Calendly']);" target="_blank" class="bnt btn-xl"> Prendre un RDV </a>
             </div>
         </div>
 
