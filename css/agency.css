@@ -1068,3 +1068,104 @@ body {
 .no-padding {
     padding: 0 !important ;
 }
+
+.audit{
+	height:210px;
+	width:210px;
+	text-align:center;
+	box-sizing:border-box;
+	position:fixed;
+	bottom:30px;
+	right:30px;
+}
+
+.audit svg{
+	box-sizing:border-box;
+	display:block;
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+  	animation-name: slidein;
+  	animation-iteration-count: infinite;
+  	opacity:0.8;
+}
+
+.audit:hover svg{
+	opacity:1;
+}
+
+@keyframes slidein {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.audit div{
+	box-sizing:border-box;
+	top:20px;
+	left:20px;
+	position:relative;
+	height:170px;
+	width:170px;
+	background:#c11759;
+	border-radius:500px;
+	color:white;
+	display: table-cell;
+  	vertical-align: middle;
+  	transition:opacity 0.2s;
+  	opacity:0.5;
+}
+
+.audit div:hover{
+	opacity:1;
+	cursor:pointer;
+}
+
+
+.audit h1{
+	width:130px;
+	left:20px;
+	position:relative;
+	font-size:16px;
+	margin:0;
+	padding:0;
+	font-weight: 300 ;
+	text-transform: none ;
+	font-family: "montserrat" ;
+	font-style: italic ;
+	letter-spacing: 3px;
+	line-height: 110% ;
+
+}
+
+@media (min-width:1024px) and (max-width: 1525px) {
+    .audit{
+        height:110px;
+        width:110px;
+        bottom:30px;
+        right:30px;
+    }
+
+    .audit div{
+        top:10px;
+        left:10px;
+        height:90px;
+        width:90px;
+    }
+
+    .audit h1{
+        width:70px;
+        left:10px;
+        font-size:10px;
+        letter-spacing: 3px;
+        line-height: 110% ;
+    }
+}
