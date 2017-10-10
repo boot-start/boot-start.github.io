@@ -1123,11 +1123,13 @@ body {
   	vertical-align: middle;
   	transition:opacity 0.2s;
   	opacity:0.5;
+  	text-decoration:none;
 }
 
 .audit div:hover{
 	opacity:1;
 	cursor:pointer;
+	text-decoration: none !important ;
 }
 
 
@@ -1144,6 +1146,7 @@ body {
 	font-style: italic ;
 	letter-spacing: 3px;
 	line-height: 110% ;
+	text-decoration:none;
 
 }
 
@@ -1153,6 +1156,7 @@ body {
         width:110px;
         bottom:30px;
         right:30px;
+        text-decoration:none;
     }
 
     .audit div{
@@ -1160,6 +1164,7 @@ body {
         left:10px;
         height:90px;
         width:90px;
+        text-decoration:none;
     }
 
     .audit h1{
@@ -1168,5 +1173,6 @@ body {
         font-size:10px;
         letter-spacing: 3px;
         line-height: 110% ;
+        text-decoration:none;
     }
 }
