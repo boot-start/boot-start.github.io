@@ -7,7 +7,6 @@ photo: /img/team/geo.jpg
 category: team
 linkedin: geoffrey-ljubanovic-121b406a
 permalink: /fr/team/geoffrey-ljubanovic
-layout: page
 shooting: /img/team/originaux/etienne-developpeur-junior-insa-lyon.jpg
 shootingfx: /img/team/montages/etienne-boot-start-lyon.jpg
 ---

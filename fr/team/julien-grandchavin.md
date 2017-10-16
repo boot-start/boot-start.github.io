@@ -8,7 +8,6 @@ category: team
 linkedin: juliengrandchavin
 twitter: jgrandchavin
 permalink: /fr/team/julien-grand-chavin
-layout: page
 shooting: /img/team/originaux/etienne-developpeur-junior-insa-lyon.jpg
 shootingfx: /img/team/montages/etienne-boot-start-lyon.jpg
 ---

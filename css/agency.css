@@ -1054,19 +1054,35 @@ body {
     text-align:center ;
 }
 
-.expertise-title {
+.expertise-title, .expertise-title h1, .expertise-title h2, .expertise-title h3 {
 
-    font-size: 20px ;
     text-transform: none ;
     font-style: normal ;
     text-align: center;
-    font-weight: normal ;
-    font-family: montserrat ;
+    font-weight: normal  ;
+    font-family: montserrat;
 
 }
 
-.no-padding {
-    padding: 0 !important ;
+h2.expertise-title  {
+ font-size: 20px !important ;
+ }
+
+
+.margin-center {
+    margin: 0 20% !important;
+
+}
+
+.no-padding-verti {
+    padding-top: 0 !important ;
+    padding-bottom: 0 !important ;
+}
+
+.no-padding-hori {
+    padding-right: 0 !important ;
+    padding-left: 0 !important ;
+
 }
 
 .audit{
@@ -1176,3 +1192,23 @@ body {
         text-decoration:none;
     }
 }
+
+    .space-top {
+        margin-top: 8%
+    }
+
+     .space-bottom {
+            margin-bottom: 8%
+        }
+
+     .half-space-bottom {
+                 margin-bottom: 4%
+             }
+
+    .half-space-top {
+            margin-top: 4%
+        }
+
+    .just {
+     text-align: justify ;
+    }

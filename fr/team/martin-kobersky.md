@@ -7,7 +7,6 @@ photo: /img/team/martin.jpg
 category: team
 linkedin: martin-koběrský-009b1a58
 permalink: /fr/team/martin-kobersky
-layout: page
 shooting: /img/team/originaux/etienne-developpeur-junior-insa-lyon.jpg
 shootingfx: /img/team/montages/etienne-boot-start-lyon.jpg
 ---
