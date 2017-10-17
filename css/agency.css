@@ -1212,3 +1212,8 @@ h2.expertise-title  {
     .just {
      text-align: justify ;
     }
+
+    .text-cta:hover {
+        text-decoration:none !important ;
+        color:white ;
+    }

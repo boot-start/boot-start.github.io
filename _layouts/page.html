@@ -35,7 +35,6 @@ layout: bootstrap
 
 <br><br><br><br><br><br><br>
 
-<a class="container">
     {% if page.illustration %}
     <img src="{{ page.illustration }}" class="img-responsive" alt="">
     {% endif %}
@@ -71,15 +70,15 @@ layout: bootstrap
     </div>
     {% endif %}
 
-    {% if page.call-to-audit %}
+   <!-- {% if page.call-to-audit %}
     <div id="call-to-audit" class="fixed-audit hide-cta">
         <a  href="{{ page.audit-link }}">
             <img class="cta-pic" src="{{ page.cta-path }}" title="{{ page.cta-tooltip }}" >
         </a>
     </div>
     {% endif %}
-
-    {% if page.cta-moove %}
+-->
+    {% if page.call-to-audit %}
 
     <a href="{{ page.audit-link }}" target="_blank" class="audit fixed-audit hide-cta">
 
@@ -89,7 +88,7 @@ layout: bootstrap
 
         <div>
             <h1>
-                Et si on vous offrait un audit express ?
+                {{ cta-tooltip }}
             </h1>
         </div>
 
