@@ -7,36 +7,31 @@ layout: bootstrap
 
     {% if page.illu-cover %}
 
-    <section class="no-padding-hori">
 
 
-        <img src="{{ page.illu-cover }} " class="img-cover" style="width:100% !important;" alt=" audits numériques express de Boot-Start">
+        <img src="{{ page.illu-cover }} " class="img-cover half-space-top" style="width:100% !important;" alt=" audits numériques express de Boot-Start">
 
-    </section>
 
     {% endif %}
 
-        <section>
+        <div>
+
+            {% if page.button-audit %}
+
+            <div class="container" style="margin-bottom:0px !important ;" >
+                <div id="button-audit" class="button-audit">
+                    <a href="{{ page.button-link }}" onClick="_gaq.push(['_trackEvent', 'Lead', 'Clic', 'Calendly']);" target="_blank" class="bnt btn-xl"> {{ page.cta-tooltip }}  </a>
+                    <p class="text-quote" style="margin-top:15px !important ;"> (C'est gratuit et on a du bon café) </p>
+                </div>
+            </div>
+
+            {% endif %}
 
         <div class="half-space-top"> {{ content }} </div>
 
-        </section>
-
-    {% if page.button-XXXX %}
-
-
-        <section>
-
-        <div class="container space-top" style="padding-top:700px !important;">
-            <div id="button-audit" class="button-audit">
-                <a href="{{ page.button-link }}" onClick="_gaq.push(['_trackEvent', 'Lead', 'Clic', 'Calendly']);" target="_blank" class="bnt btn-xl"> Prendre un RDV </a>
-            </div>
         </div>
 
-        </section>
 
-
-    {% endif %}
 
 <div class="container">
     {% if page.illustration %}

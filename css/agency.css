@@ -1062,11 +1062,16 @@ body {
     font-weight: normal  ;
     font-family: montserrat;
 
+
 }
 
 h2.expertise-title  {
  font-size: 20px !important ;
  }
+
+ h3.expertise-title  {
+  font-size: 15px !important ;
+  }
 
 
 .margin-center {
@@ -1216,4 +1221,11 @@ h2.expertise-title  {
     .text-cta:hover {
         text-decoration:none !important ;
         color:white ;
+    }
+
+    .text-quote  {
+        margin: 2% 25% 8% 25%;
+        text-align: center !important;
+        font-style: italic;
+        line-height: 2;
     }
