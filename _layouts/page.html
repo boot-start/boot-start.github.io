@@ -47,9 +47,12 @@ layout: bootstrap
     {% endif %}
 
     {% if page.blog %}
+
+    <div class="container">
     <article class="blog-content">
     {{ content }}
     </article>
+    </div>
 
     {% else %}
 
@@ -93,9 +96,10 @@ layout: bootstrap
             </h1>
         </div>
 
+    </div>
         {% endif %}
 
-    </div>
+
 
     {% if page.blogauthor %}
 <div class="container navigation">  

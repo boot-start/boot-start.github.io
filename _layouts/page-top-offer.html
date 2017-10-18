@@ -9,7 +9,8 @@ layout: bootstrap
 
 
 
-        <img src="{{ page.illu-cover }} " class="img-cover half-space-top" style="width:100% !important;" alt=" audits numériques express de Boot-Start">
+        <img src="{{ page.illu-cover }} " class="img-cover half-space-top img-computer" style="width:100% !important;" alt=" audits numériques express de Boot-Start">
+        <img src="{{ page.illu-cover2 }} " class="img-cover half-space-top img-mobile" style="width:100% !important;" alt=" audits numériques express de Boot-Start">
 
 
     {% endif %}
@@ -18,10 +19,10 @@ layout: bootstrap
 
             {% if page.button-audit %}
 
-            <div class="container" style="margin-bottom:0px !important ;" >
+            <div class="container mobile-space-top" style="margin-bottom:0px !important ;" >
                 <div id="button-audit" class="button-audit">
                     <a href="{{ page.button-link }}" onClick="_gaq.push(['_trackEvent', 'Lead', 'Clic', 'Calendly']);" target="_blank" class="bnt btn-xl"> {{ page.cta-tooltip }}  </a>
-                    <p class="text-quote" style="margin-top:15px !important ;"> (C'est gratuit et on a du bon café) </p>
+                    <p class="text-quote" style="margin-top:15px !important ;"> {{ page.subtooltip }} </p>
                 </div>
             </div>
 

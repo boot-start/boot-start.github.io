@@ -1224,8 +1224,35 @@ h2.expertise-title  {
     }
 
     .text-quote  {
-        margin: 2% 25% 8% 25%;
+        margin: -8% 15% 8% 15%;
         text-align: center !important;
-        font-style: italic;
         line-height: 2;
     }
+
+    @media (min-width:1024px)
+       {
+        .img-mobile{
+            display:none ;
+    }
+        .img-computer{
+                    visibility:visible ;
+             }
+          }
+
+        @media (max-width:1024px)
+            {
+                .img-mobile {
+                    visibility: visible ;
+                }
+                .img-computer {
+                    visibility: hidden ;
+                }
+            }
+
+        @media (max-width:1024px)
+                    {
+                        .mobile-space-top {
+                         margin-top: 8%    ;
+                        }
+
+                    }
