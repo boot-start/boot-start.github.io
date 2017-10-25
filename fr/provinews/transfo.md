@@ -4,7 +4,7 @@ title: C'est quoi concrètement, la transformation digitale ?
 description: 3 évolutions à appliquer en interne
 category: provinews
 photo: /img/provinews/transfo.jpg
-illustration: /img/provinews/knowledge-management-data.jpg
+illustration: /img/data-management-boot-start.jpg
 prev:
     title: "Article précédent: Enjeux de l'IA"
     url: ../../fr/blog/intelligence-artificielle-2017
