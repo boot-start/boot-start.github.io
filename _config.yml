@@ -74,6 +74,13 @@ defaults:
      layout: page
  -
    scope:
+     path: "fr/expertise-uni"
+   values:
+     language: fr
+     category: expertise-uni
+     layout: page
+ -
+   scope:
      path: "fr/project"
    values:
      language: fr
@@ -368,6 +375,9 @@ t:
       heading: " Nos prestations "
       subheading: " Notre savoir-faire est apprécié par des entreprises de natures différentes, nous avons mis au point des offres adaptées au contexte de nos clients. "
     expertise:
+      heading: " Nos super pouvoirs"
+      subheading: "Boot-Start c'est avant tout des compétences pointues et complémentaires"
+    expertise-edu:
       heading: " Nos super pouvoirs"
       subheading: "Boot-Start c'est avant tout des compétences pointues et complémentaires"
     products:

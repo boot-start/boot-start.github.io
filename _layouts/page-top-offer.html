@@ -1,16 +1,26 @@
 ---
-layout: bootstrap
+layout: bootstrap-landing
 ---
 
 
 
-
-    {% if page.illu-cover %}
-
+{% if page.logo-cover %}
 
 
-        <img src="{{ page.illu-cover }} " class="img-cover half-space-top img-computer" style="width:100% !important;" alt=" audits numériques express de Boot-Start">
-        <img src="{{ page.illu-cover2 }} " class="img-cover half-space-top img-mobile" style="width:100% !important;" alt=" audits numériques express de Boot-Start">
+
+<img src="{{ page.logo-cover }} " class="img-responsive half-space-top" style="width:20%; height: auto ; padding-left: 20%;" alt="audits numériques express de Boot-Start">
+
+
+{% endif %}
+
+
+
+{% if page.illu-cover %}
+
+
+
+        <img src="{{ page.illu-cover }} " class=" half-space-top img-computer" style="width:70% !important; margin-left:15%!important; z-index:-1;" alt=" audits numériques express de Boot-Start">
+        <img src="{{ page.illu-cover2 }} " class="img-cover half-space-top img-mobile" style="width:70% !important; margin-left:15%!important; z-index:-1;" alt=" audits numériques express de Boot-Start">
 
 
     {% endif %}

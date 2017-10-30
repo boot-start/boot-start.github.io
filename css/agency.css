@@ -1256,3 +1256,56 @@ h2.expertise-title  {
                         }
 
                     }
+
+/* Décor de la page audit */
+
+
+.audit-content {
+    /* width: 50%; */
+    /* margin: auto; */
+    /* text-align: center; */
+    padding-top: 50px;
+    padding-left: 10%;
+    /* font-size: 18px; */
+}
+
+.audit-img{
+    width:80%;
+    z-index: -1 ;
+}
+
+.audit-svg-left, .audit-svg-right{
+    width:15%;
+    position:fixed;
+    top:0;
+}
+
+.audit-svg-left{
+    left:0;
+     z-index: -1 ;
+}
+
+.audit-svg-right{
+    right:0;
+     z-index: -1 ;
+}
+
+ /* fin du décor audit */
+.space-expertise{
+    width:80%;
+    padding-left: 5%;
+}
+.space-expertise .container {
+
+    width:100% !important;
+
+}
+
+@media (max-width:1000px)  {
+.width-resp {
+
+    width: 80% !important ;
+
+
+}
+}
