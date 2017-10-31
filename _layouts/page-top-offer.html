@@ -31,7 +31,7 @@ layout: bootstrap-landing
 
             <div class="container mobile-space-top" style="margin-bottom:0px !important ;" >
                 <div id="button-audit" class="button-audit">
-                    <a href="{{ page.button-link }}" onClick="_gaq.push(['_trackEvent', 'Lead', 'Clic', 'Calendly']);" target="_blank" class="bnt btn-xl"> {{ page.cta-tooltip }}  </a>
+                    <a href="{{ page.button-link }}" onClick="ga('send', 'event', 'Offers', 'click', 'Audit Express');" target="_blank" class="bnt btn-xl"> {{ page.cta-tooltip }}  </a>
                     <p class="text-quote" style="margin-top:15px !important ;"> {{ page.subtooltip }} </p>
                 </div>
             </div>
