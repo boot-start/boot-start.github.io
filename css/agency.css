@@ -1298,6 +1298,7 @@ h2.expertise-title  {
 .space-expertise .container {
 
     width:100% !important;
+    margin: 0 0 20% 0 !important ;
 
 }
 
@@ -1305,7 +1306,15 @@ h2.expertise-title  {
 .width-resp {
 
     width: 80% !important ;
+    margin: 0 0 20% 0 !important ;
 
 
 }
 }
+
+.speech-startup {
+    text-align: center ;
+    width: 70% ;
+    margin: 5% 15% ;
+
+    }
