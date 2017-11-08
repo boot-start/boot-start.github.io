@@ -3,7 +3,7 @@ slug: freeyourinbox
 end: 2016-01
 title: Free Your Inbox
 website: http://www.freeyourinbox.com/
-topic: Frontend, Backend, Gmail
+topic: Plateforme, Backend, Frontend, API Gmail
 category: portfolio
 photo: /img/portfolio/freeyourinbox.png
 layout: page-separate

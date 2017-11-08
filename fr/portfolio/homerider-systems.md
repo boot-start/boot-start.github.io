@@ -3,7 +3,7 @@ slug: homeridersystems
 end: 2016-09
 title: Homerider Systems
 website: http://www.homeridersystems.com/
-topic: Frontend, Backend, Benching, Mobile (Android & iOS)
+topic: Plateforme, App Mobile (Android & iOS), Backend, Frontend, Benching
 category: portfolio
 photo: /img/portfolio/homeridersystems.png
 layout: page-separate

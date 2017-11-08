@@ -3,7 +3,7 @@ slug: holdies
 end: 2017-
 title: Holdies
 website: https://holdies.com/
-topic: Analyse de données, Recommandation, Classification
+topic: Analyse de données, Recommandation, Classification, Moteur de pricing
 category: portfolio
 photo: /img/portfolio/holdies.png
 layout: page-separate

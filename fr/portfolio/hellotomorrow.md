@@ -3,7 +3,7 @@ slug: hello-tomorrow
 end: 2017-
 title: Hello Tomorrow
 website: http://hello-tomorrow.org
-topic: Search
+topic: Plateforme, Search, Data management, Backend, Frontend, Design, Tracking
 category: portfolio
 photo: /img/portfolio/hello-tomorrow.jpg
 layout: page-separate

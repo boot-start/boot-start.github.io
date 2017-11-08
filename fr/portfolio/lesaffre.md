@@ -3,7 +3,7 @@ slug: lesaffre
 end: 2017-
 title: Lesaffre
 website: http://www.lesaffre.com/
-topic: Backend, Frontend, Search
+topic: Plateforme interne, GED, Cloud, Backend, Frontend, Search, Design
 category: portfolio
 photo: /img/portfolio/lesaffre.png
 layout: page-separate

@@ -3,7 +3,7 @@ slug: weluxe
 end: 2017-
 title: WeLuxe
 website: http://goweluxe.com
-topic: Backend, Frontend, Mobile (iOS & Android) 
+topic: App Mobile (iOS & Android), Backend, Frontend
 category: portfolio
 photo: /img/portfolio/weluxe.png
 layout: page-separate
