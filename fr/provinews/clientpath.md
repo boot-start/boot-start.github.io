@@ -26,6 +26,7 @@ twitter: ben_ktb
 call-to-action: yes
 cta-tooltip: Discutons de votre transformation digitale !
 contact-link: /fr/#contact
+social-img: /img/provinews/digitalisation-relation-client.jpg
 ---
 
 <br><br><br>
