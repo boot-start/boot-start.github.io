@@ -58,6 +58,25 @@ layout: bootstrap
     </div>
     {% endif %}
 
+    {% if page.content-heading %}
+
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-8 text-center">
+            <p class="large text-muted">{{ page.testimony }}</p>
+        </div>
+
+
+
+            <div class="col-lg-12 text-center half-space-top">
+                <h2 class="section-heading"> {{ page.content-heading }} </h2>
+
+                {% include list_subs_grid_selection.html category-alt='ben-content' %}
+            </div>
+        </div>
+    </div>
+        {% endif %}
+
     {% if page.video-link %}
     <br>
     <br>
@@ -80,16 +99,16 @@ layout: bootstrap
     <div class="row">
 
         <div class="col-lg-1">
-            <div class="img-mini">  <img src="{{ page.miniphoto }}" alt="Benjamin Kaltenbaek" style="width:68px;height:100%;"> </div>
+            <div class="img-mini">  <img src="{{ page.blogauthor.miniphoto }}" alt="{{ page.blogauthor.name }}" style="width:68px;height:100%;"> </div>
         </div>
 
 
 
         <div class="col-lg-6">
-            <div class="author"> {{ page.blogauthor.name }} </div>
+            <a class="author" href="{{ blogauthor.link }}"> {{ page.blogauthor.name }} </a>
             <div class="author-statut">{{ page.blogauthor.statut }} </div>
             <div class="author-twitter">
-                <a href="https://twitter.com/{{ page.twitter }}" target="_blank" > <i class="fa fa-twitter" ></i>  {{ page.twauthor.name }}</a>
+                <a href="https://twitter.com/{{ page.blogauthor.twitterlink }}" target="_blank" > <i class="fa fa-twitter" ></i>  {{ page.blogauthor.twitter }}</a>
 
             </div>
         </div>

@@ -101,27 +101,28 @@ layout: bootstrap
 
 
 
+
     {% if page.blogauthor %}
-<div class="container navigation">  
-    <div class="row">
+    <div class="container navigation">
+        <div class="row">
 
-        <div class="col-lg-1">
-            <div class="img-mini">  <img src="{{ page.miniphoto }}" alt="Benjamin Kaltenbaek" style="width:68px;height:100%;"> </div>
-        </div>
-
-
-
-        <div class="col-lg-6">
-            <div class="author"> {{ page.blogauthor.name }} </div>
-            <div class="author-statut">{{ page.blogauthor.statut }} </div>
-            <div class="author-twitter">
-                <a href="https://twitter.com/{{ page.twitter }}" target="_blank" > <i class="fa fa-twitter" ></i>  {{ page.twauthor.name }}</a>
-
+            <div class="col-lg-1">
+                <div class="img-mini">  <img src="{{ page.blogauthor.miniphoto }}" alt="{{ page.blogauthor.name }}" style="width:68px;height:100%;"> </div>
             </div>
-        </div>
 
+
+
+            <div class="col-lg-6">
+                <a class="author" href="{{ page.blogauthor.link }}"> {{ page.blogauthor.name }} </a>
+                <div class="author-statut">{{ page.blogauthor.statut }} </div>
+                <div class="author-twitter">
+                    <a href="https://twitter.com/{{ page.blogauthor.twitterlink }}" target="_blank" > <i class="fa fa-twitter" ></i>  {{ page.blogauthor.twitter }}</a>
+
+                </div>
+            </div>
+
+        </div>
     </div>
-</div>
     {% endif %}
 
 <div class="container navigation">

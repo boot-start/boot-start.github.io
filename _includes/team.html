@@ -7,6 +7,7 @@
                     <h3 class="section-subheading text-muted">{{ site.t[page.language].team.subheading }}</h3>
                 </div>
             </div>
+
             <div class="row">
 		        {% assign sorted_pages = (site.pages | sort: 'arrival') %}
                 {% for member in sorted_pages %}
@@ -15,7 +16,7 @@
                     <div class="team-member">
                         <a href="{{ member.url }}"><img src="{{ member.photo }} " class="img-responsive img-circle" alt=""></a>
                         <h4>    {{ member.title }}</h4>
-                        <p class="text-muted">{{ member.role }}</p>
+                        <p class="text-muted" >{{ member.role }}</p>
                         <ul class="list-inline social-buttons">
                             {% if member.twitter %}
                               <li><a href="https://twitter.com/{{ member.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -32,10 +33,21 @@
                 {% endif %}
                 {% endfor %}
             </div>
+
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <p class="large text-muted">{{ site.t[page.language].team.description }}</p>
                 </div>
+
+                {% if team.content-heading %}
+
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="col-lg-12 text-center">
+                    <h2 class="section-heading"> {{ team.content-heading }} </h2>
+
+                    {% include list_subs_grid.html category='provinews' %}
+                </div>
             </div>
+                {% endif %}
         </div>
     </section>

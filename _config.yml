@@ -271,7 +271,7 @@ t:
       portfolio: References
       contact: Contact
       jobs: Jobs
-      news: News
+      news: Blog
     offer:
       heading: "Our services"
       subheading: "3 ways of working with our clients: developing together a whole project, providing expertise in technical subjects and integrating our amazing products."
@@ -309,8 +309,8 @@ t:
       heading: "References"
       subheading: "They trust us and we helped them get things done."
     provinews:
-      heading: "News"
-      subheading: "News about our company, data science and big-data "
+      heading: "Blog"
+      subheading: "News about our company, Big-Data in Business and data science "
     technologies:
       heading: "Our technology stack"
       subheading: "Boot-start's ingineers are experts on these technologies"
@@ -352,7 +352,7 @@ t:
       portfolio: Références
       contact: Contact
       jobs: Emploi
-      news: News
+      news: Blog
     offer:
       heading: "Nos Services"
       subheading: "3 types d'approches avec nos clients partenaires, l'accompagnement sur un projet global, l'expertise sur un sujet technique précis et l'adaptation d'un de nos fabuleux produits."
@@ -411,8 +411,8 @@ t:
       heading: "Réseaux"
       subheading: "Nous appartenons aux réseaux suivants"
     provinews:
-      heading: "News"
-      subheading: "Actualité de notre entreprise et des différents acteurs de la data"
+      heading: "Blog"
+      subheading: "Actualité de notre entreprise, de la transformation digitale et de l'utilisation des Big-Data"
     team:
       heading: "Notre Equipe Incroyable"
       subheading: "Une synergie de talents dévoués à votre projet."

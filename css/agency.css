@@ -1318,3 +1318,13 @@ h2.expertise-title  {
     margin: 5% 15% ;
 
     }
+
+.bold {
+    font-weight: bold !important ;
+     text-transform: none !important ;
+     font-size: 14px !important ;
+}
+
+.italic {
+    font-style: italic !important ;
+}

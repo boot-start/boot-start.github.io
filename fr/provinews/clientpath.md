@@ -3,6 +3,7 @@ slug: transformation
 title: Réinventer son parcours client à l'heure du numérique
 description: "Du marketing digital au E-commerce: comment intégrer le parcours digital à son parcours client ?"
 category: provinews
+category-alt: ben-content
 photo: /img/provinews/digitalisation-relation-client.jpg
 prev:
     title: "Article précédent: Enjeux de l'IA"
@@ -16,17 +17,17 @@ layout: page
 blog: yes
 permalink: fr/blog/parcours-client-digital
 link: ../products/smart-knowledge-management/
-blogauthor:
-    name: Benjamin Kaltenbaek
-    statut: Responsable Marketing, Communication chez Boot-Start
-miniphoto: /img/team/bk.jpg
-twauthor:
-    name: "@Ben_ktb"
-twitter: ben_ktb
 call-to-action: yes
 cta-tooltip: Discutons de votre transformation digitale !
 contact-link: /fr/#contact
 social-img: /img/provinews/digitalisation-relation-client.jpg
+blogauthor:
+    name: Ben Kaltenbaek
+    statut: Responsable Marketing, Communication chez Boot-Start
+    twitterlink: ben_ktb
+    twitter: Ben_ktb
+    miniphoto: /img/team/bk.jpg
+    link: /fr/team/ben-kaltenbaek/
 ---
 
 <br><br><br>

@@ -3,30 +3,31 @@ slug: transformation
 title: C'est quoi concrètement, la transformation digitale ?
 description: 3 évolutions à appliquer en interne
 category: provinews
+category-alt: ben-content
 photo: /img/provinews/transfo.jpg
 illustration: /img/data-management-boot-start.jpg
 prev:
     title: "Article précédent: Enjeux de l'IA"
     url: ../../fr/blog/intelligence-artificielle-2017
 next:
-    title: "Article suivant: Hello Tomorrow"
-    url: ../../fr/blog/hello-tomorrow
+    title: "Article suivant: Parcours client"
+    url: ../../fr/blog/parcours-client-digita
 background: /img/provinews/transformation-digitale-data.jpg
 website: blog/transformation-digitale
 layout: page
 blog: yes
 permalink: fr/blog/transformation-digitale
 link: ../products/smart-knowledge-management/
-blogauthor:
-    name: Benjamin Kaltenbaek
-    statut: Responsable Marketing, Communication chez Boot-Start
-miniphoto: /img/team/bk.jpg
-twauthor:
-    name: "@Ben_ktb"
-twitter: ben_ktb
 call-to-action: yes
 cta-tooltip: Discutons de votre transformation digitale !
 contact-link: /fr/#contact
+blogauthor:
+    name: Ben Kaltenbaek
+    statut: Responsable Marketing, Communication chez Boot-Start
+    twitterlink: ben_ktb
+    twitter: Ben_ktb
+    miniphoto: /img/team/bk.jpg
+    link: /fr/team/ben-kaltenbaek/
 ---
 
 <br><br><br>
