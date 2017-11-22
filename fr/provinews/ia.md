@@ -34,9 +34,6 @@ blogauthor:
 <h1> L’Intelligence Artificielle en 2017: Problèmes et enjeux actuels  </h1>
 
 <br><br>
-
-
-
 Dès 1940, on se demandait si la machine était capable de penser. Alan Turing, favorable à l’idée de voir un jour un
 ordinateur penser au même titre qu’un homme, se demande comment le déterminer. La solution proposée est de mettre en place
 un dialogue entre une IA et une personne. Si la personne pense parler à un humain, la machine peut être considérée

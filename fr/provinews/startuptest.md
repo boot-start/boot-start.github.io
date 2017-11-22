@@ -16,7 +16,6 @@ website: blog/test-offre-startup
 layout: page
 blog: yes
 permalink: fr/blog/test-offre-startup
-link: http://fortune.com/2014/09/25/why-startups-fail-according-to-their-founders/
 call-to-action: yes
 cta-tooltip: Discutons de votre projet !
 contact-link: /fr/#contact
