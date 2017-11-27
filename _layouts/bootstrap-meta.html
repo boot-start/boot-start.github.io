@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="author" content="{{ page.author }}">
+
+    <meta property="og:url"   content="{{ page.url }}" />
+    <meta property="og:type"  content="business.business" />
+    <meta property="og:title"              content="{{ page.title }}" />
+    <meta property="og:description"        content="{{ page.description }}" />
+    <meta property="og:image"   content="http://boot-start.com{{ page.social-img }}" />
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS
+    <link href="/css/agency.css" rel="stylesheet">
+    -->
+
+    <!-- Custom Fonts -->
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
+
+
+    {% if page.meta-link %}
+
+    {{ page.meta-link }}
+
+    {% endif %}
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "http://www.boot-start.com/",
+      "logo": "http://www.boot-start.com/img/logos/bootstart-noborder-transparent.png",
+      "sameAs" : [
+        "https://www.facebook.com/boot-start",
+        "https://twitter.com/boot_start",
+        "https://www.linkedin.com/company/boot-start"
+      ]
+    }
+    </script>
+
+    <!-- META THEME BOOT-STRAP -->
+    <meta name="author" content="Boot-Start">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    {% include analytics/hotjar.html %}
+    {% include analytics/zendesk-chat.html %}
+</head>
+
+    {% if page.navigation %}
+        <body id="page-top" class="index">
+        {% include nav.html %}
+    {% endif %}
+
+        {% include analytics/google-tag.html %}
+
+        {% if page.call-to-action %}
+
+<div id="call-to-action" class="fixed-icon hide-cta">
+    <a href="{{ page.contact-link }}">
+        <span class="fa fa-envelope" title="{{ page.cta-tooltip }}">
+        </span>
+    </a>
+</div>
+
+        {% endif %}
+
+
+{% if page.call-to-audit %}
+
+<a href="{{ page.audit-link }}" target="_blank" class="audit fixed-audit hide-cta">
+    <svg  id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595 595">
+        <path d="M252.23,33a286.15,286.15,0,0,1,59.58-6.24c157.4,0,285,127.6,285,285s-127.6,285-285,285-285-127.6-285-285a283.82,283.82,0,0,1,63.78-179.7" transform="translate(-14.31 -14.31)" style="fill:none;stroke:#c11859;stroke-linecap:round;stroke-linejoin:round;stroke-width:15px"/>
+    </svg>
+    <div>
+        <h1 class="cta-text">
+            {{ page.cta-tooltip }}
+        </h1>
+    </div>
+</a>
+{% endif %}
+{{ content }}
+<footer>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <span class="copyright">{{ site.t[page.language].footer.copyright }}</span>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline social-buttons">
+                    <li><a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li><a
+                            href="https://www.facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a
+                            href="https://www.linkedin.com/company/boot-start"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline quicklinks">
+                    <li><a href="/{{ page.language }}/terms/">{{ site.t[page.language].footer.terms }}</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- jQuery -->
+<script src="/js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="/js/classie.js"></script>
+<script src="/js/cbpAnimatedHeader.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/agency.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/js/swiper.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/js/swiper.min.js"></script>
+
+{% include analytics/google.html %}
+{% include analytics/saleswings.html %}
+{% include social/addthis.html %}
+{% include cookielaw.html %}
+</body>
+</html>
