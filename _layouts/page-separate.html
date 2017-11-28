@@ -85,6 +85,15 @@ layout: bootstrap
     </div>
     {% endif %}
 
+    {% if page.video-frame %}
+    <br>
+    <br>
+    <div class="embed-responsive embed-responsive-16by9 col-md-12 video-place">
+
+        <iframe src="{{ video-frame }}" width="476" height="476" style="border:none;overflow:hidden; margin:auto" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+    </div>
+    {% endif %}
+
     {% if page.call-to-action %}
     <div id="call-to-action" class="fixed-icon hide">
         <a href="{{ page.contact-link }}">
