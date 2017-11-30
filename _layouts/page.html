@@ -67,7 +67,7 @@ layout: bootstrap
 
     {% if page.call-to-action %}
     <div id="call-to-action" class="fixed-icon hide">
-        <a href="{{ page.contact-link }}">
+        <a href="{{ page.contact-link }}" onClick="ga('send', 'event', 'Interest', 'click', 'CTA contact');">
             <span class="fa fa-envelope" title="{{ page.cta-tooltip }}">
             </span>
         </a>
@@ -84,7 +84,7 @@ layout: bootstrap
 -->
     {% if page.call-to-audit %}
 
-    <div href="{{ page.audit-link }}" target="_blank" class="audit fixed-audit hide-cta">
+    <div href="{{ page.audit-link }}" target="_blank" class="audit fixed-audit hide-cta" onClick="ga('send', 'event', 'Interest', 'click', 'CTA Audit');">
 
         <svg  id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595 595">
             <path d="M252.23,33a286.15,286.15,0,0,1,59.58-6.24c157.4,0,285,127.6,285,285s-127.6,285-285,285-285-127.6-285-285a283.82,283.82,0,0,1,63.78-179.7" transform="translate(-14.31 -14.31)" style="fill:none;stroke:#c11859;stroke-linecap:round;stroke-linejoin:round;stroke-width:15px"/>
@@ -113,10 +113,10 @@ layout: bootstrap
 
 
             <div class="col-lg-6">
-                <a class="author" href="{{ page.blogauthor.link }}"> {{ page.blogauthor.name }} </a>
+                <a class="author" href="{{ page.blogauthor.link }}" onClick="ga('send', 'event', 'Other', 'click', 'Author');"> {{ page.blogauthor.name }} </a>
                 <div class="author-statut">{{ page.blogauthor.statut }} </div>
                 <div class="author-twitter">
-                    <a href="https://twitter.com/{{ page.blogauthor.twitterlink }}" target="_blank" > <i class="fa fa-twitter" ></i>  {{ page.blogauthor.twitter }}</a>
+                    <a href="https://twitter.com/{{ page.blogauthor.twitterlink }}" target="_blank" onClick="ga('send', 'event', 'Other', 'click', 'Author');" > <i class="fa fa-twitter" ></i>  {{ page.blogauthor.twitter }}</a>
 
                 </div>
             </div>

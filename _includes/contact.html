@@ -43,7 +43,7 @@
                         <div class="clearfix"></div>
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
-                            <button type="submit" class="btn btn-xl">{{ site.t[page.language].contact.send }}</button>
+                            <button type="submit" class="btn btn-xl" onClick="ga('send', 'event', 'Interest', 'click', 'Form sent');">{{ site.t[page.language].contact.send }}</button>
                         </div>
                     </div>
                 </form>

@@ -96,7 +96,7 @@ layout: bootstrap
 
     {% if page.call-to-action %}
     <div id="call-to-action" class="fixed-icon hide">
-        <a href="{{ page.contact-link }}">
+        <a href="{{ page.contact-link }}" onClick="ga('send', 'event', 'Interest', 'click', 'CTA Contact');">
             <span class="fa fa-envelope" title="{{ page.cta-tooltip }}">
             </span>
         </a>
