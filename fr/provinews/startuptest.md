@@ -196,7 +196,6 @@ Que ce soit des associés motivés ou bien des sous-traitants agiles, le choix d
 </p>
 <br>
 <br>
-</div>
 <div id="analytics">
 <br><br><br>
 <h3> Comment mesurer son potentiel ?  </h3>
