@@ -1,6 +1,6 @@
 ---
 slug: startup-test
-title: "Stratégie digitale : Tester le potentiel de son offre"
+title: "Lean Startup : Tester le potentiel de son offre"
 description: "L’étape cruciale qu’oublient de réaliser certains fondateurs de  startups et de nombreuses équipes projets dans les grandes entreprises : tester concrètement son marché"
 category: provinews
 category-alt: ben-content

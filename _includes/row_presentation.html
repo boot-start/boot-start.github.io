@@ -4,7 +4,11 @@
 
     {% assign sorted_pages = (site.pages | where: "subcategory", include.subcategory | where: "language", page.language | sort: "end") %}
 
-    <div class="speech-startup">
+    <div class="container-fluid">
+
+        <div class="col-sm-6">
+
+    <div class="speech-startup" style="margin-top:9% !important;">
 
         {{ page.audit-speech }}
 
@@ -12,27 +16,33 @@
 
     {% if page.button-audit %}
 
-    <div class="container mobile-space-top" style="margin-bottom:0px !important ;" >
-        <div id="button-audit" class="button-audit">
-            <a href="{{ page.button-link }}" onClick="ga('send', 'event', 'Offers', 'click', 'Audit Express Start-up');" target="_blank" class="bnt btn-xl"> {{ page.cta-tooltip }}  </a>
-            <p class="text-quote" style="margin-top:15px !important ;"> {{ page.subtooltip }} </p>
+        <div class="mobile-space-top space-top" style="margin-bottom:0px !important ;" >
+            <div id="button-audit" class="button-audit">
+                <a href="{{ page.button-link }}" onClick="ga('send', 'event', 'Offers', 'click', 'Audit Express Start-up');" target="_blank" class="bnt btn-xl"> {{ page.cta-tooltip }}  </a>
+                <p class="text-quote half-space-top" style="margin-top:35px !important ;"> {{ page.subtooltip }} </p>
+            </div>
         </div>
-    </div>
 
     {% endif %}
 
+        </div>
+             <div class="col-sm-6">
     {% if page.video-audit %}
-    <br>
-    <br>
+
+                     <br>
+                     <br>
+
 
     <div style="margin:auto;text-align:center;">
 
-    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbootstart%2Fvideos%2F951204088380507%2F&show_text=0&width=476" width="476" height="476" style="border:none;overflow:hidden"
+    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbootstart%2Fvideos%2F951204088380507%2F&show_text=0&width=476" class="video-size" style="border:none;overflow:hidden"
             scrolling="no" autoplay="yes" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
     </div>
     {% endif %}
+             </div>
 
+    </div>
 
     <div class="col-md-12 spacing">
         {% for subpage in sorted_pages reversed %}

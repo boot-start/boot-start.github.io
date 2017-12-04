@@ -1328,3 +1328,16 @@ h2.expertise-title  {
 .italic {
     font-style: italic !important ;
 }
+
+@media (min-width: 900px) {
+.video-size {
+       width: 476px;
+       height: 476px;
+}
+}
+@media (max-width: 900px) {
+.video-size {
+       width: 306px ;
+       height: 306px;
+}
+}
