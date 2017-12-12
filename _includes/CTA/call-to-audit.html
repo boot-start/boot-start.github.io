@@ -1,0 +1,17 @@
+{% if page.call-to-audit %}
+
+<div href="{{ page.audit-link }}" target="_blank" class="audit fixed-audit hide-cta" onClick="ga('send', 'event', 'Interest', 'click', 'CTA Audit');">
+
+    <svg  id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595 595">
+        <path d="M252.23,33a286.15,286.15,0,0,1,59.58-6.24c157.4,0,285,127.6,285,285s-127.6,285-285,285-285-127.6-285-285a283.82,283.82,0,0,1,63.78-179.7" transform="translate(-14.31 -14.31)" style="fill:none;stroke:#c11859;stroke-linecap:round;stroke-linejoin:round;stroke-width:15px"/>
+    </svg>
+
+    <div>
+        <h1>
+            {{ cta-tooltip }}
+        </h1>
+    </div>
+
+</div>
+
+{% endif %}

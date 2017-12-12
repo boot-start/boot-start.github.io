@@ -16,9 +16,9 @@ website: blog/test-offre-startup
 layout: page
 blog: yes
 permalink: fr/blog/test-offre-startup
-call-to-action: yes
-cta-tooltip: Discutons de votre projet !
-contact-link: /fr/#contact
+call-to-audit: yes
+cta-tooltip: Et si on vous offrait un audit express ?
+audit-link: /prestataire-startup
 social-img: /img/intelligence_artificielle_2017.jpg
 blogauthor:
     name: Ben Kaltenbaek

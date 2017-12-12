@@ -236,7 +236,7 @@ fieldset[disabled] .btn-sample.active {
 
 @media (min-width: 768px) {
 .blog-content h1 {
-    font-size: 68px;
+    font-size: 50px;
     font-family: montserrat;
     font-weight: normal;
     text-transform: none;
@@ -248,7 +248,7 @@ fieldset[disabled] .btn-sample.active {
 
 @media (max-width: 768px) {
 .blog-content h1 {
-    font-size: 38px;
+    font-size: 35px;
     font-family: montserrat;
     font-weight: normal;
     text-transform: none;
