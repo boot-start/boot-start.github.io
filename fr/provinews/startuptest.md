@@ -1,6 +1,6 @@
 ---
 slug: startup-test
-title: "Lean Startup : Tester le potentiel de son offre"
+title: "Pourquoi toutes les entreprises doivent se mettre au Lean Startup pour innover ? "
 description: "L’étape cruciale qu’oublient de réaliser certains fondateurs de  startups et de nombreuses équipes projets dans les grandes entreprises : tester concrètement son marché"
 category: provinews
 category-alt: ben-content
@@ -29,7 +29,7 @@ blogauthor:
     link: /fr/team/ben-kaltenbaek/
 ---
 
-<h1> Use-case et méthodes pour assurer la réussite d'un projet type start-up </h1>
+<h1> Use-case et méthodes pour assurer la réussite d'un projet type startup </h1>
 <br><br>
 
 <div class="col-md-12 spacing">
@@ -295,7 +295,6 @@ Dans le cas des projets qui véhiculent d’importantes valeures morales ou comm
 Aussi, pour analyser le potentiel d’un projet ESS, est-il recommandé de se focaliser principalement sur le temps passé, l’activité de l’utilisateur et bien-sûr les paiements effectués ?
 Le crowdfunding est probablement la meilleure alternative pour des projets ESS puisqu’il permet de tester et valider le concept de la façon la plus pertinente (paiement par les utilisateurs), sans besoin de construire sa propre plateforme.
 </p>
-</div>
 <div id="xp">
 <br><br><br>
 <h3> Mon expérience en tant que responsable marketing chez Boot-Start  </h3>
