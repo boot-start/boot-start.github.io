@@ -1,6 +1,6 @@
 ---
 slug: startskm
-title: Boot-Start développe une solution de Data Management
+title: Un sacré projet chez Boot-Start
 category: provinews
 website: fr/blog/start-bigdata-solution
 photo: /img/provinews/innovation-quest.jpg
