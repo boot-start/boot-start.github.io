@@ -5,6 +5,7 @@ category: provinews
 website: fr/blog/start-bigdata-solution
 photo: /img/provinews/innovation-quest.jpg
 illustration2: /img/provinews/team-SKM-boot-start.jpg
+illustration: /img/provinews/Bootstart-x-BPIfrance.png
 layout: page
 blog: yes
 call-to-action: yes
@@ -33,7 +34,9 @@ Après 2 ans de bons et loyaux services auprès de startups voulant réaliser le
 
 C'est donc au coeur de ce grand atelier à lignes de code et maquettes clients que notre pôle R&D s'est peu à peu constitué. Boot-Start constatait depuis un petit bout de temps chez leurs clients de grandes difficultés à traiter et ordonner les tonnes de données qui leur arrivaient de parts et d'autres.
 <br> <br>
-Le projet SKM a pour but de proposer un outil qui facilite et automatise l'agrégation, le nettoyage et la classification de données en se basant sur une technologie d'Active Learning (apprentissage automatique guidé par l'humain). L'ensemble des données traitées se retrouvent sur une plateforme qui facilite la recherche et le partage d'informations, la prise de décision grâce aux dashboards analytics.
+<b> Qu'est ce la SKM ? </b>
+<br>
+Le projet SKM a pour but de proposer un outil qui facilite et automatise l'agrégation, le nettoyage et la classification de données en se basant sur une technologie de Machine Learning interactif (apprentissage automatique guidé par l'humain). L'ensemble des données traitées se retrouvent sur une plateforme qui facilite la recherche et le partage d'informations, la prise de décision grâce aux dashboards analytics.
 <br> <br> <b> L'équipe projet SKM </b> <br> Après avoir engagé Quentin Sebille, docteur en Data Science, devenu chef de projet du pôle R&D, Martin, jeune ingénieur tchèque, a traversé l'Europe pour rejoindre l'équipe R&D en tant que Data Scientist junior. Floriane est en charge de toute l'experience utilisateur en réalisant des interfaces et templates intuitives et Ben, en tant que chef de produit, s'occupe d'identifier et tester des besoins marché afin d'adapter ces innovations à des applications métiers.
 <br>
 Boot-Start est très heureux d'annoncer que ce programme de R&D est aujourd'hui en partie financé par la BPI.
