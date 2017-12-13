@@ -15,7 +15,7 @@ permalink: fr/blog/start-bigdata-solution
 website: /fr/products/smart-catalog/
 prev:
     title: "Article Précédent: Lean Startup"
-    url: ../../blog/lean-startup
+    url: ../../fr/blog/lean-startup
 next:
     title: "Article suivant: Transformation Digitale "
     url: ../../fr/blog/transformation-digitale
