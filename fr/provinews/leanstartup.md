@@ -1,6 +1,6 @@
 ---
-slug: startup-test
-title: "Pourquoi toutes les entreprises doivent se mettre au Lean Startup pour innover ? "
+slug: leanstartup
+title: " Il est temps pour vous de passer au Lean Startup "
 description: "L’étape cruciale qu’oublient de réaliser certains fondateurs de  startups et de nombreuses équipes projets dans les grandes entreprises : tester concrètement son marché"
 category: provinews
 category-alt: ben-content
@@ -15,7 +15,7 @@ background: /img/intelligence_artificielle_2017.jpg
 website: blog/test-offre-startup
 layout: page
 blog: yes
-permalink: fr/blog/test-offre-startup
+permalink: fr/blog/lean-startup
 call-to-audit: yes
 cta-tooltip: Et si on vous offrait un audit express ?
 audit-link: /prestataire-startup
