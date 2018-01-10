@@ -343,11 +343,15 @@ t:
     menu:
       home: Accueil
       service: Services
-      products: Produits
+      products: Plateformes
       expertise: Expertise
       pme: PME/ETI
       startup: Start up
       gc: Grands comptes
+      skm: Data Management
+      smartcat: Catalogue Produit
+      smartnet: Mise en relation
+      marketplace: Marketplace
       team: Equipe
       portfolio: Références
       contact: Contact
@@ -381,11 +385,8 @@ t:
       heading: " Nos super pouvoirs"
       subheading: "Boot-Start c'est avant tout des compétences pointues et complémentaires"
     products:
-      heading: " Nos super produits"
-      subheading: "Voici des produits déjà développés par Boot-Start et que nous pouvons intégrer chez vous"
-    products:
-      heading: "Produits"
-      subheading: "Nos produits sont systématiquement personnalisés selon l'entreprise et les données traitées"
+      heading: " Nos super plateformes"
+      subheading: "Voici des plateformes pré-développées par Boot-Start que nous pouvons intégrer rapidement chez vous"
     expertise:
       heading: "Expertise"
       subheading: "Voici quelques sujets avancés sur lesquels nous pouvons vous accompagner."
