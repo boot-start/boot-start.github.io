@@ -1,8 +1,8 @@
 ---
 title: Ben Kaltenbaek
-subtitle: Data Evangelist
+subtitle: Druide de la plateforme
 arrival: 2017-03
-role: Resp. Marketing
+role: Resp. Marketing - Chef de produit
 photo: /img/team/bk.jpg
 category: team
 facebook: benktbk

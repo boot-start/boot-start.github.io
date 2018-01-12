@@ -348,6 +348,7 @@ t:
       pme: PME/ETI
       startup: Start up
       gc: Grands comptes
+      platforms: Toutes nos plateformes
       skm: Data Management
       smartcat: Catalogue Produit
       smartnet: Mise en relation
