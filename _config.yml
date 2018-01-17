@@ -254,6 +254,22 @@ defaults:
       language: fr
       category: swiper
       sitemap: false
+ -
+    scope:
+      path: "fr/products/smart-catalog"
+    values:
+      language: fr
+      category: products
+      layout: bootstrap-meta
+ -
+    scope:
+      path: "en/products/smart-catalog"
+    values:
+      language: en
+      category: products
+      layout: bootstrap-meta
+
+
 
 t:
   en:
@@ -263,10 +279,17 @@ t:
     more: more
     menu:
       home: Home
-      service: Offers
-      products: Products
+      service: Services
+      products: Plateforms
       expertise: Expertise
-      project: Your project
+      pme: PME/ETI
+      startup: Start up
+      gc: Grands comptes
+      platforms: All our plateforms
+      skm: Data Management
+      smartcat: Products Catalog
+      smartnet: Network
+      marketplace: Marketplace
       team: Team
       portfolio: References
       contact: Contact
@@ -334,6 +357,12 @@ t:
     footer:
        terms: Terms Of Use
        copyright: Copyright &copy; Boot-Start 2017
+
+
+    x-references:
+       heading: "Some of our references"
+
+
 
   fr:
     lang:
@@ -420,6 +449,8 @@ t:
       subheading: "Une synergie de talents dévoués à votre projet."
       description: "Nous construisons une équipe de personnes, qui bien que spécialisées, ont une compréhension et une sensibilité aux autres aspects de la vue d'ensemble.
                     Ainsi toutes les personnes de notre équipe travaillant sur un projet en ont une vision globale, que ce soit sur les aspects techniques, design, business, expérience utilisateur, ou autres."
+    x-references:
+          heading: "Quelques unes de nos références"
     contact:
        heading: "Contactez Nous"
        callus: "Passez nous un coup de fil, nous serons ravis de répondre :"
@@ -433,3 +464,7 @@ t:
     footer:
        terms: "Mentions Légales"
        copyright: Copyright &copy; Boot-Start 2017
+
+
+
+

@@ -1,0 +1,24 @@
+    <section id="{{ include.category }}" class="bg-light-gray no-padding">
+
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ site.t[page.language][include.category][include.subcategory].heading }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.t[page.language][include.category][include.subcategory].subheading }}</h3>
+                </div>
+            </div>
+        <hr class="primary">
+
+                {% for subpage in site.pages %}
+                {% if subpage.category == include.category and subpage.subcategory == include.subcategory and subpage.language == page.language  %}
+
+                <div class="col-md-2 col-xs-6">
+                    <div class="portfolio-box">
+                        <img src="{{ subpage.photo }}" class="img-responsive" alt="{{ subpage.title }}">
+                    </div>
+                </div>
+
+
+                {% endif %}
+                {% endfor %}
+
+    </section>
+
