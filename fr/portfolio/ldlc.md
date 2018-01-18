@@ -9,5 +9,6 @@ photo: /img/portfolio/logo-ldlc-png.png
 layout: page-separate
 shooting: /img/portfolio/screen/ldlc-website-database.png
 shootingfx: /img/portfolio/screen/ldlc-website-database.png
+ref-smartcat: yes
 ---
 Nous avons effectué une prestation de conseil pour LDLC, opérée par un expert Elasticsearch et SOLR directement chez notre client partenaire.

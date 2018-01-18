@@ -9,5 +9,6 @@ photo: /img/portfolio/aeroports-de-lyon-logo.png
 layout: page-separate
 shooting: /img/portfolio/screen/aeroportsdelyon-consulting.png
 shootingfx: /img/portfolio/screen/aeroportsdelyon-consulting.png
+ref-smartcat: yes
 ---
 Nous avons effectué une prestation d'expertise concernant l'architecture et les technologies utilisées, et notamment Active MQ

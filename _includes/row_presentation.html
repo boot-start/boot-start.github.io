@@ -1,7 +1,6 @@
 
 <section id="{{ include.category }}">
 
-
     {% assign sorted_pages = (site.pages | where: "subcategory", include.subcategory | where: "language", page.language | sort: "end") %}
 
     <div class="container-fluid">
@@ -88,6 +87,8 @@
         {% endif %}
 
     {% endfor %}
+
+
 
 
 </section>
