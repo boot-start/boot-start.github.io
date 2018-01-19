@@ -268,8 +268,20 @@ defaults:
       language: en
       category: smartcatalog
       layout: bootstrap-meta
-
-
+ -
+    scope:
+      path: "fr/x-references"
+    values:
+      language: fr
+      category: x-references
+      layout: bootstrap-meta
+ -
+    scope:
+      path: "en/x-references"
+    values:
+      language: en
+      category: x-references
+      layout: bootstrap-meta
 
 t:
   en:
@@ -452,9 +464,18 @@ t:
                     Ainsi toutes les personnes de notre équipe travaillant sur un projet en ont une vision globale, que ce soit sur les aspects techniques, design, business, expérience utilisateur, ou autres."
 
     smartcatalog:
-      x-references:
-        heading: "Quelques unes de nos références"
+      presentation:
+        heading: "Le Smart Catalog intégré à votre site web"
+      video:
+        heading: "Vidéo démo d'un catalogue produits interactif propulsé par notre outil"
+      argument:
+        heading: "Le Smart Catalog a un effet immédiat sur vos ventes"
+      contact:
+        heading: "A vous de jouer"
+        subheading: "Discutons de la digitalisation de votre catalogue !"
 
+    x-references:
+      reference: "Quelques unes de nos références"
 
     contact:
        heading: "Contactez Nous"

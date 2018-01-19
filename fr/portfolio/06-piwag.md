@@ -9,6 +9,7 @@ photo: /img/portfolio/piwag.png
 layout: page-separate
 shooting: /img/portfolio/screen/piwag-plateforme-backend-recommandation.jpg
 shootingfx: /img/portfolio/screen/piwag-plateforme-backend-recommandation.jpg
+sort: 11
 ---
 [Piwag]({{page.website}}) est une plateforme qui référence les jeux vidéos et permet aux utilisateurs de découvrir des jeux en fonction de leur profil.
 Le but des créateurs est notamment de faire découvrir des jeux peu médiatisés mais qui peuvent plaire à certains types de joueur.

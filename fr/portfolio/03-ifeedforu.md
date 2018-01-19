@@ -9,6 +9,7 @@ photo: /img/portfolio/ifeedforu.png
 layout: page-separate
 shooting: /img/portfolio/screen/ifeedforu-recommandation-ia-elasticsearch.jpg
 shootingfx: /img/portfolio/screen/ifeedforu-recommandation-ia-elasticsearch.jpg
+sort: 21
 ---
 L'objectif de IFeedForU était de sélectionner et proposer des articles de presse et médias selon le profil des utilisateurs.
 Nous avons donc développé un moteur de recommandation après avoir classé les articles indexés. Ainsi, nos algorithmes proposaient des articles en fonction de ceux lus précédemment.

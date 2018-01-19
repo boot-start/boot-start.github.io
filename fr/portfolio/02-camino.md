@@ -7,6 +7,7 @@ topic: Plateforme, App Mobile, Backend, Frontend, Media Composition
 category: portfolio
 photo: /img/portfolio/camino.png
 layout: page-separate
+sort: 16
 ---
 Nous avons développé les modules backend, backoffice et de composition de Camino, une application mobile de génération 
 et d'envoi de cartes postales physiques.

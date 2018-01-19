@@ -1,4 +1,5 @@
  <!-- Portfolio Grid Section -->
+
     <section id="portfolio" class="portfolio bg-light-gray">
         <div class="container">
             <div class="row">
@@ -9,8 +10,8 @@
             </div>
             <div class="row">
 
-		    {% assign sorted_pages = (site.pages | where: "category", "portfolio" | where: "language", page.language | sort: "end") %}
-            {% for project in sorted_pages reversed %}
+		    {% assign sorted_elements = (site.pages | where: "category", "portfolio" | where: "language", page.language | sort: "sort") %}
+            {% for project in sorted_elements %}
 		    <div class="col-md-3 col-sm-6 portfolio-item">
                 <a href="{{ project.url }}" class="portfolio-link">
                     <div class="portfolio-hover">
@@ -22,7 +23,7 @@
                 </a>
                 <div class="portfolio-caption">
                     <h4><a href="{{ project.website }}">{{ project.title }}</a></h4>
-                    <p class="text-muted">{{ project.topic }}</p>
+                    <p class="text-muted"> {{ project.topic }} </p>
                 </div>
             </div>
             {% endfor %}

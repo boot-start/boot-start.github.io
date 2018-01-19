@@ -10,5 +10,6 @@ layout: page-separate
 shooting: /img/portfolio/screen/ldlc-website-database.png
 shootingfx: /img/portfolio/screen/ldlc-website-database.png
 ref-smartcat: yes
+sort : 7
 ---
 Nous avons effectué une prestation de conseil pour LDLC, opérée par un expert Elasticsearch et SOLR directement chez notre client partenaire.

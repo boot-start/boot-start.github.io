@@ -1,9 +1,9 @@
 ---
-slug: afnor-xref
+slug: afnor-smartcat
 title: AFNOR
 photo: /img/portfolio/afnor.png
 category: smartcatalog
-subcategory: x-references
+subcategory: reference
 sort: 2
 reference: yes
 ---

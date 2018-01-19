@@ -10,5 +10,6 @@ layout: page-separate
 shooting: /img/portfolio/screen/aeroportsdelyon-consulting.png
 shootingfx: /img/portfolio/screen/aeroportsdelyon-consulting.png
 ref-smartcat: yes
+sort: 6
 ---
 Nous avons effectué une prestation d'expertise concernant l'architecture et les technologies utilisées, et notamment Active MQ

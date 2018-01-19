@@ -9,5 +9,6 @@ photo: /img/portfolio/freeyourinbox.png
 layout: page-separate
 shooting: /img/portfolio/screen/freeyourinbox-plateforme-web-backend.jpg
 shootingfx: /img/portfolio/screen/freeyourinbox-plateforme-web-backend.jpg
+sort: 14
 ---
 Nous sommes en charge du développement du service [FreeYourInbox]({{page.website}}) de desinscription en masse de newsletter.

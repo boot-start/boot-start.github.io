@@ -10,6 +10,7 @@ layout: page-separate
 shooting: /img/portfolio/screen/afnor-search-web.jpg
 shootingfx: /img/portfolio/screen/afnor-search-web.jpg
 ref-smartcat: yes
+sort: 1
 ---
 Nous fournissons notre expertise en moteur de recherche et classification à l'[AFNOR]({{page.website}}) pour les
 aider à améliorer la recherche dans leurs différents sites web.

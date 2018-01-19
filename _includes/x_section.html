@@ -1,13 +1,46 @@
-    <section id="{{ include.category }}" class="bg-light-gray no-padding">
 
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ site.t[page.language][include.category][include.subcategory].heading }}</h2>
-                    <h3 class="section-subheading text-muted">{{ site.t[page.language][include.category][include.subcategory].subheading }}</h3>
+        {% assign FDP = (site.pages | where: "subcategory", include.subcategory | where: "language", page.language | sort: "sort") %}
 
-                    <hr class="primary">
 
+        {% for subpage in FDP %}
+
+        {% if subpage.header %}
+
+        <header>
+            <div class="header-content">
+                <div class="header-content-inner">
+                    <h1 id="header-{{ page.category }}"> {{ subpage.title }} </h1>
+                    <hr>
+                    <p> {{ subpage.description }}
+                    </p>
+                    <a href="#presentation" class="btn btn-primary btn-xl page-scroll"> {{ subpage.button }} </a>
                 </div>
             </div>
+        </header>
+
+        {% endif %}
+        {% endfor %}
+
+
+
+  {% if site.t[page.language][include.category][include.subcategory].heading %}
+
+        <section id="{{ include.subcategory }}" class="bg-light-gray no-padding">
+
+                <div class="col-lg-12 text-center" style="margin-top: 6% ; margin-bottom: 3% ;">
+
+                    <h1 class="section-heading">{{ site.t[page.language][include.category][include.subcategory].heading }}</h1>
+
+                    <hr class="primary"/>
+
+                    <h2 class="section-subheading text-muted">{{ site.t[page.language][include.category][include.subcategory].subheading }}</h2>
+
+
+
+                </div>
+
+
+    {% endif %}
 
 
         {% assign elements = (site.pages | where: "subcategory", include.subcategory | where: "language", page.language | sort: "sort") %}
@@ -15,42 +48,84 @@
 
         {% for subpage in elements %}
 
-        {% if subpage.reference %}
-
-                <div class="col-md-2 col-xs-6">
-                    <div class="portfolio-box">
-                        <img src="{{ subpage.photo }}" class="img-responsive" alt="{{ subpage.title }}">
-                    </div>
-                </div>
 
 
-        {% endif %}
+        {% if subpage.presentation %}
 
-        {% if subpage.references %}
-
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h2 class="section-heading">A vous de jouer</h2>
-                        <hr class="primary">
-                        <p> Discutons de la digitalisation de votre catalogue ! </p>
-                    </div>
-                    <div class="col-lg-4 col-lg-offset-2 text-center">
-                        <i class="fa fa-phone fa-3x sr-contact"></i>
-                        <p> +334 82 53 54 88 </p>
-                    </div>
-                    <div class="col-lg-4 text-center">
-                        <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                        <p><a href="mailto:your-email@your-domain.com">contact@boot-start.com</a></p>
-                    </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 text-center">
+                    <h3> {{ subpage.subtitle }}  </h3>
+                    <p class="text-muted"> {{ subpage.description }}  </p>
                 </div>
             </div>
-        </section>
+
 
         {% endif %}
 
 
+        {% if subpage.video %}
+
+
+                        <div class="container" style="width: 560px;">
+                            <div class="row">
+
+                                    <iframe class="" width="560" height="315" src="{{ subpage.link }}" frameborder="0" allowfullscreen></iframe>
+
+                            </div>
+                        </div>
+
+
+
+        {% endif %}
+
+
+        {% if subpage.argument %}
+
+
+
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-{{ subpage.icon }} fa-4x text-primary sr-icons" style="visibility: visible;-webkit-transform: scale(1);opacity: 1;transform: scale(1);opacity: 1;-webkit-transition: -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;transition: transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;"></i>
+                            <h3> {{ subpage.title }} </h3>
+                            <p class="text-muted"> {{ subpage.description }} </p>
+                        </div>
+                    </div>
+
+
+
+        {% endif %}
+
+
+        {% if subpage.ref-smartcat %}
+
+        <div class="col-md-2 col-xs-6">
+            <div class="portfolio-box">
+                <img src="{{ subpage.photo }}" class="img-responsive" alt="{{ subpage.title }}">
+            </div>
+        </div>
+
+
+
+        {% endif %}
+
+
+
+        {% if subpage.contact %}
+
+
+
+        <div class="col-lg-4 col-lg-offset-2 text-center" style="margin-bottom: 6%;">
+            <i class="fa fa-phone fa-3x sr-contact"></i>
+            <p> +334 82 53 54 88 </p>
+        </div>
+        <div class="col-lg-4 text-center" style="margin-bottom: 6%;">
+            <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+            <p><a href="mailto:contact@boot-start.com">contact@boot-start.com</a></p>
+        </div>
+
+
+
+        {% endif %}
 
         {% endfor %}
 
@@ -58,5 +133,5 @@
 
 
 
-    </section>
+
 

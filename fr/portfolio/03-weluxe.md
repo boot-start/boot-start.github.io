@@ -9,6 +9,7 @@ photo: /img/portfolio/weluxe.png
 layout: page-separate
 shooting: /img/portfolio/screen/weluxe-marketplace-search.jpg
 shootingfx: /img/portfolio/screen/weluxe-marketplace-search.jpg
+sort: 20
 ---
 Nous avons developpé la stack complète de la plateforme de produits de luxe [WeLuxe]({{page.website}}) : 2 applications mobiles, back end et front end.
 

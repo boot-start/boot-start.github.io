@@ -8,8 +8,8 @@
             </div>
             <div class="row">
 
-		    {% assign sorted_pages = (site.pages | where: "category", include.category | where: "language", page.language | sort: "end") %}
-            {% for subpage in sorted_pages reversed %}
+		    {% assign sorted_pages = (site.pages | where: "category", include.category | where: "language", page.language | sort: "sort") %}
+            {% for subpage in sorted_pages %}
 
                    {% if page.big OR subpage.big %}
 

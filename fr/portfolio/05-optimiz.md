@@ -9,5 +9,6 @@ photo: /img/portfolio/optimiz.png
 layout: page-separate
 shooting: /img/portfolio/screen/optimiz-me-moteur-recommandation.jpg
 shootingfx: /img/portfolio/screen/optimiz-me-moteur-recommandation.jpg
+sort: 13
 ---
 Nous avons développé le moteur de suggestion de mots-clés mis en oeuvre dans la solution d'optimisation de reférencement [Optimiz.me]({{page.website}}).

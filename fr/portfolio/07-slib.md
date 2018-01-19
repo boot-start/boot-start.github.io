@@ -7,6 +7,7 @@ topic: "Exploitation : mise en place d'un système d'alertes"
 category: portfolio
 photo: /img/portfolio/slib.jpg
 layout: page-separate
+sort: 11
 ---
 Mise en place d'un système d'alertes à partir de logs avec Active MQ
 Système de filtrage des doublons
