@@ -8,8 +8,8 @@
             </div>
             <div class="row text-center">
 
-                {% assign sorted_pages = (site.pages | where: "category", include.category | where: "language", page.language | sort: "end") %}
-                {% for subpage in sorted_pages reversed %}
+                {% assign elements = (site.pages | where: "category", include.category | where: "language", page.language | sort: "sort") %}
+                {% for subpage in elements %}
                 {% assign modulo = (forloop.index0 | mod:3) %}
                 {% assign offset = (forloop.length - forloop.index0) %}
                 <div class="col-md-4 {% if modulo==0 and offset==2 %}col-md-offset-2{% endif %} {% if modulo==0 and offset==1 %}col-md-offset-4{% endif %}">

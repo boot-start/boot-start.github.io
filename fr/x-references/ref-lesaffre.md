@@ -5,5 +5,5 @@ category: x-references
 subcategory: reference
 photo: /img/portfolio/lesaffre.png
 sort: 4
-ref-smartcat: yes
+reference: yes
 ---

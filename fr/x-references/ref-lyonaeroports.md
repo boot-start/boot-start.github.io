@@ -5,5 +5,5 @@ photo: /img/portfolio/aeroports-de-lyon-logo.png
 category: x-references
 subcategory: reference
 sort: 5
-ref-smartcat: yes
+reference: yes
 ---

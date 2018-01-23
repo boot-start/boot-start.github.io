@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+
 html,
 body {
   height: 100%;
@@ -253,10 +249,28 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
 }
-.section-heading {
-  margin-top: 0;
+
+.landing-title {
+
+   font-size: 30px !important;
+   margin-top: 4% !important;
 }
+
+@media (max-width: 868px) {
+.landing-title {
+
+   font-size: 30px !important;
+   margin-top: 21% !important;
+    }
 }
+
+.landing-subtitle {
+
+   font-size: 25px !important;
+}
+
+
+
 .section-heading-big {
   margin-top: 0;
   font-size: 40px ;

@@ -270,6 +270,34 @@ defaults:
       layout: bootstrap-meta
  -
     scope:
+      path: "fr/smartcatalog2"
+    values:
+      language: fr
+      category: smartcatalog2
+      layout: bootstrap-meta
+ -
+    scope:
+      path: "en/smartcatalog2"
+    values:
+      language: en
+      category: smartcatalog2
+      layout: bootstrap-meta
+ -
+    scope:
+      path: "fr/marketplace"
+    values:
+      language: fr
+      category: marketplace
+      layout: bootstrap-meta
+ -
+    scope:
+      path: "en/marketplace"
+    values:
+      language: en
+      category: marketplace
+      layout: bootstrap-meta
+ -
+    scope:
       path: "fr/x-references"
     values:
       language: fr
@@ -281,6 +309,20 @@ defaults:
     values:
       language: en
       category: x-references
+      layout: bootstrap-meta
+ -
+    scope:
+      path: "fr/x-landing"
+    values:
+      language: fr
+      category: x-landing
+      layout: bootstrap-meta
+ -
+    scope:
+      path: "en/x-landing"
+    values:
+      language: en
+      category: x-landing
       layout: bootstrap-meta
 
 t:
@@ -371,8 +413,8 @@ t:
        copyright: Copyright &copy; Boot-Start 2017
 
 
-    smartcatalog:
-      x-references:
+
+    x-references:
         heading: "Some of our references"
 
 
@@ -462,6 +504,13 @@ t:
       subheading: "Une synergie de talents dévoués à votre projet."
       description: "Nous construisons une équipe de personnes, qui bien que spécialisées, ont une compréhension et une sensibilité aux autres aspects de la vue d'ensemble.
                     Ainsi toutes les personnes de notre équipe travaillant sur un projet en ont une vision globale, que ce soit sur les aspects techniques, design, business, expérience utilisateur, ou autres."
+    menu-smartcat:
+      home: Home Smart Catalog
+      contact: Contact
+
+    menu-mp:
+      home: Home Marketplace Agency
+      contact: Contact
 
     smartcatalog:
       presentation:
@@ -470,12 +519,29 @@ t:
         heading: "Vidéo démo d'un catalogue produits interactif propulsé par notre outil"
       argument:
         heading: "Le Smart Catalog a un effet immédiat sur vos ventes"
+      alternative:
+        heading: "Le Smart Catalog sur tablettes"
+
+    marketplace:
+      presentation-mp:
+        heading: "Notre agence met en place une équipe pour votre marketplace"
+      argument-mp:
+        heading: "Développement d'une marketplace avec la méthode Boot-Start "
+
+    smartcatalog2:
+      presentation2:
+        heading: "Le digital au service de la fonction commerciale"
+      argument2:
+        heading: "Le Smart Catalog améliore le travail des commerciaux"
+
+    x-references:
+      reference:
+        heading: "Quelques unes de nos références"
+
+    x-landing:
       contact:
         heading: "A vous de jouer"
         subheading: "Discutons de la digitalisation de votre catalogue !"
-
-    x-references:
-      reference: "Quelques unes de nos références"
 
     contact:
        heading: "Contactez Nous"
