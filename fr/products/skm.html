@@ -25,17 +25,13 @@ sort: 1
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#page-top"> Home Smart Knowledge </a>
+                        <a class="page-scroll" href="#page-top"> {{ site.t[page.language].menu-skm.home }} </a>
                     </li>
+
                     <li>
-                        <a href="client/index.html"> Client Encyclopedia </a>
+                        <a class="page-scroll" href="#contact"> {{ site.t[page.language].menu-skm.contact }} </a>
                     </li>
-                    <li>
-                        <a href="knowledge_management/index.html"> Up Knowledge </a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -43,166 +39,20 @@ sort: 1
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading"> Smart Knowledge Management </h1>
-                <hr>
-                <p> Une gamme de 2 produits à destination de la transformation digitale des entreprises. Simplification et automatisation <b> du traitement et de l'analyse de données</b>. Une aide précieuse pour les décisions quotidiennes et la recherche d'information en interne.    </p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll"> Solutions SKM</a>
-            </div>
-        </div>
-    </header>
 
-   
-    
-    <section class="bg-cover1" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="img-responsive text-center" alt="Client Encyclopedia" >
-                    <img src="img/logoclient.png" </img>
-                </div>
-            </div>
-            <br><br><br>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading"> Une interface d'agrégation et recherche d'informations et données</h2> <hbig classe="section-heading"> CLIENTS </hbig>
-                    <hr class="light">
-                    <p class="text-faded"> Nous collectons automatiquement les données de différentes sources (CRM, base de données, divers logiciels, devis, factures, documents internes, données internet tels que société.com, Google...) et rassemblons l'ensemble de ces informations sur une interface qui facilite la recherche, l'organisation et l'analyse statistique. Chaque client dispose d'un identifiant unique auquel de nombreuses données sont associées puis analysées. Avec cet outil, il devient très facile de sélectionner un échantillon de clients selon des critères précis afin d'optimiser ses campagnes marketing. Vous souhaitez consulter toutes les informations disponibles sur un client en particulier? La plateforme vous affiche tout cela en 2 clics. </p>
-                    <a href="client/index.html" target="_blank" class="btn btn-sample btn-xl sr-button"> Allons voir ! </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section  class="bg-cover2" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="img-responsive text-center">
-                    <img src="img/logouk.png" </img>
-                </div>
-            </div>
-            <br><br><br>
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-heading"> Un accès simplifié à l'ensemble des </h2>
-                    <hbig class="section-heading-big"> FICHIERS ET DOCUMENTS INTERNES  </hbig>
-                    <hr class="light">
-                    <p class="text-faded"> Notre solution permet de trouver facilement et trier automatiquement documents et données internes avec un puissant logiciel d'analyse sémantique qui automatise la classification. Le moteur de recherche et le système de tri créent une productivité optimale des collaborateurs gràce à une utilisation simplifiée au maximum. Les collaborateurs trouvent ainsi plus rapidement les informations qu'il leur faut, les dirigeants peuvent effectuer des analyses et audits précis à partir de cette concentration d'informations.  </p>
-                    <a href="knowledge_management/index.html" class="btn btn-sample btn-xl sr-button"> Allons voir ! </a>
-                </div>
-            </div>
-        </div>
-    </section>
-   
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">La Boot-Start Touch</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>R&D</h3>
-                        <p class="text-muted"> L'efficacité de nos algorithmes est le fruit de 1 an de R&D en IA, sémantisation et statistiques.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Agilité</h3>
-                        <p class="text-muted"> Possibilité de mettre en place un prototype afin de constater le potentiel du produit</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Talents à revendre</h3>
-                        <p class="text-muted">Une équipe d'experts en Data Science, analyse sémantique, Intelligence artificielle, Statistique et UX</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Proximité</h3>
-                        <p class="text-muted"> Mise en place de tests avec vous, évolution continue du projet pour developpement d'un produit fini optimal   </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    {% include x_section.html category='skm' subcategory='header-skm' %}
 
-    <section class="no-padding" id="portfolio">
+    {% include x_section.html category='skm' subcategory='presentation-back-skm' %}
 
-        <div class="col-lg-6 col-sm-12">
-            <a class="portfolio-box">
-                <img src="img/header2.jpg" class="img-responsive" alt="">
-                <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                        <div class="project-category text-faded">
-                            Client Encyclopedia
-                        </div>
-                        <div class="project-name">
-                            Adaptation de la plateforme aux candidats et investisseurs
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-lg-6 col-sm-12">
-            <a class="portfolio-box">
-                <img src="img/proj.jpg" class="img-responsive" alt="">
-                <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                        <div class="project-category text-faded">
-                            Up Knowledge
-                        </div>
-                        <div class="project-name">
-                            Partage de fichiers et informations entre plusieurs filiales du groupe
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </section>
+    {% include x_section.html category='skm' subcategory='presentation-front-skm' %}
 
-    <br> <br><br><br><br> <br> <br><br><br><br> <br> <br><br><br><br> <br> <br><br><br><br> <br>
+    {% include x_section.html category='skm' subcategory='argument-skm' %}
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2> Bientôt en ligne: Une version de la plateforme avec des données publiques afin de vous montrer le potentiel de notre outil   </h2>
-                <a href="http://twitter.com/boot_start" target="_blank" class="btn btn-default btn-xl sr-button">Get in touch</a>
-            </div>
-        </div>
-    </aside>
+    {% include x_section.html category='x-references' subcategory='reference' %}
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">A vous de jouer</h2>
-                    <hr class="primary">
-                    <p> Discutons de la digitalisation de votre entreprise ! </p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p> +334 82 53 54 88 </p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">contact@boot-start.com</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
+    {% include x_section.html category='skm' subcategory='teasing' %}
 
+    {% include x_section.html category='x-landing' subcategory='contact' %}
 
 

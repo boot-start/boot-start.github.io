@@ -1,6 +1,6 @@
 ---
 slug: elasticsearch
-title: Elasticsearch et service numérique
+title: Elasticsearch et nous
 description: L'utilisation de la suite Elastic chez Boot-Start
 category: provinews
 photo: /img/tech/elasticsearch.png

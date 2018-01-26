@@ -8,4 +8,5 @@ subcategory: gc
 layout: presentation
 pic: /img/show/hackathon-organisateur-lyon.jpg
 text-left: yes
+sort: 4
 ---

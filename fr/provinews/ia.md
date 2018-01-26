@@ -1,14 +1,14 @@
 ---
 slug: ia
-title: Les premiers pas de l'Intelligence Artificielle
-description: Mobilité et sémantisation, les enjeux de l'IA
+title: De quoi est vraiment capable l'Intelligence Artificielle ?
+description: Mobilité et langage, les enjeux de l'IA
 category: provinews
 category-alt: ben-content
 photo: /img/provinews/intelligence_artificielle.jpg
 illustration: /img/intelligence_artificielle_2017.jpg
 prev:
-    title: "Article Précédent: Hello Tomorrow"
-    url: ../../blog/hello-tomorrow
+    title: "Article Précédent: Elasticsearch"
+    url: ../../blog/elastic_search_expertise
 next:
     title: "Article suivant: Transformation Digitale "
     url: ../../fr/blog/transformation-digitale
@@ -52,11 +52,19 @@ Concrètement, les progrès majeurs sont à observer chez les GAFA et les diffé
 souvent mis à disposition de tout le monde pour accélérer l’innovation.
 
 
-Les grands progrès de ces dernières années concernent certains domaines clés:
 
-* Robotique
-* Véhicules autonomes
-* Traitement de la parole et compréhension du langage naturel.
+Les grands progrès de ces dernières années concernent principalement 2 enjeux pour l'IA :
+* Compréhension et traitement de l'image
+* Compréhension et traitement du langage humain
+
+
+2 champs d'application semblent bénéficier des progrès en IA ces dernières années:
+
+* Véhicules/drones autonomes
+* Langage naturel (chatbots, traduction, assistant virtuel)
+
+Pour avoir des chances de rivaliser avec l'Homme, la machine doit faire plus qu'apprendre, elle doit comprendre. Le Machine Learning, concept très souvent repris par les startups et grandes entreprises, repose bien souvent plus sur de l'apprentissage de scénarios que sur de la modélisation de systèmes complexes.
+
 
 <br><br>
 
@@ -79,7 +87,7 @@ Les réponses aux attentes et innovations concernant le traitement de langage na
 
 Ces progrès en matière de traitement du langage humain sont très prometteurs.
 Le langage est à la fois l’accès à la compréhension, à la fois ce qui structure la pensée. Cette première étape nous amène donc à considérer une première forme d’intelligence à proprement parler chez la machine.
-Les innovations en termes de sémantique peuvent trouver 2 champs d’applications non exhaustifs :
+Les innovations en termes de NLP (Natural-language processing) peuvent trouver 2 champs d’applications majeurs :
 
 * Détection et Compréhension : identification du langage écrit et oral
 * Réponse et Conversation : capacité à former des phrases intelligibles
@@ -102,7 +110,7 @@ Beaucoup de décisions prises par la machine le sont sur la base de mimétismes,
 Un autre défi est d’apprendre à une IA toutes les analogies possibles entre les concepts sémantiques, ce qui implique une quantité de références culturelles, sociales, scientifiques qui dépassent largement les données structurées disponibles aujourd’hui.
 Si Martin demande à une IA “Qui est le plus beau entre mon voisin et moi?”, pour qu’elle puisse y répondre de manière “intelligente”, elle aura dû apprendre au préalable tous les différents critères de beauté “objectifs” que l’on peut connaître, mais également le fait que la beauté est subjective, que la beauté intérieure compte également et que dans la situation présente, il est possible d’en parler, et si oui comment ? Avant tout, n’est il pas incorrect dans notre société, de dire à quelqu’un qu’il est moins beau qu’un autre ? Comment une IA peut-elle apprendre cela afin d’être considérée comme plus intelligente qu’artificielle ?
 Un être humain aura probablement un temps de réflexion avant de répondre, mais saura donner une réponse tempérée. Les puissances de calcul disponibles permettent au contraire de traiter rapidement une telle question pour un algorithme. Certains facteurs clés de compréhension sont nécessaires pour une permettre une réelle compréhension. Comment trouver une réponse adaptée sans connaître l’enjeu de la question ? Ou encore, comment donner à une IA la possibilité d'interpréter tous les différents types d’intonation ? Ces enjeux semblent cependant plus accessoire, étant donné qu'aucune Intelligence Artificielle ne possède suffisamment de ressources pour arriver à interpréter le sens de n'importe quelle phrase.
-La compréhension sémantique universelle requiert plusieurs préalables en termes de Traitement de données et d'apprentissage.
+La compréhension sémantique universelle requiert plusieurs préalables en termes de traitement de données et d'apprentissage.
 Une IA, au même titre qu'un humain, doit assimiler les termes qu'elle reconnait à des concepts, des catégories pour ensuite apprendre l'infinité de relations que peuvent rencontrer les concepts sémantiques entre eux. Wikipédia est un fabuleux exemple de cette "organisation sémantique". Chaque page correspond à un concept dont l'identité correspond à un ou quelques termes. Au sein de chaque page, de nombreux autres concepts sont intégrés, ce qui reflète l'impact des autres concepts sur la définition d'un seul concept. Le défi pour une Intelligence Artificielle peut donc se trouver dans sa capacité à identifier chaque concept associé à des identités sémantiques compréhensibles, puis d'établir des liens entre chacun de ces concepts
 
 <br>

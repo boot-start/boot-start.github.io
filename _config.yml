@@ -256,10 +256,24 @@ defaults:
       sitemap: false
  -
     scope:
+      path: "fr/skm"
+    values:
+      language: fr
+      category: skm
+      layout: bootstrap-meta
+ -
+    scope:
+      path: "en/skm"
+    values:
+      language: en
+      category: skm
+      layout: bootstrap-meta
+ -
+    scope:
       path: "fr/smartcatalog"
     values:
       language: fr
-      category: smartcatalog
+      category: skm
       layout: bootstrap-meta
  -
     scope:
@@ -336,14 +350,6 @@ t:
       service: Services
       products: Plateforms
       expertise: Expertise
-      pme: PME/ETI
-      startup: Start up
-      gc: Grands comptes
-      platforms: All our plateforms
-      skm: Data Management
-      smartcat: Products Catalog
-      smartnet: Network
-      marketplace: Marketplace
       team: Team
       portfolio: References
       contact: Contact
@@ -410,7 +416,7 @@ t:
        send: "Send"
     footer:
        terms: Terms Of Use
-       copyright: Copyright &copy; Boot-Start 2017
+       copyright: Copyright &copy; Boot-Start 2018
 
 
 
@@ -425,7 +431,6 @@ t:
       fr: Français
     more: plus
     menu:
-      home: Accueil
       service: Services
       products: Plateformes
       expertise: Expertise
@@ -433,14 +438,14 @@ t:
       startup: Start up
       gc: Grands comptes
       platforms: Toutes nos plateformes
-      skm: Data Management
-      smartcat: Catalogue Produit
-      smartnet: Mise en relation
+      skm: Smart Analytics Platform
+      smartcat-business: Smart Catalog commerciaux
+      smartcat-online: Smart Catalog online
       marketplace: Marketplace
-      team: Equipe
+      team: Team
       portfolio: Références
       contact: Contact
-      jobs: Emploi
+      jobs: Jobs
       news: Blog
     offer:
       heading: "Nos Services"
@@ -512,6 +517,18 @@ t:
       home: Home Marketplace Agency
       contact: Contact
 
+    menu-skm:
+      home: Home SKM
+      contact: Contact
+
+    skm:
+      presentation-back-skm:
+        heading: "Intelligence Machine au service du traitement de donnée"
+      presentation-front-skm:
+        heading: "Plateforme interactive et dashboards"
+      argument-skm:
+        heading: "La Boot-Start Touch"
+
     smartcatalog:
       presentation:
         heading: "Le Smart Catalog intégré à votre site web"
@@ -537,6 +554,8 @@ t:
     x-references:
       reference:
         heading: "Quelques unes de nos références"
+      reference-mp:
+        heading: "Quelques unes de nos références"
 
     x-landing:
       contact:
@@ -555,7 +574,7 @@ t:
        send: Envoyer
     footer:
        terms: "Mentions Légales"
-       copyright: Copyright &copy; Boot-Start 2017
+       copyright: Copyright &copy; Boot-Start 2018
 
 
 

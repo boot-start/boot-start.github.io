@@ -1,7 +1,7 @@
 
 <section id="{{ include.category }}">
 
-    {% assign sorted_pages = (site.pages | where: "subcategory", include.subcategory | where: "language", page.language | sort: "end") %}
+    {% assign sorted_pages = (site.pages | where: "subcategory", include.subcategory | where: "language", page.language | sort: "sort") %}
 
     <div class="container-fluid">
 
@@ -44,7 +44,7 @@
     </div>
 
     <div class="col-md-12 spacing">
-        {% for subpage in sorted_pages reversed %}
+        {% for subpage in sorted_pages %}
 
         <a class="page-scroll col-md-2 btn btn-subcategory btn-spacing" href="#{{ subpage.title }}">
             {{ subpage.title }}
@@ -54,7 +54,7 @@
 
     </div>
 
-    {% for subpage in sorted_pages reversed %}
+    {% for subpage in sorted_pages %}
 
         {% if subpage.text-left %}
 
