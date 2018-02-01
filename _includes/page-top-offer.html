@@ -1,0 +1,114 @@
+
+
+
+
+
+    {% assign elements = (site.pages | where: "subcategory", include.subcategory | where: "language", page.language | sort: "sort") %}
+
+
+    {% for subpage in elements %}
+
+
+
+
+
+            {% if subpage.intro-question %}
+
+
+
+            <div class="container width-70">
+
+            <div class="top-content" style="margin-bottom: 4%;">
+            <h4 class="half-space-bottom text-center intro-resp" > {{ subpage.subtitle }} </h4>
+            <h3 class="half-space-bottom text-center intro-resp" > {{ subpage.title }} </h3>
+            </div>
+            </div>
+
+            <div class="container width-70">
+
+            {% endif %}
+
+
+
+            {% if subpage.question %}
+
+
+            <div class="col-md-4 top-content">
+            <span style="position: static">
+                        <img src="/img/audit/{{ subpage.icon }}" class="icon-resp"/>
+            </span>
+
+                <h3 class="top-content text-center"> {{ subpage.title }} </h3>
+                <p class="text-justify"> {{ subpage.description }} </p>
+            </div>
+
+
+            {% endif %}
+
+
+
+            {% if subpage.question2 %}
+
+
+
+            <div class="col-md-6 top-content half-space-top">
+             <span style="position: static">
+                        <img src="/img/audit/{{ subpage.icon }}" class="icon-resp-md6"/>
+            </span>
+
+                <h3 class="top-content text-center"> {{ subpage.title }} </h3>
+                <p class="text-justify"> {{ subpage.description }} </p>
+            </div>
+
+
+            {% endif %}
+
+
+
+            {% if subpage.outro-question %}
+
+            </div>
+
+            <div class="container half-space-top width-70">
+
+            <div class="blog-content">
+            <p class="half-space-bottom text-muted text-center"> {{ subpage.description }} </p>
+            </div>
+            </div>
+
+            {% endif %}
+
+            {% endfor %}
+
+
+
+            {% assign elements = (site.pages | where: "subcategory", include.subcategory | where: "language", page.language | sort: "sort") %}
+
+            {% for subpage in elements %}
+
+            {% if subpage.button %}
+
+
+            <div class="mobile-space-top space-top" style="margin-bottom:0px !important ;" >
+                <div id="button-audit" class="button-audit">
+                    <a href="{{ subpage.button-link }}" onClick="ga('send', 'event', 'Offers', 'click', '{{ subpage.tracking-label }}');" target="_blank" class="bnt btn-xl"> {{ subpage.button-text }}  </a>
+                    <p class="text-quote half-space-top" style="margin-top:35px !important ;"> {{ subpage.description }} </p>
+                </div>
+            </div>
+
+            {% endif %}
+
+
+
+
+            {% endfor %}
+
+
+
+
+
+
+
+
+
+

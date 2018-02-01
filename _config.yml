@@ -134,7 +134,26 @@ defaults:
    values:
      language: fr
      category: top-offer
-     layout: page-top-offer
+     layout: top-offer
+ -
+   scope:
+     path: "en/top-offer"
+   values:
+     language: en
+     category: top-offer
+     layout: top-offer
+ -
+   scope:
+     path: "fr/top-audit"
+   values:
+     language: fr
+     category: top-audit
+ -
+   scope:
+     path: "en/top-audit"
+   values:
+     language: en
+     category: top-audit
  -
    scope:
      path: "en/pme"
@@ -554,6 +573,8 @@ t:
     x-references:
       reference:
         heading: "Quelques unes de nos références"
+        subheading: "Développement complet ou contribution"
+
       reference-mp:
         heading: "Quelques unes de nos références"
 

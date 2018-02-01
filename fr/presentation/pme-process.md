@@ -7,4 +7,5 @@ category: presentation
 subcategory: pme
 layout: presentation
 pic: /img/show/sprint-pme-projet-digital.jpg
+sort: 4
 ---

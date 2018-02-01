@@ -8,4 +8,5 @@ subcategory: pme
 layout: presentation
 pic: /img/show/innovation-pme-digital.jpg
 text-left: yes
+sort: 3
 ---

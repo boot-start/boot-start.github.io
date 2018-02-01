@@ -8,4 +8,5 @@ subcategory: startup
 layout: presentation
 pic: /img/show/start-up-prestataire-infogerance.jpg
 text-left: yes
+sort: 3
 ---
