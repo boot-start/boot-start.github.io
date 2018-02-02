@@ -1,6 +1,6 @@
 ---
 slug: x-header
-title: Smart Knowledge Management
+title: Smart Data Management
 category: skm
 subcategory: header-skm
 sort: 1

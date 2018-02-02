@@ -1,7 +1,7 @@
 ---
-title: Design Produit  
-description: Nous pouvons vous aider à penser le design de votre produit ou service. Nous vous y aiderons au travers de scénarios et tests utilisateurs.
-icon: diamond
+title: Conception Produit
+description: Nous pouvons vous aider à penser l'architecture et les fonctionnalités de votre produit ou service. Notre expérience en accompagnement et outsourcing sur des projets globaux nous permet d'avoir la vision hybride Fonctionnel/Technique
+icon: adjust
 category: expertise
 subcategory: dev
 ---

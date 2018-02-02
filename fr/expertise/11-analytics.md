@@ -5,4 +5,5 @@ description: Nous pouvons faire l'analyse de vos données ou bâtir des services
 icon: eye
 category: expertise
 subcategory: data
+sort: 2
 ---
