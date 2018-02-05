@@ -450,7 +450,8 @@ t:
       fr: Français
     more: plus
     menu:
-      service: Services
+      home: Accueil
+      service: Service
       products: Plateformes
       expertise: Expertise
       pme: PME/ETI
