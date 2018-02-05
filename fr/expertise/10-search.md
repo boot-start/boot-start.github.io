@@ -5,4 +5,5 @@ description: Nous pouvons mettre une recherche plein texte dans votre applicatio
 icon: search
 category: expertise
 subcategory: data
+sort: 3
 ---

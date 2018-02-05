@@ -8,9 +8,21 @@
             </div>
             <div class="row">
 
-		    {% assign sorted_pages = (site.pages | where: "category", include.category | where: "language", page.language | sort: "end") %}
-            {% for subpage in sorted_pages reversed %}
-		    <div class="col-md-3 col-sm-6 portfolio-item">
+		    {% assign elements = (site.pages | where: "category", include.category | where: "language", page.language | sort: "sort") %}
+            {% for subpage in elements %}
+
+                {% if page.big OR subpage.big %}
+
+                <div class="col-md-4 col-sm-12 portfolio-item">
+
+                    {% else %}
+
+                <div class="col-md-3 col-sm-6 portfolio-item">
+
+                    {% endif %}
+
+
+
                 <div class="portfolio-link">
 
                     <img src="{{ subpage.photo }}" class="img-responsive" alt="">

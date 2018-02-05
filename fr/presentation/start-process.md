@@ -7,4 +7,5 @@ category: presentation
 subcategory: startup
 layout: presentation
 pic: /img/show/sprint-startup-lyon.jpg
+sort: 4
 ---

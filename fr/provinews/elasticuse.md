@@ -33,8 +33,8 @@ video-link: https://www.youtube.com/embed/U0EhWcweSQ0?rel=0html5=1
 
 
 Boot-Start favorise l’ensemble de la suite Elastic dans ses projets qui intègrent du traitement de données.
-Originellement partie du projet de moteur de recherche Open Source Elasticsearch, __Elastic propose aujourd’hui une
-suite de solutions largement utilisée dans les environnements d’entreprises__ intégrant des problématiques de Big-Data.
+Projet de moteur de recherche Open Source Elasticsearch à l'origine, __Elastic propose aujourd’hui une
+suite de solutions qui permettent aux entreprises de traiter des données et faire de l'analytics__ intégrant des problématiques de Data Science.
 Le moteur de recherche Elasticsearch est associé à Kibana (visualisation des données), Beats (transfert de données),
 Logstash (collecte et transformation de données) et Curator (administration des index Elasticsearch).
 Elastic propose également une extension appelée X-Pack, qui vient enrichir son offre en apportant : gestion de la sécurité,

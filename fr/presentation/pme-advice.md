@@ -8,4 +8,5 @@ subcategory: pme
 layout: presentation
 pic: /img/show/conseil-transformation-digitale.jpg
 text-left: yes
+sort: 1
 ---

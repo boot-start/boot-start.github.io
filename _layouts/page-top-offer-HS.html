@@ -1,0 +1,140 @@
+---
+layout: bootstrap-landing
+---
+
+<section id="{% if page.seo-title %} {{ page.seo-title }} {% else %} {{ include.category }} {% endif %}">
+
+
+{% if page.logo-cover %}
+
+
+<img src="{{ page.logo-cover }} " class="img-responsive half-space-top" style="width:20%; height: auto ; padding-left: 20%;" alt="audits numériques express de Boot-Start">
+
+
+{% endif %}
+
+
+
+
+
+
+{% assign elements = (site.pages | where: "subcategory", include.subcategory | where: "language", page.language | sort: "sort") %}
+
+
+    {% for subpage in elements %}
+
+
+
+        {% if subpage.intro-audit %}
+
+
+            <div class="audit-content">
+
+
+
+    <div class="audit-content expertise-title half-space-bottom col-md-10">
+
+        <div class="blog-content half-space-top space-bottom text-quote width-resp text-muted" style="margin: 0 0 20% 0 !important ;font-style:italic;">
+
+           {{ subpage.description }}
+
+        </div>
+
+            {% endif %}
+
+
+        {% if subpage.intro-question %}
+
+
+        <h2 class="half-space-bottom width-resp"> {{ subpage.description }} </h2>
+
+        {% endif %}
+
+        {% if subpage.question %}
+
+        <div class="col-md-4 just half-space-bottom width-resp">
+            <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-{{ subpage.icon }} fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <h3> {{ subpage.title }} </h3>
+            <p> {{ subpage.description }} </p>
+        </div>
+
+        {% endif %}
+
+        {% if subpage.outro-question %}
+
+
+        <h2 class="half-space-bottom width-resp"> {{ subpage.description }} </h2>
+
+        {% endif %}
+
+        {% if page.illu-cover %}
+
+
+
+        <img src="{{ page.illu-cover }} " class=" half-space-top img-computer" style="width:70% !important; margin-left:15%!important; z-index:-1;" alt=" audits numériques express de Boot-Start">
+        <img src="{{ page.illu-cover2 }} " class="img-cover half-space-top img-mobile" style="width:70% !important; margin-left:15%!important; z-index:-1;" alt=" audits numériques express de Boot-Start">
+
+
+        {% endif %}
+
+
+
+            {% if subpage.button %}
+
+
+                <div class="mobile-space-top space-top" style="margin-bottom:0px !important ;" >
+                    <div id="button-audit" class="button-audit">
+                        <a href="{{ subpage.button-link }}" onClick="ga('send', 'event', 'Offers', 'click', '{{ subpage.tracking-label }}');" target="_blank" class="bnt btn-xl"> {{ subpage.button-text }} Audit digital offert  </a>
+                        <p class="text-quote half-space-top" style="margin-top:35px !important ;"> {{ subpage.description }} </p>
+                    </div>
+                </div>
+
+            {% endif %}
+
+
+
+
+    {% endfor %}
+
+    {% if page.expertise %}
+
+    <div class="space-expertise">
+
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">{{ site.t[page.language][expertise].heading }}</h2>
+            <h3 class="section-subheading text-muted">{{ site.t[page.language][expertise].subheading }}</h3>
+        </div>
+
+        {% include list_subsnolink.html category='expertise-uni' %}
+
+    </div>
+
+     {% endif %}
+
+    <!--
+
+    <h2 class="expertise-title"> Nous intervenons régulièrement sur les 3 problématiques suivantes : </h2>
+    <h3 class="expertise-title half-space-top"> Plateformes web incluant des fonctionnalités avancées </h3>
+    <h3 class="expertise-title"> Traitement de données internes, création de dashboards et interfaces de data management </h3>
+    <h3 class="expertise-title"> Logiciels internes ou briques technologiques sur vos outils digitaux déjà existant. </h3>
+
+    -->
+
+
+
+    <svg class="audit-svg-left" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 288 4361"><defs><style>.cls-1{fill:url(#Dégradé_sans_nom_2);}</style><linearGradient id="Dégradé_sans_nom_2" x1="282.61" y1="2211.76" x2="-95.85" y2="2211.76" gradientUnits="userSpaceOnUse"><stop offset="0.06" stop-color="#d4145a"/><stop offset="0.91"/></linearGradient></defs><path class="cls-1" d="M42.71,367.39A7.68,7.68,0,1,0,35,375.07,7.69,7.69,0,0,0,42.71,367.39Zm-11.2,0A3.52,3.52,0,1,1,35,370.92,3.53,3.53,0,0,1,31.51,367.39ZM217.81,244.22a7.67,7.67,0,0,0,5.73-12.78l20.23-32.73V-47h-4.15V197.53L220,229.2a7.68,7.68,0,1,0-2.23,15Zm0-11.2a3.52,3.52,0,1,1-3.52,3.52A3.53,3.53,0,0,1,217.81,233Zm42.58,458.86V399L130.92,191.3V-64.95h-4.15V192.49L256.23,400.18V691.82a7.67,7.67,0,1,0,4.15.06Zm-2.19,10.88a3.52,3.52,0,1,1,3.52-3.52A3.53,3.53,0,0,1,258.19,702.76ZM145.81,437.3a7.68,7.68,0,1,0,7.68,7.68A7.69,7.69,0,0,0,145.81,437.3Zm0,11.2a3.52,3.52,0,1,1,3.52-3.52A3.53,3.53,0,0,1,145.81,448.5ZM81.07,212.07,210.54,419.76V4427.85h-4.15V421L76.92,213.26V-44.18h4.15Zm16.62-6.92L227.15,412.84V4397.92H223V414L93.54,206.33V-51.1h4.15ZM277,601V392.07L147.54,184.38V-71.87h-4.15V185.56L272.85,393.26V601a7.68,7.68,0,1,0,4.15,0Zm-2.07,10.91a3.52,3.52,0,1,1,3.52-3.52A3.53,3.53,0,0,1,274.93,611.89ZM114.31,198.22,243.77,405.92V4381h-4.15V407.1L110.15,199.41V-58h4.15ZM64.46,219,193.92,426.69V4471.77h-4.15V427.87L60.31,220.18V-37.26h4.15Zm81,655.76a7.68,7.68,0,0,0-2.08,15.07v424.75h0v246.2L78.31,1665.32v89.8l27.69,45-.13,208.82a7.68,7.68,0,1,0,4.15,0l.13-210-27.69-45v-87.43L147.54,1562V1304h0V889.82a7.68,7.68,0,0,0-2.08-15.07Zm-34,1141.75A3.52,3.52,0,1,1,108,2013,3.53,3.53,0,0,1,111.5,2016.5ZM145.46,886a3.52,3.52,0,1,1,3.52-3.52A3.53,3.53,0,0,1,145.46,886Zm.35-401.58a7.68,7.68,0,1,0,7.68,7.68A7.69,7.69,0,0,0,145.81,484.38Zm0,11.2a3.52,3.52,0,1,1,3.52-3.52A3.53,3.53,0,0,1,145.81,495.57Zm-31.5,1018.35L49.23,1618.46v2832H45.08V1617.27l65.08-104.54V1293.81h0V333.72L22.92,193.87V-61.42h4.15v254.1l87.23,139.85v933.52h0ZM97.69,1507,32.62,1611.54V4495.38H28.46v-2885l65.08-104.54V1300.73h0V340.64L6.3,200.8V-54.5h4.15v254.1L97.69,339.45v919.67h0Zm-33.24-13.85L-92.32,1745l-3.53-2.2L60.3,1492V1245.28h0V354.49L-26.93,214.64V-40.65h4.15v254.1L64.46,353.3v961.28h0Zm1.39,166.43L130.92,1555V1304h0V854.17a7.68,7.68,0,1,0-4.15,0v460.41h0v239.28L61.69,1658.4V1762l27.69,45V4495.38h4.15V1805.86l-27.69-45Zm59.47-812.81a3.52,3.52,0,1,1,3.52,3.52A3.53,3.53,0,0,1,125.32,846.78Zm-44.24,653.3L-75.7,1751.89l-3.53-2.2L76.92,1498.89V1307.65h0V347.57L-10.31,207.72V-47.57h4.15v254.1L81.07,346.38V1252.2h0Z"/></svg>
+
+    <svg class="audit-svg-right" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 288 4361"><defs><style>.cls-1{fill:url(#Dégradé_sans_nom_20);}</style><linearGradient id="Dégradé_sans_nom_20" x1="408.83" y1="2125.57" x2="4.43" y2="2125.57" gradientUnits="userSpaceOnUse"><stop offset="0.09"/><stop offset="0.94" stop-color="#d4145a"/></linearGradient></defs><path class="cls-1" d="M252.7,1752.88h-4.15v-1450L183.47,198.37V-49.5h4.15V197.19L252.7,301.73ZM236.08,1738h-4.15V309.84L166.85,205.3V-42.57H171V204.11l65.08,104.54Zm-45.69,0h-4.15V594.94l10.25-16.4a7.66,7.66,0,1,1,3.52,2.2l-9.61,15.38ZM202.16,569.86a3.52,3.52,0,1,0,3.52,3.52A3.53,3.53,0,0,0,202.16,569.86ZM173.77,1738h-4.15V543.73a7.68,7.68,0,1,1,4.15,0ZM171.7,532.82a3.52,3.52,0,1,0,3.52,3.52A3.53,3.53,0,0,0,171.7,532.82ZM157.16,1738H153V442.27l27.69-45V296L115.62,191.45v-234h4.15V190.26L184.85,294.8V398.45l-27.69,45Zm-70.62,0H82.39V404.9a7.68,7.68,0,1,1,4.15,0ZM84.46,394A3.52,3.52,0,1,0,88,397.51,3.53,3.53,0,0,0,84.46,394ZM69.93,4183.66H65.77V-42.57h4.15Zm-16.62-44H49.16V-42.57h4.15ZM138.6,660.41a7.68,7.68,0,0,1-2.08-15.07l-.13-210,27.69-45V302.91L99,198.37V-42.57h4.15V197.19l65.08,104.54v89.8l-27.69,45,.13,208.82a7.68,7.68,0,0,1-2.08,15.07Zm0-11.2a3.52,3.52,0,1,0,3.52,3.52A3.53,3.53,0,0,0,138.6,649.21Zm-16.75-57.64a7.68,7.68,0,0,1-2.08-15.07V428.42l27.69-45V309.84L82.39,205.3V-42.57h4.15V204.11l65.08,104.54v76l-27.69,45V576.5a7.68,7.68,0,0,1-2.08,15.07Zm0-11.2a3.52,3.52,0,1,0,3.52,3.52A3.53,3.53,0,0,0,121.85,580.37Zm-6.22,1602.88-27.69-45V2034.6L153,1930.06V1697.23h4.15v234L92.09,2035.79v101.28l27.69,45V4302.46h-4.15Zm10.89,144.29a7.69,7.69,0,0,1,5.6-7.39l.13-143.82-27.69-45v-89.8L169.63,1937V1697.23h4.15v240.95L108.7,2042.71v87.43l27.69,45-.13,145a7.68,7.68,0,1,1-9.75,7.39Zm4.24.08a3.52,3.52,0,1,0,3.52-3.52A3.53,3.53,0,0,0,130.75,2327.61Zm12.51-68.92a7.69,7.69,0,0,1,5.6-7.39v-81.9l-27.69-45v-76l65.08-104.54V1697.23h4.15V1945.1l-65.08,104.54v73.59l27.69,45v83.08a7.68,7.68,0,1,1-9.75,7.39Zm4.24.08a3.52,3.52,0,1,0,3.52-3.52A3.53,3.53,0,0,0,147.5,2258.77ZM356.86,443.26,200.08,191.45V-56.42h4.15V190.26L360.38,441.07Zm16.62-6.92L216.7,184.53V-63.34h4.15V183.34L377,434.15Zm15.22,1787.94L231.91,1972.47V1724.6h4.15v246.68l156.15,250.81Zm16.62-6.92L248.53,1965.55V1717.68h4.15v246.68l156.15,250.81ZM12.11,352.57a7.68,7.68,0,1,1,2-15.08L32.53,308V-42.57h4.15V309.14l-19,30.5a7.67,7.67,0,0,1-5.59,12.93Zm0-11.2a3.52,3.52,0,1,0,3.52,3.52A3.53,3.53,0,0,0,12.11,341.37ZM219,2960a7.65,7.65,0,0,1-2.09,5.26l19,30.5V4172.11h-4.15V2996.92l-18.39-29.54A7.68,7.68,0,1,1,219,2960Zm-4.15,0a3.52,3.52,0,1,0-3.52,3.52A3.53,3.53,0,0,0,214.83,2960ZM84.81,351.19a7.68,7.68,0,1,1,7.68-7.68A7.68,7.68,0,0,1,84.81,351.19Zm0-11.2a3.52,3.52,0,1,0,3.52,3.52A3.53,3.53,0,0,0,84.81,340ZM336.27,115.65A7.68,7.68,0,1,1,344,108,7.68,7.68,0,0,1,336.27,115.65Zm0-11.2A3.52,3.52,0,1,0,339.8,108,3.53,3.53,0,0,0,336.27,104.45Zm28.13-22a7.68,7.68,0,1,1,7.68-7.68A7.68,7.68,0,0,1,364.41,82.42Zm0-11.2a3.52,3.52,0,1,0,3.52,3.52A3.53,3.53,0,0,0,364.41,71.22ZM336.27,54A7.68,7.68,0,1,1,344,46.36,7.68,7.68,0,0,1,336.27,54Zm0-11.2a3.52,3.52,0,1,0,3.52,3.52A3.53,3.53,0,0,0,336.27,42.83Zm-252,1707.32a7.68,7.68,0,1,1,7.68-7.68A7.68,7.68,0,0,1,84.27,1750.15Zm0-11.2a3.52,3.52,0,1,0,3.52,3.52A3.53,3.53,0,0,0,84.27,1738.95Zm33.5,2575.53a7.68,7.68,0,1,1,7.68-7.68A7.68,7.68,0,0,1,117.77,4314.48Zm0-11.2a3.52,3.52,0,1,0,3.52,3.52A3.53,3.53,0,0,0,117.77,4303.28Zm115.72-118.66a7.68,7.68,0,1,1,7.68-7.68A7.68,7.68,0,0,1,233.49,4184.63Zm0-11.2a3.52,3.52,0,1,0,3.52,3.52A3.53,3.53,0,0,0,233.49,4173.43ZM68,4196a7.68,7.68,0,1,1,7.68-7.68A7.68,7.68,0,0,1,68,4196Zm0-11.2a3.52,3.52,0,1,0,3.52,3.52A3.53,3.53,0,0,0,68,4184.83ZM51,4152a7.68,7.68,0,1,1,7.68-7.68A7.68,7.68,0,0,1,51,4152Zm0-11.2a3.52,3.52,0,1,0,3.52,3.52A3.53,3.53,0,0,0,51,4140.83Z"/></svg>
+
+
+</div>
+
+
+
+
+
+

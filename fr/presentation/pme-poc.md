@@ -7,4 +7,5 @@ category: presentation
 subcategory: pme
 layout: presentation
 pic: /img/show/prototype-digitalisation-pme.jpg
+sort: 2
 ---

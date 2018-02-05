@@ -137,7 +137,7 @@ To measure the real interest of the visitor, we need to check if he is ready to 
 </p>
 <div id="mvp">
 <br><br><br>
-<h3> The MVP or Minimum Valuable Product : the minimal version of a usable product </h3>
+<h3> The MVP or Minimum Valuable Product : the minimal version of an usable product </h3>
 <br>
 <br>
 <p class="blog-content half-space-top">
