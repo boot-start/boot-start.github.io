@@ -39,7 +39,11 @@
             </span>
 
                 <h3 class="top-content text-center"> {{ subpage.title }} </h3>
-                <p class="text-justify"> {{ subpage.description }} </p>
+                <p class="text-justify"> {{ subpage.description }}
+                    {% if subpage.text-link %}
+                    <a href="{{ subpage.link-text }}" target="_blank" class="text-justify"> {{ subpage.text-link }} </a> </>
+                    {% endif %}</p>
+
             </div>
 
 
