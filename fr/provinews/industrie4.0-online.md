@@ -84,7 +84,7 @@ __Comment cela se passe concrètement ?__
 
 
 L'intégration d'un outil où tous les produits peuvent être triés selon les critères qui interressent le client ou le prospect est relativement simple à mettre en place.
-La dernière partie de cet article présente <a href="http://www.boot-start.com/fr/products/smart-catalog-online" target="_blank">   la solution de catalogue intéractif clé en main pour industriels.
+La dernière partie de cet article présente <a href="http://www.boot-start.com/fr/products/smart-catalog-online" target="_blank">   la solution de catalogue intéractif </a> clé en main pour industriels.
 
 __Moteur de recherche et de tri__
 
