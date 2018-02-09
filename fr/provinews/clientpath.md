@@ -36,7 +36,7 @@ blogauthor:
 
 
 Le parcours client est l’ensemble des points d’interaction
-entre un client et une entreprise. Les étapes et scénaris du
+entre un client et une entreprise. Les étapes et scénariis du
 parcours client à l’heure du digital sont devenus très complexes
  et l’entreprise doit entreprendre une approche par l’usage en
  intégrant l’évolution des comportements liée au digital.
