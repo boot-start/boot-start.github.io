@@ -4,23 +4,23 @@ title: "Industrie 4.0 : Le catalogue en ligne, un enjeu stratégique"
 description: "Penser sa transformation numérique jusqu'au client final, mise en place d'un catalogue produit interactif en ligne"
 category: provinews
 category-alt: ben-content
-photo: /img/provinews/digitalisation-relation-client.jpg
+photo: /img/provinews/smartcatalog-industrie.png
 prev:
     title: "Article précédent: Enjeux de l'IA"
     url: ../../fr/blog/intelligence-artificielle-2017
 next:
     title: "Article suivant: Digitalisation"
     url: ../../fr/blog/transformation-digitale
-background: /img/provinews/digitalisation-relation-client.jpg
-website: blog/parcours-client-digital
+background: /img/provinews/smartcatalog-industrie.png
+website: blog/marketing-industriedufutur
 layout: page
 blog: yes
-permalink: fr/blog/parcours-client-digital
+permalink: fr/blog/marketing-industriedufutur
 link: ../products/smart-knowledge-management/
 call-to-action: yes
 cta-tooltip: Discutons de votre transformation digitale !
 contact-link: /fr/#contact
-social-img: /img/provinews/digitalisation-relation-client.jpg
+social-img: /img/provinews/smartcatalog-industrie.png
 blogauthor:
     name: Ben Kaltenbaek
     statut: Responsable Marketing, Communication chez Boot-Start
@@ -31,13 +31,17 @@ blogauthor:
 ---
 
 <br><br><br>
-<h1> Industrie 4.0 : le parcours client en ligne trop souvent négligée par les industriels </h1>
+<h1> Industrie 4.0 : la digitalisation du catalogue produits </h1>
 <br><br>
 
 
 Le parcours client est l’ensemble des points d’interaction
 entre un client et une entreprise. Les étapes et scénariis du
-parcours client à l’heure du digital sont devenus très complexes et l’entreprise doit entreprendre
+parcours client à l’heure du digital sont devenus très complexes et l’entreprise doit entreprendre.
+
+<br>
+
+
 
 <h3> Le site web en tant qu'enjeu stratégique  </h3>
 
@@ -45,7 +49,7 @@ Aujourd’hui, dans le secteur BtoB, le site internet est un facteur décisif da
 D’après une étude de BDC viewpoints, pour 69% des entreprises, le site web est la principale source d’information quand
 elles choisissent un fournisseur.
 
-
+<br>
 
 Dans le secteur de l'industrie, les décisions d’achats sont très pragmatiques,
 nul besoin de faire un magnifique site web avec de beaux effets partout,
@@ -67,10 +71,9 @@ _Résultats de la consultation de 110 sites web d'industriels français :_
 <br>
 18% seulement des industriels de plus de 500 salariés disposent d'un catalogue produit "interactif" (avec la possibilité de trier et rechercher les produits de l'entreprise en ligne), 7% seulement avec les industriels de 50 à 500 salariés. <br>
 Près de 50% de ces mêmes industriels présentent des catalogues "type papier" numérisés, avec un système de pages qui se tournent. Ces pratiques sont évidemment fortement déconseillées compte tenu des efforts à fournir par le client pour trouver les informations qu'il recherche.
-
+<br>
 __Les entreprises du secteur de l'industrie doivent fournir des efforts pour s'adapter aux usages du numérique__
 
-<br>
 
 Les entreprises du B2C ont, pour la plupart, très rapidement su réinventer le parcours client en ligne pour offrir la plus grande simplicité possible.
 
@@ -78,28 +81,23 @@ Il faut penser son interface pour que le client trouve ce qu’il cherche sans i
 
 <br>
 
-__Comment cela se passe concrètement ?__
+__Solution clé en main? Le cas du Smart Catalog__
+
+L'intégration d'un outil où tous les produits peuvent être triés, consultées rapidement et instinctivement selon les critères qui interessent le client est relativement simple à mettre en place.
+Boot-Start a développé la solution de catalogue intéractif <a href="http://www.boot-start.com/fr/products/smart-catalog-online" target="_blank"> Smart Catalog </a>, outil clé en main et intégrable au site web pour les industriels. Les produits de l'entreprise sont injectées par Boot-Start dans le catalogue en ligne qui est en quelques temps consultables, référencés sur Google et intégrés au site web officiel de l'entreprise.
 
 <br>
 
-
-L'intégration d'un outil où tous les produits peuvent être triés selon les critères qui interressent le client ou le prospect est relativement simple à mettre en place.
-La dernière partie de cet article présente <a href="http://www.boot-start.com/fr/products/smart-catalog-online" target="_blank">   la solution de catalogue intéractif </a> clé en main pour industriels.
-
-__Moteur de recherche et de tri__
-
-<br>
+__Pourquoi le moteur de recherche et les critères de tri sont si importants ?__
 
 La bonne information sans effort, voilà ce qu’attendent les clients qui se dirigent vers votre site web.
 L’efficacité d’un moteur de recherche avec des critères de tri pertinents est une partie importante de l'expérience utilisateur quand vous disposez de beaucoup de contenu.
 Les outils de moteur de recherche génériques, ceux là même que les agences web installent par défaut ou que vous pouvez trouver en open source, sont très basiques et ne permettent pas une réelle pertinence des résultats.
-L’enjeu pour optimiser son expérience client est de réaliser un travail d’analyse sémantique en se mettant à la place des utilisateurs afin de proposer des recommandations pertinentes à chaque requête. De nombreuses entreprises font appel à une société spécialisée en moteur de recherche et recommandation afin d’implémenter une UX de qualité. La marketplace Mano Mano, leader de la vente de produits de bricolage et jardin en Europe est un parfait exemple. En effet, la start-up française a réussi à implémenter un parcours utilisateur si fluide qu’elle réussit à prendre de plus en plus de parts de marché aux magasins de bricolage traditionnels malgré la complexité des produits . Les critères de tri sont également très importants pour que l’utilisateur puisse rapidement personnaliser son contenu selon ses envies.
+De nombreuses entreprises font appel à une société spécialisée en moteur de recherche et recommandation afin d’implémenter une UX (Experience Utilisateur) de qualité. La marketplace Mano Mano, leader de la vente de produits de bricolage et jardin en Europe est un parfait exemple. En effet, la start-up française a réussi à implémenter un parcours utilisateur si fluide qu’elle réussit à prendre de plus en plus de parts de marché aux magasins de bricolage traditionnels malgré la complexité des produits . Les critères de tri sont également très importants pour que l’utilisateur puisse rapidement personnaliser son contenu selon ses envies.
 
 <br>
 
 __Vers un site web intelligent: recommandation et personnalisation__
-
-<br>
 
 Un moteur de recommandation va permettre 2 types de suggestions produits : <br>
 * Proposer des produits alternatifs à celui choisi, souvent de gamme supérieure (Up-selling) <br>
@@ -130,18 +128,21 @@ __E-commerce ou distributeurs, il est existe une alternative__
 
 <br>
 
-*Numériser son catalogue produit sur un site web*
+*Gagner en pouvoir de négociation face aux distributeurs*
 
 <br>
 
-Certaines entreprises entreprennent la mise en place d’une plateforme web qui référence l’ensemble de leurs produits (sans possibilité d’acheter) afin que leurs clients finaux puissent accéder à leur catalogue facilement. Par ce biais, il est possible pour le fabricant d’analyser le comportement de ses clients et montrer l’étendue de ses gammes afin de ne plus limiter les options d’achat aux négociations avec ses distributeurs. Il est ainsi possible d’orienter ses clients vers les distributeurs qui référencent les produits suscitant l'intérêt du visiteur.
+Certaines entreprises entreprennent la mise en place d’un catalogue intéractif qui référence l’ensemble de leurs produits (sans possibilité d’acheter) afin que leurs clients finaux puissent accéder à leur catalogue facilement. Sans courcicuiter d'une quelconque manière ses distributeurs, puisqu'aucun achat n'est effectué en ligne, le catlogue interactif permet aux entreprises d'avoir une relation direct avec les clients finaux.  Par ce biais, il est possible pour le fabricant d’analyser le comportement de ses clients et montrer l’étendue de ses gammes afin de ne plus limiter les options d’achat aux négociations avec ses distributeurs. Il est ainsi possible d’orienter ses clients vers les distributeurs qui référencent les produits suscitant l'intérêt du visiteur.
+
+<br>
 
 <br>
 <br>
-<br>
+
+__Un pas de plus dans sa transformation numérique__
 
 Le digital et les innovations permettent d'apporter de la simplicité, de la rapidité et du confort aux clients et utilisateurs. Mais la transformation numérique change également les règles du jeu pour certaines entreprises qui ont tout intéret à profiter de la proximité permise par le web. <br>
-Cet article est un extrait du E-Book "Transformation digitale des PME/ETI: les 4 grands chantiers à entreprendre" bientôt disponible en téléchargement gratuit sur le site de Boot-Start.
+Cet article est un extrait du E-Book "Transformation numérique des entreprises: les 4 grands virages à entreprendre" bientôt disponible en téléchargement gratuit sur le site de Boot-Start.
 <br><br>
-<br><br>
+<br>
 
