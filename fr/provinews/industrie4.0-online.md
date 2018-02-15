@@ -55,7 +55,14 @@ Dans le secteur de l'industrie, les décisions d’achats sont très pragmatique
 nul besoin de faire un magnifique site web avec de beaux effets partout,
 le plus important c’est que n’importe qui puisse consulter et trouver les produits qu'il cherche facilement.
 
+__Les entreprises du secteur de l'industrie doivent fournir des efforts pour s'adapter aux usages du numérique__
 
+
+Les entreprises du B2C ont, pour la plupart, très rapidement su réinventer le parcours client en ligne pour offrir la plus grande simplicité possible.
+
+Il faut penser son interface pour que le client trouve ce qu’il cherche sans intervention de votre part, sans effort de la sienne.
+
+<br>
 
 <br><br>
 <h3> Le fournisseur doit faire les efforts, pas le client ! </h3>
@@ -67,33 +74,26 @@ Un fournisseur se doit de prendre en compte les attentes de son client qui vient
 L'équipe marketing de Boot-Start a mené une étude interne sur le secteur, et est arrivée à des conclusions très étonnantes concernant les industriels français:
 <br>
 <br>
-_Résultats de la consultation de 110 sites web d'industriels français :_
+_Résultats de la consultation de 110 sites web d'industriels français qui ne proposent pas de vente en ligne:_
 <br>
-18% seulement des industriels de plus de 500 salariés disposent d'un catalogue produit "interactif" (avec la possibilité de trier et rechercher les produits de l'entreprise en ligne), 7% seulement avec les industriels de 50 à 500 salariés. <br>
+8% seulement des industriels de plus de 500 salariés disposent d'un catalogue produit "interactif" (avec la possibilité de trier et rechercher les produits de l'entreprise en ligne), 7% seulement pour les industriels de 50 à 500 salariés. <br>
 Près de 50% de ces mêmes industriels présentent des catalogues "type papier" numérisés, avec un système de pages qui se tournent. Ces pratiques sont évidemment fortement déconseillées compte tenu des efforts à fournir par le client pour trouver les informations qu'il recherche.
 <br>
-__Les entreprises du secteur de l'industrie doivent fournir des efforts pour s'adapter aux usages du numérique__
 
-
-Les entreprises du B2C ont, pour la plupart, très rapidement su réinventer le parcours client en ligne pour offrir la plus grande simplicité possible.
-
-Il faut penser son interface pour que le client trouve ce qu’il cherche sans intervention de votre part, sans effort de la sienne.
-
-<br>
-
-__Solution clé en main? Le cas du Smart Catalog__
-
-L'intégration d'un outil où tous les produits peuvent être triés, consultées rapidement et instinctivement selon les critères qui interessent le client est relativement simple à mettre en place.
-Boot-Start a développé la solution de catalogue intéractif <a href="http://www.boot-start.com/fr/products/smart-catalog-online" target="_blank"> Smart Catalog </a>, outil clé en main et intégrable au site web pour les industriels. Les produits de l'entreprise sont injectées par Boot-Start dans le catalogue en ligne qui est en quelques temps consultables, référencés sur Google et intégrés au site web officiel de l'entreprise.
-
-<br>
 
 __Pourquoi le moteur de recherche et les critères de tri sont si importants ?__
 
-La bonne information sans effort, voilà ce qu’attendent les clients qui se dirigent vers votre site web.
 L’efficacité d’un moteur de recherche avec des critères de tri pertinents est une partie importante de l'expérience utilisateur quand vous disposez de beaucoup de contenu.
-Les outils de moteur de recherche génériques, ceux là même que les agences web installent par défaut ou que vous pouvez trouver en open source, sont très basiques et ne permettent pas une réelle pertinence des résultats.
-De nombreuses entreprises font appel à une société spécialisée en moteur de recherche et recommandation afin d’implémenter une UX (Experience Utilisateur) de qualité. La marketplace Mano Mano, leader de la vente de produits de bricolage et jardin en Europe est un parfait exemple. En effet, la start-up française a réussi à implémenter un parcours utilisateur si fluide qu’elle réussit à prendre de plus en plus de parts de marché aux magasins de bricolage traditionnels malgré la complexité des produits . Les critères de tri sont également très importants pour que l’utilisateur puisse rapidement personnaliser son contenu selon ses envies.
+Les outils de moteur de recherche génériques, ceux là même que les agences web installent par défaut ou que vous pouvez trouver en libre accès ne proposent que des résultats basés sur les titres ou la description des pages à afficher. Un vrai moteur de recherche se doit de proposer des résultats complémentaires aux requêtes des utilisateurs en inspectant le détail des pages à afficher et en recommandant des résultats similaires au mot clé employé.
+En ce qui concerne les critères de tri, voici une vidéo qui présente comment des critères bien organisés peuvent faciliter la découverte d'un catalogue pour un client:
+
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zEiHqr3Rq_I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<br>
+
+La marketplace Mano Mano, leader de la vente de produits de bricolage et jardin en Europe est un parfait exemple. En effet, la start-up française a réussi à implémenter un parcours utilisateur si fluide qu’elle réussit à prendre de plus en plus de parts de marché aux magasins de bricolage traditionnels malgré la complexité des produits . Les critères de tri sont également très importants pour que l’utilisateur puisse rapidement personnaliser son contenu selon ses envies.
 
 <br>
 
@@ -104,6 +104,13 @@ Un moteur de recommandation va permettre 2 types de suggestions produits : <br>
 * Proposer des produits complémentaires au produit choisi (cross-selling) <br>
 
 Mais la recommandation est loin de concerner seulement le E-commerce. Un industriel qui présente simplement ses produits sur son site officiel peut intégrer des recommandations très simplement. Si un prospect consulte la fiche d'une imprimante, il est fort à parier qu'il ait besoin de cartouches et de papier. La recommandation de ces produits permet au client de connaitre l'ensemble de l'offre de l'entreprise. Il est également possible, par le biais de publicités programmées ou de mails automatiques, de notifier son client lorsqu’un produit est susceptible de lui plaire.
+
+<br>
+
+__Solution clé en main? Le cas du Smart Catalog__
+
+L'intégration d'un outil où tous les produits peuvent être triés, consultées rapidement et instinctivement selon les critères qui interessent le client est relativement simple à mettre en place.
+Boot-Start a développé la solution de catalogue intéractif <a href="http://www.boot-start.com/fr/products/smart-catalog-online" target="_blank"> Smart Catalog </a>, outil clé en main et intégrable au site web pour les industriels. Les produits de l'entreprise sont injectées par Boot-Start dans le catalogue en ligne qui est en quelques temps consultables, référencés sur Google et intégrés au site web officiel de l'entreprise.
 
 <br>
 
@@ -124,7 +131,7 @@ Le phénomène peut aussi s’appliquer aux fabricants de “produits invisibles
 
 <br>
 
-__E-commerce ou distributeurs, il est existe une alternative__
+__E-commerce ou distributeurs, il existe une alternative__
 
 <br>
 

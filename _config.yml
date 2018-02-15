@@ -292,7 +292,7 @@ defaults:
       path: "fr/smartcatalog"
     values:
       language: fr
-      category: skm
+      category: smartcatalog
       layout: bootstrap-meta
  -
     scope:
@@ -469,7 +469,7 @@ t:
       news: Blog
     offer:
       heading: "Nos Services"
-      subheading: "3 types d'approches avec nos clients partenaires, l'accompagnement sur un projet global, l'expertise sur un sujet technique précis et l'adaptation d'un de nos fabuleux produits."
+      subheading: "3 types d'approches avec nos clients partenaires, l'expertise sur un sujet technique précis, l'accompagnement sur un projet global et l'adaptation d'une de nos fabuleuses plateformes."
     service:
       heading: "Services"
       subheading: "Nous avons un large panel de tâches que nous pouvons vous aider à accomplir."
@@ -487,7 +487,7 @@ t:
         subheading: "Notre métier est de vous construire le produit le plus adapté et efficace"
     segment:
       heading: " Nos prestations "
-      subheading: " Notre savoir-faire est apprécié par des entreprises de natures différentes, nous avons mis au point des offres adaptées au contexte de nos clients. "
+      subheading: "Notre méthodologie basée sur l'action et le 'test and learn' permet de concrétiser des projets rapidement. "
     expertise:
       heading: " Nos super pouvoirs"
       subheading: "Boot-Start c'est avant tout des compétences pointues et complémentaires"
