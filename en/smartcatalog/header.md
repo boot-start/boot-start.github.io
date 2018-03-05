@@ -1,10 +1,10 @@
 ---
 slug: x-header
-title: Smart Catalog Online
+title: Online Smart Catalog
 category: x-references
 subcategory: header
 sort: 1
-button: Solution SKM
-description: Intégration à votre site web d'une plateforme interactive qui référence l'ensemble de votre catalogue produit. <br>  Un simple outil pour augmenter vos ventes sans proposer d'achat en ligne.
+button: Smart Catalog
+description: Integration of an interactiv catalog to your website with all your products. <br>  A simple tool to increase your sales without online purchase.
 header: yes
 ---

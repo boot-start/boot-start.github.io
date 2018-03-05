@@ -1,10 +1,10 @@
 ---
 slug: x-navigation
-title: Navigation
+title: User Experience
 category: skm
 subcategory: argument-skm
 sort: 1
 icon: smile-o
-description: Une de nos priorité est d'offrir la meilleure experience à chacun des utilisateurs de nos outils. Les interfaces sont réfléchies dans ce sens, notre accompagnement inclut également une réflexion autour de l'usage des outils.
+description: Yes, data management can be easy and accessible ! We designed our interfaces to avoid any waste of time and focus on the essential, generating cleaned and structured data.
 argument: yes
 ---

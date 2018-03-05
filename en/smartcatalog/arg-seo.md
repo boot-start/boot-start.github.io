@@ -1,10 +1,10 @@
 ---
 slug: x-seo
-title: Référencement SEO
+title: Search Engine Optimization
 category: smartcatalog
 subcategory: argument
 sort: 2
 icon: google
-description: Grâce au Smart Catalog, chacun de vos produits bénéficie d'un référencement optimisé sur Google. C'est comme cela qu'Amazon est devenu si puissant, nous vous faisons profiter de la même méthode.
+description: Thanks to the Smart Catalog, every one of your products benefits an optimized natural rank in search engines such as Google. This is how Amazon became Amazon, we offer you the same method.
 argument: yes
 ---

@@ -1,10 +1,10 @@
 ---
 slug: x-navigation
-title: Navigation
+title: User Experience
 category: smartcatalog
 subcategory: argument
 sort: 1
 icon: smile-o
-description: Notre priorité est d'offrir la meilleure experience à chacun de vos acheteurs, prospects et clients finaux quand ils sont sur votre site web afin de décupler vos ventes sans E-commerce.
+description: Our priority is to offer the best experience to your leads, clients and final customers when they discover your products.
 argument: yes
 ---

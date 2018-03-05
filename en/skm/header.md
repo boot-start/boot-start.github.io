@@ -1,10 +1,10 @@
 ---
 slug: x-header
-title: Smart Knowledge Management
+title: Smart Data Management
 category: skm
 subcategory: header-skm
 sort: 1
-button: C'est parti !
-description: 2 produits complémentaires à destination de la transformation digitale des entreprises. Simplification et automatisation <b> du traitement et de l'analyse de données</b>. Une aide précieuse pour les décisions quotidiennes, la recherche d'informations et les tendances en interne.
+button: Let's go !
+description: You want to get informations, do analytics, prediction or AI ? You first need to clean and unify your data ! <br> Discover our awesome platform which makes easy the first steps of Data processing
 header: yes
 ---

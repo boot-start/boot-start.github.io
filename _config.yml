@@ -374,6 +374,10 @@ t:
       contact: Contact
       jobs: Jobs
       news: Blog
+      platforms: All our plateforms
+      skm: Smart Knowledge Management
+      smartcat-online: Smart Catalog
+      marketplace: Marketplace
     offer:
       heading: "Our services"
       subheading: "3 ways of working with our clients: developing together a whole project, providing expertise in technical subjects and integrating our amazing products."
@@ -437,10 +441,59 @@ t:
        terms: Terms Of Use
        copyright: Copyright &copy; Boot-Start 2018
 
+    menu-smartcat:
+      home: Home Smart Catalog
+      contact: Contact
+
+    menu-mp:
+      home: Home Marketplace Agency
+      contact: Contact
+
+    menu-skm:
+      home: Home SKM
+      contact: Contact
+
+    skm:
+      presentation-back-skm:
+        heading: "Transform big-data into smart data then into knowledge"
+      presentation-front-skm:
+        heading: "Interactiv plateform and dashboards"
+      argument-skm:
+        heading: "Boot-Start Touch"
+
+    smartcatalog:
+      presentation:
+        heading: "Smart Catalog integrated to your siteweb"
+      video:
+        heading: "An example of catalog propulsed by our tool (in French)"
+      argument:
+        heading: "Smart Catalog makes sell"
+
+    marketplace:
+      presentation-mp:
+        heading: "We set a team to create your marketplace"
+      argument-mp:
+        heading: "From the prototype to the whole platform, discover the advantages of agile developpment"
+
+    smartcatalog2:
+      presentation2:
+        heading: "Digital for salesmen"
+      argument2:
+        heading: "Smart Catalog improves salesperson work"
+
+      reference-mp:
+        heading: "Some of our references"
+
+    x-landing:
+      contact:
+        heading: "What about you ?"
+        subheading: "Let's talk about your projects"
 
 
     x-references:
+      reference:
         heading: "Some of our references"
+        subheading: "Whole developpment or contribution"
 
 
 
@@ -543,7 +596,7 @@ t:
 
     skm:
       presentation-back-skm:
-        heading: "Intelligence Machine au service du traitement de donnée"
+        heading: "Intelligence machine pour transformer les big-data en connaissance"
       presentation-front-skm:
         heading: "Plateforme interactive et dashboards"
       argument-skm:
