@@ -1,0 +1,375 @@
+$height:500%;
+$pink:#C11759;
+
+$large:1700px;
+$med:1400px;
+$petit:1200px;
+$small:900px;
+$min-content:800px;
+
+html{
+    height:100%;
+    
+    background:#272F35;
+}
+body{
+    height:100%;
+    position:relative;
+    overflow: hidden;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size:20px;
+    @media (max-width: $small) {
+        font-size:18px;
+      }
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    
+    font-weight: 100;
+}
+
+h1{
+    font-size:100px;
+    @media (max-height: 900px) {
+       font-size:70px; 
+      }
+    @media (max-width: $small) {
+        font-size:50px;
+      }
+}
+h2{
+    font-size:60px;
+    @media (max-width: $small) {
+        font-size:30px;
+      }
+}
+h3{
+    font-size:30px;
+    @media (max-width: $small) {
+        font-size:23px;
+      }
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+#homePageSpace{
+    height:$height; //here
+    
+    position:absolute;
+    top:-400%;
+    width:100%;
+    transition:top 0.2s;
+    
+    @media (max-height: $min-content) {
+       height:$min-content*5;
+        top:-$min-content*4;
+    }
+    
+    //nav
+    
+    nav{
+        position: fixed;
+        right:0;
+        top:0;
+        width:30px;
+        height:100%;
+        transition:width 0.3s, border-left 0.3s;
+        padding-left:15px;
+        border-left:1px solid rgba(0,0,0,0);
+        @media (max-width: $small) {
+            width:40px;
+          }
+        ul{
+            position:absolute;
+            list-style: none;
+            opacity:0;
+            transition:opacity 0.2s;
+            li{
+                margin-bottom:15px;
+                position:relative;
+                img{
+                    width: 50px;
+                    cursor:pointer;
+                    &.pink{
+                        display:block;
+                        opacity:0.5;
+                        transition:opacity 0.2s;
+                    }
+                }
+                
+                &:hover{
+                    .pink{
+                        opacity:1;
+                    }
+                }
+                
+            }
+            &.nav{
+                bottom:50%;
+                margin-bottom:5px;
+            }
+            &.RS{
+                top:50%;
+                margin-top:5px;
+            }  
+        }
+        
+        .left{
+            height:100%;
+            right:0;
+            position: absolute;
+            width: 30px;
+            background:rgba(0,0,0,0.2);
+            padding-left:5px;
+            transition:width 0.2s, background 0.2s, opacity 0.5s;
+            img{
+                top:50%;
+                position:absolute;
+                transform:translateY(-50%);
+                height:30px;
+            }
+            @media (max-width: $small) {
+                width:40px;
+              }
+            
+        }
+        
+        &:hover{
+            border-left:1px solid $pink;
+            width:85px;
+            ul{
+                opacity:1;
+            }
+            .left{
+                width:100px;
+                opacity:0;
+                background: rgba(0,0,0,0);
+            }
+        }
+    }
+    
+    article{
+        color:white;
+        
+        //border:1px solid grey;
+        z-index:5;
+        
+        padding-top:15px;
+        padding-bottom:30px;
+        padding-right:15px;
+        padding-left:15px;
+        
+        
+        width:40%;
+        min-width: 768px;
+        
+        float:right;
+        margin-right:15%;
+        
+        
+        @media (max-width: $med) {
+           margin-right:80px;
+          }
+        @media (max-width: $small) {
+            width:calc(100% - 160px);
+            min-width: auto;
+            margin-left:80px;
+          }
+        //Premier : 20%+5% et 5 fois 15% = 100% des 500%
+        
+        &#un{
+            text-align:center;
+            height:20%; //Parce que 500%
+            top: 5%;
+            position: relative;
+            .logo{
+                width: 100%;
+                margin-top:100px;
+            }
+            h1{
+                width: 100%;
+                color:white;
+                text-align: center;
+                margin-top:30px;
+                margin-bottom:30px;
+                
+                &::after, &::before{
+                    width:100%;
+                    height:1px;
+                    background:$pink;
+                    display: block;
+                    content:"";
+                }
+            }
+            .scroll{
+                transform:rotate(180deg);
+                transition:opacity 0.2s;
+                opacity:1;
+                margin-top:30px;
+                height:50px;
+            }
+            
+            .skill{
+                
+                display:inline-block;
+                width:33.33333%;
+                float:left;
+                
+                h3{
+                    height:80px;
+                    
+                    &.one{
+                        line-height: 80px;
+                    }
+                }
+                img{
+                    margin-top:10px;
+                    width:110px;
+                }
+            }
+            
+        }
+        
+        &#deux, &#trois, &#quatre, &#cinq, &#six{
+            height:15%; //Parce que 500%
+            text-align: center;
+            div{
+                margin-top:50%;
+                transform:translateY(-50%);
+                h2{
+                    &::after{
+                        width:100%;
+                        height:1px;
+                        content:"";
+                        background:$pink;
+                        display:block;
+                        margin-bottom:10px;
+                    }
+                }
+                h3{
+                    margin-top:10px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    span{
+                        color:$pink;
+                        font-weight:400;
+                    }
+                }
+            }
+        }
+        
+        &#six{
+            div{
+                h2{
+                    position:relative;
+                    top:200%;
+                    &::before{
+                        width:100%;
+                        height:1px;
+                        content:"";
+                        background:$pink;
+                        display:block;
+                    }
+                }
+            }
+        }
+    }
+    
+    //Fusée
+    
+    .stay{
+        position:fixed;
+        top:0;
+        left:10%;
+        height:100%;
+        
+        transform: rotateZ(0deg);
+        transform-origin: 50% 30%;
+        transition: all 0.5s ease-in-out;
+        
+        @media (max-width: $large) {
+           left:5%; 
+          }
+        @media (max-width: $med) {
+           right:855px; 
+           left:auto; 
+          }
+        @media (max-width: $petit) {
+           display:none; 
+          }
+        
+        img{
+            display:block;
+            position:relative;
+            top:0%;
+        }
+        .fusée{
+            transform:rotateZ(0deg);
+            transition:transform 0.3s, top 2s, opacity 0.5s;
+            z-index:2;
+            opacity:1;
+            
+            &.parachute{
+                opacity:0;
+                position:absolute;
+                top:0;
+            }
+        }
+        .flamme{
+            opacity:0;
+            position:relative;
+            margin-top:-20px;
+            transition:margin-top 1s, top 2s, opacity 0.2s;
+            z-index:1;
+        }
+        
+    }
+    
+    //Etoiles
+    
+    .stars{
+        position:absolute;
+        top:-100%;
+        left:0;
+        width:100%;
+        height:200%;
+        transition:top 0.2s;
+        z-index: -1;
+        svg{
+            height:100%;
+            width:100%;
+        }
+        @media (max-height: $min-content) {
+           top:-$min-content;
+        }
+    }
+    
+    //Fleche
+    
+    .fleche{
+        position:fixed;
+        top:10px;
+        left:30px;
+        height:50px;
+        transition:top 0.2s, opacity 0.5s;
+        cursor:pointer;
+        opacity:0;
+        &:hover{
+            top:7px;
+        }
+    }
+    
+}
+

@@ -357,7 +357,6 @@ defaults:
       language: en
       category: x-landing
       layout: bootstrap-meta
-
 t:
   en:
     lang:
@@ -455,7 +454,7 @@ t:
 
     skm:
       presentation-back-skm:
-        heading: "Transform big-data into smart data then into knowledge"
+        heading: "Transform big-data into knowledge"
       presentation-front-skm:
         heading: "Interactiv plateform and dashboards"
       argument-skm:
