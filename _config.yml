@@ -368,6 +368,9 @@ t:
       service: Services
       products: Plateforms
       expertise: Expertise
+      pme: SME
+      startup: Startup
+      gc: Major companies
       team: Team
       portfolio: References
       contact: Contact
