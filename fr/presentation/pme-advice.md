@@ -1,8 +1,9 @@
 ---
-title: Fast Innovation Consulting
+title: Plein d'opportunités OK, mais par où commencer ?
+title-menu: Accompagnement
 subtitle: Innover rapidement avec Boot-Start
-description: "Après avoir accompagné des Startups pendant près de 2 ans, nous avons développé la <b>méthode Boot-Start</b> pour les PME ! Nos chefs de projet définissent avec vous un procédé pour développer votre projet innovant de manière simple et pragmatique. Une démarche rationnelle basée sur l'action: <b> Audit / Prototypage / Testing / Développement agile</b>"
-description2: Il est inutile d'installer de lourdes technologies sur un simple site web qui n'aspire pas à évoluer. A l'inverse, nous recevons parfois des entreprises pour qui une agence web  ou un indépendant a bricolé une plateforme limitée techniquement alors qu'elle nécessitait un back-end puissant et évolutif. <b>L'accompagnement est élémentaire</b>, nos docteurs en IT et chefs de projet se déplacent régulièrement chez des grands comptes et PME afin d'effectuer <b>une mission d'audit et accompagnement</b>.
+description: En attendant de trouver la recette miracle de comment digitaliser son entreprise, nous allons plutôt nous concentrer sur la douleur ou bien le plaisir potentiel (d'un point de vue entreprise, ils sont souvent liés au portefeuille qu'on se le dise). Qu'est ce qui fait mal ? Et comment une des millions de technologies existantes peut procurer ce plaisir de problème résolu.
+description2: "Riche de 2 ans d'experience dans l'accompagnement stratégique et technique de startups, nous avons développé la <b>méthode Boot-Start</b> pour les PME ! Nos chefs de projet définissent avec vous un procédé pour développer votre projet innovant de manière simple et pragmatique. Une démarche rationnelle basée sur l'action: <b> Audit / Prototypage / Testing / Développement agile</b>"
 category: presentation
 subcategory: pme
 layout: presentation
