@@ -247,6 +247,20 @@ defaults:
      layout: page
  -
    scope:
+     path: "fr/blog"
+   values:
+     language: fr
+     category: blog
+     layout: page
+ -
+   scope:
+     path: "en/blog"
+   values:
+     language: en
+     category: blog
+     layout: page
+ -
+   scope:
      path: "en/jobs"
    values:
      language: en
@@ -300,20 +314,6 @@ defaults:
     values:
       language: en
       category: smartcatalog
-      layout: bootstrap-meta
- -
-    scope:
-      path: "fr/smartcatalog2"
-    values:
-      language: fr
-      category: smartcatalog2
-      layout: bootstrap-meta
- -
-    scope:
-      path: "en/smartcatalog2"
-    values:
-      language: en
-      category: smartcatalog2
       layout: bootstrap-meta
  -
     scope:
@@ -513,8 +513,7 @@ t:
       startup: Start up
       gc: Grands comptes
       platforms: Toutes nos plateformes
-      skm: Smart Data Management
-      smartcat-business: Smart Catalog commerciaux
+      skm: Smart Knowledge Management
       smartcat-online: Smart Catalog online
       marketplace: Marketplace
       team: Team

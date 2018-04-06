@@ -2,17 +2,17 @@
 slug: industrie-marketing
 title: "Industrie 4.0 : Le catalogue en ligne, un enjeu stratégique"
 description: "Penser sa transformation numérique jusqu'au client final, mise en place d'un catalogue produit interactif en ligne"
-category: provinews
+category: blog
 category-alt: ben-content
 photo: /img/provinews/smartcatalog-industrie.png
 prev:
-    title: "Article précédent: Enjeux de l'IA"
-    url: ../../fr/blog/intelligence-artificielle-2017
+    title: "Article précédent: Lean Startup"
+    url: /fr/blog/lean-startup
 next:
     title: "Article suivant: Digitalisation"
-    url: ../../fr/blog/transformation-digitale
-background: /img/provinews/smartcatalog-industrie.png
-website: blog/marketing-industriedufutur
+    url: /fr/blog/transformation-digitale
+background: /img/provinews/testecatalogue.jpg
+website: /fr/blog/marketing-industriedufutur
 layout: page
 blog: yes
 permalink: fr/blog/marketing-industriedufutur

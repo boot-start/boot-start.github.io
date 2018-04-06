@@ -1,10 +1,10 @@
 ---
 slug: x-header
-title: Smart Data Management
+title: Smart Knowledge Management
 category: skm
 subcategory: header-skm
 sort: 1
 button: C'est parti !
-description: 2 produits complémentaires à destination de la transformation digitale des entreprises. Simplification et automatisation <b> du traitement et de l'analyse de données</b>. Une aide précieuse pour les décisions quotidiennes, la recherche d'informations et les tendances en interne.
+description: Données multiples, dispersées et hétérogènes, notre plateforme SKM dispose d'une technologie de classement intelligent des données. La SKM propose l'infrastructure idéale pour des projets type veille stratégique, Gestion Electronique des Documents, Product Information Management ou encore outil de scouting.
 header: yes
 ---

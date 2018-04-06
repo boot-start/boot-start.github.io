@@ -1,7 +1,6 @@
 @charset "UTF-8";
 html {
-  height: 100%;
-  background: #272F35; }
+  height: 100%; }
 
 body {
   height: 100%;
@@ -14,39 +13,18 @@ body {
   @media (max-width: 900px) {
     body {
       font-size: 18px; } }
+  @media (max-width: 500px) {
+    body {
+      font-size: 14px; } }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 100; }
-
-h1 {
-  font-size: 100px; }
-  @media (max-height: 900px) {
-    h1 {
-      font-size: 70px; } }
-  @media (max-width: 900px) {
-    h1 {
-      font-size: 50px; } }
-
-h2 {
-  font-size: 60px; }
-  @media (max-width: 900px) {
-    h2 {
-      font-size: 30px; } }
-
-h3 {
-  font-size: 30px; }
-  @media (max-width: 900px) {
-    h3 {
-      font-size: 23px; } }
-
-a {
-  color: white;
-  text-decoration: none; }
+#TEST {
+  color: red;
+  font-size: 16px; }
 
 #homePageSpace {
   height: 500%;
@@ -54,10 +32,51 @@ a {
   top: -400%;
   width: 100%;
   transition: top 0.2s; }
-  @media (max-height: 800px) {
+  @media (max-height: 700px) {
     #homePageSpace {
-      height: 4000px;
-      top: -3200px; } }
+      height: 3500px;
+      top: -2800px; } }
+  @media (max-width: 500px) {
+    #homePageSpace {
+      height: 100%;
+      top: 0%; } }
+  #homePageSpace h1,
+  #homePageSpace h2,
+  #homePageSpace h3,
+  #homePageSpace h4,
+  #homePageSpace h5,
+  #homePageSpace h6 {
+    font-weight: 100; }
+  #homePageSpace h1 {
+    font-size: 100px; }
+    @media (max-height: 900px) {
+      #homePageSpace h1 {
+        font-size: 70px; } }
+    @media (max-width: 900px) {
+      #homePageSpace h1 {
+        font-size: 50px; } }
+    @media (max-width: 500px) {
+      #homePageSpace h1 {
+        font-size: 25px; } }
+  #homePageSpace h2 {
+    font-size: 55px; }
+    @media (max-width: 900px) {
+      #homePageSpace h2 {
+        font-size: 30px; } }
+    @media (max-width: 500px) {
+      #homePageSpace h2 {
+        font-size: 20px; } }
+  #homePageSpace h3 {
+    font-size: 30px; }
+    @media (max-width: 900px) {
+      #homePageSpace h3 {
+        font-size: 22px; } }
+    @media (max-width: 500px) {
+      #homePageSpace h3 {
+        font-size: 17px; } }
+  #homePageSpace a {
+    color: white;
+    text-decoration: none; }
   #homePageSpace nav {
     position: fixed;
     right: 0;
@@ -66,10 +85,9 @@ a {
     height: 100%;
     transition: width 0.3s, border-left 0.3s;
     padding-left: 15px;
-    border-left: 1px solid rgba(0, 0, 0, 0); }
-    @media (max-width: 900px) {
-      #homePageSpace nav {
-        width: 40px; } }
+    border-left: 1px solid rgba(0, 0, 0, 0);
+    z-index: 10;
+    display: none; }
     #homePageSpace nav ul {
       position: absolute;
       list-style: none;
@@ -118,6 +136,49 @@ a {
         width: 100px;
         opacity: 0;
         background: rgba(0, 0, 0, 0); }
+    @media (max-width: 900px) {
+      #homePageSpace nav {
+        width: 40px; } }
+    @media (max-width: 500px) {
+      #homePageSpace nav {
+        width: 100%;
+        float: left;
+        padding-left: 0px;
+        height: auto;
+        top: unset;
+        bottom: 0;
+        border: none; }
+        #homePageSpace nav ul {
+          opacity: 1;
+          position: relative;
+          width: 33%;
+          float: left;
+          text-align: center;
+          display: flex;
+          justify-content: space-around;
+          padding: 0px 10px; }
+          #homePageSpace nav ul li {
+            display: inline-block;
+            margin-bottom: 20px; }
+            #homePageSpace nav ul li a img {
+              opacity: 1 !important;
+              height: 15px;
+              width: auto; }
+          #homePageSpace nav ul.nav {
+            bottom: 0%;
+            margin-bottom: 0px;
+            left: 0; }
+          #homePageSpace nav ul.RS {
+            top: 0%;
+            margin-top: 0px;
+            left: 33%; }
+        #homePageSpace nav .left {
+          display: none; }
+        #homePageSpace nav:hover {
+          border-left: none;
+          width: 100%; }
+          #homePageSpace nav:hover ul {
+            opacity: 1; } }
   #homePageSpace article {
     color: white;
     z-index: 5;
@@ -125,10 +186,15 @@ a {
     padding-bottom: 30px;
     padding-right: 15px;
     padding-left: 15px;
-    width: 40%;
+    width: 45%;
     min-width: 768px;
     float: right;
-    margin-right: 15%; }
+    margin-right: 15%;
+    transform-origin: 50% 110%;
+    position: relative;
+    left: -50px;
+    opacity: 0;
+    transition: left 1s ease-out, opacity 1s; }
     @media (max-width: 1400px) {
       #homePageSpace article {
         margin-right: 80px; } }
@@ -137,71 +203,180 @@ a {
         width: calc(100% - 160px);
         min-width: auto;
         margin-left: 80px; } }
+    @media (max-width: 500px) {
+      #homePageSpace article {
+        width: calc(100% - 50px);
+        height: 100% !important;
+        position: absolute;
+        margin-left: 25px;
+        transform: rotate(20deg) translateX(100%);
+        left: 0 !important;
+        opacity: 1 !important; } }
+    #homePageSpace article.active {
+      left: 0;
+      opacity: 1; }
+@keyframes toLeft {
+  0% {
+    transform: rotate(0deg) translateX(0); }
+  100% {
+    transform: rotate(-20deg) translateX(-100%); } }
+@keyframes fromRight {
+  0% {
+    transform: rotate(20deg) translateX(100%); }
+  100% {
+    transform: rotate(0deg) translateX(0%); } }
+@keyframes toRight {
+  0% {
+    transform: rotate(0deg) translateX(0); }
+  100% {
+    transform: rotate(20deg) translateX(100%); } }
+@keyframes fromLeft {
+  0% {
+    transform: rotate(-20deg) translateX(-100%); }
+  100% {
+    transform: rotate(0deg) translateX(0%); } }
     #homePageSpace article#un {
-      text-align: center;
-      height: 20%;
-      top: 5%;
-      position: relative; }
-      #homePageSpace article#un .logo {
-        width: 100%;
-        margin-top: 100px; }
-      #homePageSpace article#un h1 {
-        width: 100%;
-        color: white;
+      height: 20%; }
+      #homePageSpace article#un .content {
         text-align: center;
-        margin-top: 30px;
-        margin-bottom: 30px; }
-        #homePageSpace article#un h1::after, #homePageSpace article#un h1::before {
-          width: 100%;
-          height: 1px;
-          background: #C11759;
-          display: block;
-          content: ""; }
-      #homePageSpace article#un .scroll {
-        transform: rotate(180deg);
-        transition: opacity 0.2s;
-        opacity: 1;
-        margin-top: 30px;
-        height: 50px; }
-      #homePageSpace article#un .skill {
-        display: inline-block;
-        width: 33.33333%;
+        position: relative;
+        width: 100%;
         float: left; }
-        #homePageSpace article#un .skill h3 {
-          height: 80px; }
-          #homePageSpace article#un .skill h3.one {
-            line-height: 80px; }
-        #homePageSpace article#un .skill img {
-          margin-top: 10px;
-          width: 110px; }
-    #homePageSpace article#deux, #homePageSpace article#trois, #homePageSpace article#quatre, #homePageSpace article#cinq, #homePageSpace article#six {
-      height: 15%;
-      text-align: center; }
-      #homePageSpace article#deux div, #homePageSpace article#trois div, #homePageSpace article#quatre div, #homePageSpace article#cinq div, #homePageSpace article#six div {
-        margin-top: 50%;
-        transform: translateY(-50%); }
-        #homePageSpace article#deux div h2::after, #homePageSpace article#trois div h2::after, #homePageSpace article#quatre div h2::after, #homePageSpace article#cinq div h2::after, #homePageSpace article#six div h2::after {
+        #homePageSpace article#un .content .logo {
           width: 100%;
-          height: 1px;
-          content: "";
-          background: #C11759;
-          display: block;
-          margin-bottom: 10px; }
-        #homePageSpace article#deux div h3, #homePageSpace article#trois div h3, #homePageSpace article#quatre div h3, #homePageSpace article#cinq div h3, #homePageSpace article#six div h3 {
+          margin-top: 100px; }
+        #homePageSpace article#un .content h1 {
+          width: 100%;
+          color: white;
+          text-align: center;
+          margin-top: 30px;
+          margin-bottom: 30px; }
+          #homePageSpace article#un .content h1::after, #homePageSpace article#un .content h1::before {
+            width: 100%;
+            height: 2px;
+            background: #C11759;
+            display: block;
+            content: ""; }
+        #homePageSpace article#un .content .skill {
+          display: inline-block;
+          width: 33.33333%;
+          float: left; }
+          #homePageSpace article#un .content .skill h3 {
+            height: 80px; }
+            #homePageSpace article#un .content .skill h3.one {
+              line-height: 80px; }
+          #homePageSpace article#un .content .skill img {
+            margin-top: 10px;
+            width: 150px; }
+          @media (max-width: 500px) {
+            #homePageSpace article#un .content .skill {
+              width: 100%; }
+              #homePageSpace article#un .content .skill h3 {
+                height: unset; }
+                #homePageSpace article#un .content .skill h3.one {
+                  line-height: unset; }
+              #homePageSpace article#un .content .skill img {
+                width: 60px;
+                margin-bottom: 10px; } }
+        #homePageSpace article#un .content .call {
+          float: left;
+          width: 100%; }
+          #homePageSpace article#un .content .call .indication {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            margin-left: 30px;
+            opacity: 0;
+            transition: opacity 0.5s; }
+          #homePageSpace article#un .content .call .scroll {
+            transform: rotate(180deg);
+            transition: opacity 0.2s;
+            opacity: 1;
+            margin-top: 40px;
+            height: 50px; }
+          #homePageSpace article#un .content .call:hover .indication {
+            opacity: 1; }
+      @media (max-width: 500px) {
+        #homePageSpace article#un#un .content {
+          top: 50%;
+          transform: translateY(-50%); }
+          #homePageSpace article#un#un .content .logo {
+            margin-top: 0px; }
+          #homePageSpace article#un#un .content .scroll {
+            display: none; } }
+    #homePageSpace article#deux, #homePageSpace article#trois, #homePageSpace article#quatre, #homePageSpace article#cinq {
+      height: 16%;
+      text-align: center; }
+      #homePageSpace article#deux div, #homePageSpace article#trois div, #homePageSpace article#quatre div, #homePageSpace article#cinq div {
+        top: 50%;
+        transform: translateY(-50%);
+        position: relative;
+        padding: 50px 25px; }
+        #homePageSpace article#deux div h2, #homePageSpace article#trois div h2, #homePageSpace article#quatre div h2, #homePageSpace article#cinq div h2 {
+          margin-bottom: 20px; }
+          #homePageSpace article#deux div h2::after, #homePageSpace article#trois div h2::after, #homePageSpace article#quatre div h2::after, #homePageSpace article#cinq div h2::after {
+            width: 100%;
+            height: 1px;
+            content: "";
+            background: #C11759;
+            display: block;
+            margin-top: 10px; }
+        #homePageSpace article#deux div h3, #homePageSpace article#trois div h3, #homePageSpace article#quatre div h3, #homePageSpace article#cinq div h3 {
           margin-top: 10px;
           margin-bottom: 10px; }
-        #homePageSpace article#deux div p span, #homePageSpace article#trois div p span, #homePageSpace article#quatre div p span, #homePageSpace article#cinq div p span, #homePageSpace article#six div p span {
+        #homePageSpace article#deux div p span, #homePageSpace article#trois div p span, #homePageSpace article#quatre div p span, #homePageSpace article#cinq div p span {
           color: #C11759;
           font-weight: 400; }
-    #homePageSpace article#six div h2 {
-      position: relative;
-      top: 200%; }
-      #homePageSpace article#six div h2::before {
-        width: 100%;
-        height: 1px;
-        content: "";
-        background: #C11759;
-        display: block; }
+    #homePageSpace article#six {
+      height: 16%; }
+      #homePageSpace article#six div {
+        border: none;
+        position: relative;
+        top: 50%;
+        overflow: hidden; }
+        #homePageSpace article#six div h2 {
+          position: relative;
+          box-shadow: inset 0 0 0 2px #C11759;
+          text-align: center;
+          padding: 10px 0px;
+          cursor: pointer;
+          width: 100%; }
+          #homePageSpace article#six div h2::before, #homePageSpace article#six div h2::after {
+            height: 100%;
+            width: 100%;
+            display: block;
+            content: "";
+            position: absolute; }
+          #homePageSpace article#six div h2::before, #homePageSpace article#six div h2::after {
+            border: 2px solid transparent;
+            width: 0;
+            height: 0;
+            box-sizing: border-box; }
+          #homePageSpace article#six div h2::before {
+            top: 0;
+            left: 0; }
+          #homePageSpace article#six div h2::after {
+            bottom: 0;
+            right: 0; }
+          #homePageSpace article#six div h2:hover::before, #homePageSpace article#six div h2:hover::after {
+            width: 100%;
+            height: 100%; }
+          #homePageSpace article#six div h2:hover::before {
+            transition: width 0.25s ease-out,  height 0.25s ease-out 0.25s; }
+          #homePageSpace article#six div h2:hover::after {
+            transition: border-color 0s ease-out 0.5s,  width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s; }
+          #homePageSpace article#six div h2::after {
+            top: 0;
+            left: 0; }
+          #homePageSpace article#six div h2:hover::before {
+            border-top-color: white;
+            border-right-color: white; }
+          #homePageSpace article#six div h2:hover::after {
+            border-bottom-color: white;
+            border-left-color: white;
+            transition: height 0.25s ease-out, width 0.25s ease-out 0.25s; }
+          #homePageSpace article#six div h2 a {
+            display: block; }
   #homePageSpace .stay {
     position: fixed;
     top: 0;
@@ -220,10 +395,21 @@ a {
     @media (max-width: 1200px) {
       #homePageSpace .stay {
         display: none; } }
+    @media (max-height: 900px) {
+      #homePageSpace .stay {
+        width: 300px;
+        left: 5%; } }
+    @media (max-height: 750px) {
+      #homePageSpace .stay {
+        width: 250px;
+        left: 10%; } }
     #homePageSpace .stay img {
       display: block;
       position: relative;
       top: 0%; }
+      @media (max-height: 900px) {
+        #homePageSpace .stay img {
+          width: 100%; } }
     #homePageSpace .stay .fusée {
       transform: rotateZ(0deg);
       transition: transform 0.3s, top 2s, opacity 0.5s;
@@ -237,9 +423,12 @@ a {
       opacity: 0;
       position: relative;
       margin-top: -20px;
-      transition: margin-top 1s, top 2s, opacity 0.2s;
+      transition: margin-top 1s, top 2s, opacity 0.2s, transform 0.5s;
       z-index: 1; }
-  #homePageSpace .stars {
+  #homePageSpace .stars,
+  #homePageSpace .stars2,
+  #homePageSpace .stars3 {
+    background: none;
     position: absolute;
     top: -100%;
     left: 0;
@@ -247,19 +436,103 @@ a {
     height: 200%;
     transition: top 0.2s;
     z-index: -1; }
-    #homePageSpace .stars svg {
+    #homePageSpace .stars.stars,
+    #homePageSpace .stars2.stars,
+    #homePageSpace .stars3.stars {
+      background: #272f35;
+      background: linear-gradient(to bottom, #272f35 0%, #272f35 50%, #022E45 96%, #4C2641 100%); }
+    #homePageSpace .stars svg,
+    #homePageSpace .stars2 svg,
+    #homePageSpace .stars3 svg {
       height: 100%;
       width: 100%; }
-    @media (max-height: 800px) {
-      #homePageSpace .stars {
-        top: -800px; } }
+      #homePageSpace .stars svg .cls-1,
+      #homePageSpace .stars2 svg .cls-1,
+      #homePageSpace .stars3 svg .cls-1 {
+        stroke: none;
+        fill: rgba(255, 255, 255, 0.7); }
+        @media (max-width: 500px) {
+          #homePageSpace .stars svg .cls-1,
+          #homePageSpace .stars2 svg .cls-1,
+          #homePageSpace .stars3 svg .cls-1 {
+            fill: rgba(255, 255, 255, 0.5); } }
+    @media (max-height: 700px) {
+      #homePageSpace .stars,
+      #homePageSpace .stars2,
+      #homePageSpace .stars3 {
+        top: -700px; } }
+  #homePageSpace .shooting {
+    background: none;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: top 0.2s;
+    z-index: -1;
+    bottom: 0; }
+    #homePageSpace .shooting svg {
+      position: absolute;
+      width: 10px;
+      top: 30%;
+      left: -15%; }
+      #homePageSpace .shooting svg circle {
+        stroke: none;
+        fill: rgba(255, 255, 255, 0.5); }
+    @media (max-height: 700px) {
+      #homePageSpace .shooting {
+        top: -700px; } }
+@keyframes anim1 {
+  0% {
+    top: 30%;
+    left: -15%; }
+  100% {
+    top: 110%;
+    left: 60%; } }
+@keyframes anim2 {
+  0% {
+    top: 30%;
+    left: 115%; }
+  100% {
+    top: -15%;
+    left: 60%; } }
+@keyframes anim3 {
+  0% {
+    top: 40%;
+    left: -15%; }
+  100% {
+    top: -15%;
+    left: 90%; } }
   #homePageSpace .fleche {
     position: fixed;
     top: 10px;
-    left: 30px;
+    top: 20px;
+    right: 30px;
     height: 50px;
     transition: top 0.2s, opacity 0.5s;
     cursor: pointer;
     opacity: 0; }
     #homePageSpace .fleche:hover {
-      top: 7px; }
+      top: 7px;
+      opacity: 1 !important; }
+  #homePageSpace #littleCircles {
+    display: none; }
+    @media (max-width: 500px) {
+      #homePageSpace #littleCircles {
+        display: block;
+        text-align: center;
+        position: absolute;
+        width: 33%;
+        left: 33%;
+        bottom: 20px; }
+        #homePageSpace #littleCircles svg {
+          margin: 0px 1px;
+          transform: scale(0.3);
+          transition: all 0.2s;
+          height: 15px; }
+          #homePageSpace #littleCircles svg rect {
+            fill: white;
+            opacity: 1;
+            transition: all 0.2s; }
+          #homePageSpace #littleCircles svg.active {
+            transform: scaleX(2);
+            transform: scaleY(0.3); } }

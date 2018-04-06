@@ -11,7 +11,11 @@
 		    {% assign sorted_pages = (site.pages | where: "category", include.category | where: "language", page.language | sort: "sort") %}
             {% for subpage in sorted_pages %}
 
-                   {% if page.big OR subpage.big %}
+                {% if subpage.dis %}
+
+                {% else %}
+
+                   {% if subpage.big %}
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
 
@@ -20,8 +24,14 @@
                 <div class="col-md-3 col-sm-6 portfolio-item">
 
                     {% endif %}
+                    {% endif %}
 
-                {% if page.nolink OR subpage.nolink %}
+
+                    {% if subpage.dis %}
+
+                    {% else %}
+
+                    {% if page.nolink OR subpage.nolink %}
 
                     <div class="portfolio-link">
 
@@ -30,7 +40,7 @@
 
                     {% else %}
 
-                <a href="{{ subpage.url }}" class="portfolio-link">
+                <a href="{{ subpage.website }}" class="portfolio-link">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fa fa-plus fa-3x"></i>
@@ -40,16 +50,42 @@
                 </a>
 
                 {% endif %}
-
-
+                {% endif %}
 
                 <div class="portfolio-caption">
                     <h4><a href="{{ subpage.website }}" target=_blank>{{ subpage.title }}</a></h4>
                     <p class="text-muted">{{ subpage.topic }}</p>
                 </div>
+                </div>
+
+
+
+            {% endfor %}
+
+
+
+            {% assign sorted_pages = (site.pages | where: "category", include.category | where: "language", page.language | sort: "sort") %}
+            {% for subpage in sorted_pages %}
+
+            {% if subpage.other-blog %}
+
+            <div class="row" >
+            <div class="col-md-12" >
+
+                <div class="mobile-space-top space-top" style="margin-bottom:0px !important ;" >
+                    <div id="button-audit" class="button-audit">
+                        <a href="{{ subpage.button-link }}" onClick="ga('send', 'event', 'Offers', 'click', '{{ subpage.tracking-label }}');" target="_blank" class="bnt btn-xl"> {{ subpage.button-text }}  </a>
+                      <!--  <p class="text-quote half-space-top" style="margin-top:35px !important ;"> {{ subpage.description }} </p>-->
+                    </div>
+                </div>
+
             </div>
+            </div>
+
+            {% endif %}
+
             {% endfor %}
 
             </div>
-        </div>
+
     </section>

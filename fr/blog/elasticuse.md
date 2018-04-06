@@ -2,17 +2,17 @@
 slug: elasticsearch
 title: Elasticsearch et nous
 description: L'utilisation de la suite Elastic chez Boot-Start
-category: provinews
+category: blog
 photo: /img/tech/elasticsearch.png
 illustration2: /img/provinews/elastic-search-bigdata-bootstart.png
 prev:
     title: "Article précédent: Enjeux de l'IA"
-    url: ../../fr/blog/intelligence-artificielle-2017
+    url: /fr/blog/intelligence-artificielle-2018
 next:
     title: "Article suivant: TransfoNum"
-    url: ../../fr/blog/transformation-digitale
-background: /img/provinews/transformation-digitale-data.jpg
-website: blog/elastic_search_expertise
+    url: /fr/blog/transformation-digitale
+background: /img/provinews/machine-learning2.png
+website: /fr/blog/elastic_search_expertise
 layout: page
 blog: yes
 call-to-action: yes
