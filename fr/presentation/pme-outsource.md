@@ -1,5 +1,6 @@
 ---
 title: Et si c'était moi le prochain Google ?
+mini-title: Innovation
 title-menu: Innovation
 subtitle: Nous donnons la possibilité aux PME/ETI d'agir avec la souplesse des start-ups
 description: L'innovation continue est un <b>facteur clé de succès</b> dans un marché de plus en plus mouvant. Les entreprises qui confient à Boot-Start leur innovation bénéficient d'une expertise IT et de l'agilité des équipes pour réaliser régulièrement des <b>prototypes et MVP</b> (Minimum Valuable Product) afin de tester les idées internes et permettre à l'entrperise de prendre les devants sur les évolutions de leur marché.

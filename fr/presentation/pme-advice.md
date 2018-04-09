@@ -1,5 +1,6 @@
 ---
 title: Plein d'opportunités OK, mais par où commencer ?
+mini-title: Opportunités
 title-menu: Accompagnement
 subtitle: Innover rapidement avec Boot-Start
 description: En attendant de trouver la recette miracle de comment digitaliser son entreprise, nous allons plutôt nous concentrer sur la douleur ou bien le plaisir potentiel (d'un point de vue entreprise, ils sont souvent liés au portefeuille qu'on se le dise). Qu'est ce qui fait mal ? Et comment une des millions de technologies existantes peut procurer ce plaisir de problème résolu.
