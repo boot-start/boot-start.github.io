@@ -1,6 +1,6 @@
 ---
 slug: x-video
-title: Demo video of the Smart Catalog
+title: Video demo of the Smart Catalog
 category: x-landing
 subcategory: video
 sort: 1

@@ -6,6 +6,6 @@ category: smartcatalog
 subcategory: presentation
 sort: 1
 scroll: yes
-description: Peu importe les données que vous possédez sur vos références produits, l'outil Smart Catalog les transforme en un beau catalogue interactif qui sera ajouté à votre site web, puis consulté par tous vos acheteurs et clients finaux.
+description: De manière très simple et rapide, notre solution Smart Catalog génère sur votre site web un beau catalogue interactif qui sera consulté par tous vos acheteurs et clients finaux.
 presentation: yes
 ---
