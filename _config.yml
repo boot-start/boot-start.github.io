@@ -469,7 +469,7 @@ t:
       video:
         heading: "An example of catalog propulsed by our tool (in French)"
       argument:
-        heading: "Smart Catalog makes sell"
+        heading: "A direct impact on your sales"
 
     marketplace:
       presentation-mp:
@@ -507,12 +507,11 @@ t:
     menu:
       home: Accueil
       service: Service
-      products: Plateformes
+      segment: Accompagnement
+      products: Solutions
       expertise: Expertise
-      pme: PME/ETI
-      startup: Start up
-      gc: Grands comptes
-      platforms: Toutes nos plateformes
+      startup: Projet startup
+      platforms: Solutions
       skm: Smart Knowledge Management
       smartcat-online: Smart Catalog online
       marketplace: Marketplace
@@ -611,7 +610,7 @@ t:
       argument:
         heading: "Le Smart Catalog a un effet immédiat sur vos ventes"
       alternative:
-        heading: "Le Smart Catalog sur tablettes"
+        heading: "Etes-vous Smart Catalog Compatible ?"
 
     marketplace:
       presentation-mp:
