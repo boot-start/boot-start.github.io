@@ -1,6 +1,6 @@
 ---
 title: Stage en communication
-category: jobs
+category: inactive-jobs
 permalink: /fr/jobs/stage-communication/
 icon: bullhorn
 ---
