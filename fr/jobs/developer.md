@@ -1,7 +1,7 @@
 ---
 title: Lead full-stack developpeur
 subtitle: Potentiel futur CTO de startup
-category: jobs
+category: inactive-jobs
 icon: laptop
 permalink: /fr/jobs/developpeur/
 ---
