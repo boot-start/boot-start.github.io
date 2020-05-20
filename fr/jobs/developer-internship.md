@@ -1,6 +1,6 @@
 ---
 title: Stage developpeur full-stack
-category: jobs
+category: xjobs
 icon: laptop
 permalink: /fr/jobs/stage-developpeur/
 ---
